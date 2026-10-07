@@ -2,7 +2,24 @@
 
 This is a copy of knightonarchitecture.com (the Squarespace site), rebuilt as plain HTML/CSS/JS so it can be hosted anywhere for free and edited with Claude.
 
-**To preview it:** double-click `index.html`. It opens in your browser straight from this Drive folder.
+Repo: `taelor-web/knighton-website`, hosted on GitHub Pages from the `main` branch root.
+Preview: https://taelor-web.github.io/knighton-website/ (the live domain is still on Squarespace; see `DOMAIN-SWITCH.md`).
+
+## Preview and publish
+
+**Preview locally.** Double-click `index.html` in `C:\dev\knighton-website`. All links are relative, so every page works straight from disk. (The embedded videos and map need an internet connection.)
+
+**Publish.** Commit and push to `main`. GitHub Pages rebuilds automatically, usually within a minute or two:
+
+```bash
+git add -A
+git commit -m "Describe the change"
+git push
+```
+
+Watch progress under the repo's **Actions** tab. Always work in the clone at `C:\dev\knighton-website`, never in Google Drive or OneDrive: Drive sync corrupts git.
+
+Open items are in `TODO.md`. The domain cutover checklist is `DOMAIN-SWITCH.md`.
 
 ## Folder layout
 
