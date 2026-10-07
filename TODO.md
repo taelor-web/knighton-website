@@ -3,22 +3,24 @@
 Items to finish before (or after) moving knightonarchitecture.com off Squarespace.
 See `DOMAIN-SWITCH.md` for the cutover itself.
 
-## Must do before cutover
+## Done
 
-- [ ] **Re-host the videos.** The home hero video, the Understory video and the
-      project fly-through videos still stream from Squarespace, so they stop
-      working once Squarespace is cancelled. The originals are in Google Drive
-      (for example "DRAFT #2 Website Video.mov"). Options: YouTube/Vimeo embed,
-      or a compressed MP4 in the repo (keep each file well under 100 MB, GitHub's
-      hard limit). `assets/js/site.js` has the video loader.
+- [x] **Videos re-hosted** (2026-10-07). The six Squarespace-streamed videos now
+      play from `assets/video/` as MP4s with local poster images, saved from the
+      same 1080p streams the old site served. The four Field Journal videos stay
+      as YouTube embeds, as on the old site. To swap in a higher-quality
+      original from Drive later, encode it to H.264 MP4 and keep each file under
+      ~50 MB (GitHub's hard limit is 100 MB).
 
 ## Should do
 
 - [ ] **Fonts.** The site uses Google Fonts stand-ins for the Squarespace Adobe
       fonts (Bebas Neue Pro, Nudista, Purista), which are licensed for Squarespace
-      only. If Knighton has Adobe Creative Cloud, make an Adobe Fonts web project
-      and swap the font link and the `:root` font variables in
-      `assets/css/site.css`.
+      only. Knighton has Creative Cloud: create an Adobe Fonts web project at
+      fonts.adobe.com with those three families, allow `taelor-web.github.io`
+      and `knightonarchitecture.com`, then swap the Google Fonts `<link>` on
+      every page for the project's `use.typekit.net/<id>.css` link and update
+      the `--font-*` variables in `assets/css/site.css`.
 - [ ] **Clean up leftover Squarespace project URLs** and add redirects. For
       example `work/project-one-ephnc-yfl6w` = The Creamery. GitHub Pages has no
       server-side redirects, so keep a small stub page at each old URL with a

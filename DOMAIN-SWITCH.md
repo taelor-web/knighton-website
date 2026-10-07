@@ -18,7 +18,11 @@ the `@` A/AAAA records and the `www` CNAME.
 
 ## 0. Before you start
 
-- [ ] Finish the "Must do before cutover" items in `TODO.md` (videos).
+- [x] Videos no longer stream from Squarespace (done 2026-10-07).
+- [ ] Review the open items in `TODO.md`.
+- [ ] If fonts come from Adobe Fonts by then, confirm `knightonarchitecture.com`
+      is in the web project's allowed domains, or the fonts won't load after the
+      switch.
 - [ ] Check the preview at https://taelor-web.github.io/knighton-website/ one
       last time.
 - [ ] Screenshot or export the full DNS record list in Squarespace Domains, so
