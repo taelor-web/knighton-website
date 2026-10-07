@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+.fseventsd
+Icon?
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Google Drive
+*.gdoc
+*.gsheet
+.tmp.drivedownload/
+.tmp.driveupload/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editors
+.vscode/
+.idea/
