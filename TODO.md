@@ -17,8 +17,8 @@ See `DOMAIN-SWITCH.md` for the cutover itself.
 - [ ] **Fonts.** The site uses Google Fonts stand-ins for the Squarespace Adobe
       fonts (Bebas Neue Pro, Nudista, Purista), which are licensed for Squarespace
       only. Knighton has Creative Cloud: create an Adobe Fonts web project at
-      fonts.adobe.com with those three families, allow `taelor-web.github.io`
-      and `knightonarchitecture.com`, then swap the Google Fonts `<link>` on
+      fonts.adobe.com with those three families (if it asks for allowed domains, add `taelor-web.github.io`
+      and `knightonarchitecture.com`), then swap the Google Fonts `<link>` on
       every page for the project's `use.typekit.net/<id>.css` link and update
       the `--font-*` variables in `assets/css/site.css`.
 - [ ] **Clean up leftover Squarespace project URLs** and add redirects. For

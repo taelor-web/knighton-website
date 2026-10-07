@@ -20,8 +20,8 @@ the `@` A/AAAA records and the `www` CNAME.
 
 - [x] Videos no longer stream from Squarespace (done 2026-10-07).
 - [ ] Review the open items in `TODO.md`.
-- [ ] If fonts come from Adobe Fonts by then, confirm `knightonarchitecture.com`
-      is in the web project's allowed domains, or the fonts won't load after the
+- [ ] If fonts come from Adobe Fonts and the web project has a domain list, add `knightonarchitecture.com`
+      to it, or the fonts won't load after the
       switch.
 - [ ] Check the preview at https://taelor-web.github.io/knighton-website/ one
       last time.
