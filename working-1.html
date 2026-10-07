@@ -1,0 +1,705 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Our Services — Knighton Architecture</title>
+<meta name="description" content="">
+<meta property="og:title" content="Our Services — Knighton Architecture">
+<meta property="og:description" content="">
+<link rel="icon" type="image/png" href="assets/brand/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Questrial&family=Saira+Semi+Condensed:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+<style>.services-module .reveal-button{color:#fff}.services-module p{color:#fff}</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="announce"><a href="https://theunderstorycollection.com/" target="_blank" rel="noopener">Visit our new Middle Housing Typology site!</a><button class="announce__close" aria-label="Close announcement">&times;</button></div>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="site-header__logo" href="index.html" aria-label="Knighton Architecture home">
+      <img src="assets/brand/ka-logo-header.png" alt="Knighton Architecture + Planning" width="160" height="46">
+    </a>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Main"><a href="our-team.html">Who We Are</a><a href="working-1.html" aria-current="page">Our Services</a><a href="work.html">Featured Work</a><a href="field-journal.html">Field Journal</a><a class="btn" href="contact-1.html">Begin now</a></nav>
+  </div>
+</header>
+<main id="main">
+<section class="section section--green section--first curve-bottom" style="--next-bg:#292929">
+  <div class="wrap center">
+    <h1 style="font-size:var(--h1)">OUR SERVICES</h1>
+    <div class="services-module">
+<!-- =======================
+     STYLES (CSS)
+======================= -->
+<style>
+/* Import Google font (closest match).
+   Replace with your Adobe Fonts embed if you have Bebas Neue Pro SemiExpanded */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* ===== Button Row Styling ===== */
+.reveal-container {
+  display: flex;
+  gap: 8rem;
+  justify-content: center;
+  margin-bottom: 4rem;
+  flex-wrap: wrap; /* Wraps buttons on smaller screens */
+}
+
+.reveal-button {
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  position: relative;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.reveal-button:hover {
+  text-decoration: underline;
+}
+
+/* Active button styling */
+.reveal-button.active {
+  text-decoration: underline;
+  font-size: 1.8rem; /* slightly larger than base size */
+}
+
+/* ===== Content Sections ===== */
+.reveal-content {
+  display: none;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  animation: fadeIn 0.4s ease;
+}
+
+.reveal-content.active {
+  display: block;
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(10px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+/* ===== Design Services Grid ===== */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.service-item {
+  text-align: center;
+}
+
+.service-item img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 0 !important;
+  margin-bottom: 0.3rem;
+}
+
+.service-item p {
+  margin: 0.15rem 0;
+  font-size: 0.8rem;
+  line-height: 1.2;
+}
+
+.service-item p strong {
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 0.15rem;
+}
+
+/* Responsive: drop columns on smaller screens */
+@media (max-width: 1400px) {
+  .services-grid {
+    grid-template-columns: repeat(4, 250px);
+  }
+}
+@media (max-width: 1100px) {
+  .services-grid {
+    grid-template-columns: repeat(3, 250px);
+  }
+}
+@media (max-width: 800px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 250px);
+  }
+}
+@media (max-width: 500px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== Overall Process Section ===== */
+.process-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  margin-top: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.process-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.process-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 0 !important;
+  flex-shrink: 0;
+}
+
+.process-text {
+  text-align: left;
+}
+
+.process-text p {
+  margin: 0.3rem 0;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.process-text p strong {
+  font-size: 1.05rem;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+/* Responsive stacking */
+@media (max-width: 900px) {
+  .process-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .process-text {
+    text-align: center;
+  }
+
+  .process-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+}
+
+/* ===== Our Process Section ===== */
+.our-process-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
+  align-items: start;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.process-step {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.process-step h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.8rem;
+  color: #7BA76F; /* green accent color */
+  margin-bottom: 1rem;
+}
+
+.process-step img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%; /* makes circle images */
+  margin-bottom: 1rem;
+}
+
+.process-step p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin: 0.4rem 0;
+}
+
+.plus-sign {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  align-self: center;
+}
+
+/* Responsive: stack into rows */
+@media (max-width: 1000px) {
+  .our-process-grid {
+    grid-template-columns: 1fr;
+  }
+  .plus-sign {
+    display: none;
+  }
+}
+
+/* ===== Pricing / Fees ===== */
+.pricing-section {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: #7BA76F;
+  color: #fff;
+}
+
+.pricing-section h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.2rem;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+
+.pricing-intro {
+  max-width: 900px;
+  margin: 0 auto 3rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pricing-card {
+  background: #f9f9f9;
+  color: #000;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.pricing-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.pricing-card h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.pricing-highlight {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.pricing-card h4 {
+  font-weight: bold;
+  margin: 1rem 0 0.5rem;
+}
+
+.pricing-card ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  font-size: 0.95rem;
+}
+
+.pricing-card ul li {
+  margin-bottom: 0.5rem;
+}
+
+.pricing-card .note {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+/* ===== Technology ===== */
+.technology-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #000;
+  padding:2rem;
+  color: #fff;
+}
+
+.technology-section h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.tech-item {
+  text-align: center;
+}
+
+.tech-item img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 4px solid #fff;
+}
+
+.tech-item p {
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+/* Mobile styling for reveal buttons */
+@media (max-width: 600px) {
+  .reveal-container {
+    gap: .1rem;               /* reduce the space */
+    justify-content: center;   /* keep them aligned */
+    flex-wrap: nowrap;         /* keep them side-by-side */
+    overflow-x: auto;          /* allow horizontal scroll if needed */
+    padding-bottom: 0.5rem;
+  }
+
+  .reveal-button {
+    font-size: 0.9rem;         /* MUCH smaller button text */
+    padding: 0.3rem 0.6rem;    /* optional: makes button smaller */
+  }
+
+  .reveal-button.active {
+    font-size: 1rem;           /* slightly larger than the base */
+  }
+}
+
+/* -----------------------------
+   MOBILE / DEVICE FIXES
+   ----------------------------- */
+
+/* Pricing Section Grid on Mobile */
+@media (max-width: 600px) {
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* stack cards vertically */
+    gap: 1.5rem;
+    padding: 0 1rem;            /* optional: small horizontal padding */
+  }
+
+  .pricing-card img {
+    height: auto;               /* let image scale naturally */
+    width: 100%;
+  }
+}
+
+/* Technology Section Grid on Mobile */
+@media (max-width: 600px) {
+  .tech-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* stack cards vertically */
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .tech-item img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+</style>
+<!-- =======================
+     BUTTON NAVIGATION
+======================= -->
+<div class="reveal-container">
+<div class="reveal-button active" data-target="section1">Design Services</div>
+<div class="reveal-button" data-target="section2">Overall Process</div>
+<div class="reveal-button" data-target="section3">Our Process</div>
+<div class="reveal-button" data-target="section4">Pricing / Fees</div>
+<div class="reveal-button" data-target="section5">Technology we use</div>
+</div>
+<!-- =======================
+     SECTION 1: DESIGN SERVICES
+======================= -->
+<div class="reveal-content active" id="section1">
+<div class="services-grid">
+<!-- Service Item 1 -->
+<div class="service-item">
+<img alt="Service 1" src="assets/img/2ac14411_4_Acre_Final.jpg"/>
+<p><strong>Master Planning</strong></p>
+<p>With expertise in urban planning and community design, we optimize expansive project sites. Our neighborhood designs prioritize the experiences of community members, including both new residents and those in nearby areas.</p>
+</div>
+<!-- Service Item 2 -->
+<div class="service-item">
+<img alt="Service 2" src="assets/img/bddcbe4c_Millcreek_2.jpg"/>
+<p><strong>Multi-Family &amp; Mixed-Use</strong></p>
+<p>We are passionate about housing and creating diverse living environments. We can bring high-end multi-family experiences alongside high-efficiency and attainable housing units that complement the site context and provide a range of housing options.</p>
+</div>
+<!-- Service Item 3 -->
+<div class="service-item">
+<img alt="Service 3" src="assets/img/943ca8f6_DSC00963-HDR.jpg"/>
+<p><strong>Retail &amp; Restaurants</strong></p>
+<p>Allow us to assist in conveying your brand narrative crafting the customer experience you envision. We engage with our retail and restaurant clients to facilitate the creation of distinctive experiences for their customers, ensuring they are both memorable and meaningful.</p>
+</div>
+<!-- Service Item 4 -->
+<div class="service-item">
+<img alt="Service 4" src="assets/img/ef31d48c_Building_R01_-_Exterior_2.jpg"/>
+<p><strong>Aviation</strong></p>
+<p>Our recent work with Patey Aviation Park in Spanish Fork, Utah, has solidified our expertise in private aviation design, subsequently opening avenues for additional opportunities in other aviation projects.</p>
+</div>
+<!-- Service Item 5 -->
+<div class="service-item">
+<img alt="Service 5" src="assets/img/5deef1d8_Revit_Cover.jpg"/>
+<p><strong>Custom Residences</strong></p>
+<p>We offer high-level custom design services for clients seeking a personalized and experience-driven design for their personal residence or vacation home.</p>
+</div>
+<!-- Service Item 6 -->
+<div class="service-item">
+<img alt="Service 6" src="assets/img/52e0cded_Office_photo-17.jpg"/>
+<p><strong>Office &amp; Workplace</strong></p>
+<p>We collaborate with clients to create innovative, adaptable work environments tailored to individual and organizational needs.</p>
+</div>
+<!-- Service Item 7 -->
+<div class="service-item">
+<img alt="Service 7" src="assets/img/2cac3d4c_Angel_Studios-41.jpg"/>
+<p><strong>Preservation &amp; Adaptive Re-Use</strong></p>
+<p>Having worked in several historic buildings, we can bring new life to an existing or otherwise tired structure or space by finding creative solutions despite fixed constraints.</p>
+</div>
+<!-- Service Item 8 -->
+<div class="service-item">
+<img alt="Service 8" src="assets/img/37b4e37d_Enscape_2022-07-01-19-08-43.jpg"/>
+<p><strong>Passive House &amp; High-Performance</strong></p>
+<p>With a certified Passive House designer on our team, we can provide high-performance design and energy modeling for our clients and assist those interested in pursuing PHIUS certification.</p>
+</div>
+<!-- Service Item 9 -->
+<div class="service-item">
+<img alt="Service 9" src="assets/img/3fa94d39_Rodizio_Danie_Pointe.jpg"/>
+<p><strong>Interior Design</strong></p>
+<p>We provide integrated interior design services alongside our architecture or as standalone options tailored to clients' needs.</p>
+</div>
+<!-- Service Item 10 -->
+<div class="service-item">
+<img alt="Service 10" src="assets/img/17240186_unsplash-image-40JmKOnu6Cc.jpg"/>
+<p><strong>Landscape Design</strong></p>
+<p>We can provide integrated in-house landscape design services for our residential design projects.</p>
+</div>
+</div>
+</div>
+<!-- =======================
+     SECTION 2: OVERALL PROCESS
+======================= -->
+<div class="reveal-content" id="section2">
+<p></p>
+<div class="process-grid">
+<!-- Step 1 -->
+<div class="process-item">
+<img alt="Step 1" src="assets/img/17065931_image-asset.jpg"/>
+<div class="process-text">
+<p><strong>STEP 1 | Project Discovery</strong></p>
+<p>Before we start designing, we gather the information needed to begin the project. We meet with you to understand your needs, expectations, end goals, budgets, and any constraints you might have. We also study local zoning codes and regulations. If circumstances permit, we’d love to visit the site to help us understand the opportunities and challenges of your unique location.</p>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="process-item">
+<img alt="Step 2" src="assets/img/17065933_image-asset.jpg"/>
+<div class="process-text">
+<p><strong>STEP 2 | Concept Design</strong></p>
+<p>Once we understand the ideas and needs behind the project, we start with early conceptual design. We share ideas, explore possibilities, and give you a preview of what the project could ultimately look like. If the project is feasible and meets your needs, we will move to the next phase. Occasionally, it becomes clear that a project does not fit the site, or vice versa. In those instances, we will collaboratively tweak the design until you feel ready to proceed to the next phase.</p>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="process-item">
+<img alt="Step 3" src="assets/img/17065932_image-asset.jpg"/>
+<div class="process-text">
+<p><strong>STEP 3 | Construction Documents</strong></p>
+<p>This is where the real fun (and work) starts. We delve into the details of the design and carefully address all the complex elements that come together to bring the project to life. We offer digital 3D renderings and virtual walkthroughs to help you visualize and imagine what the project will look like when it's completed. Our team collaborates with various professional engineers who provide the technical specifications necessary to ensure the project is buildable. Additionally, we prepare the drawings and documents for city approval and guide you through that process.</p>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="process-item">
+<img alt="Step 4" src="assets/img/17065934_image-asset.jpg"/>
+<div class="process-text">
+<p><strong>STEP 4 | Construction Administration</strong></p>
+<p>At this point, your project truly comes to life. We provide support throughout construction to advocate for the owner, working closely with the contractor to coordinate and resolve any issues that arise during the building process. Our goal is to ensure that the project unfolds according to the plans. We remain engaged and by your side until the project is ready for you to move in.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- =======================
+     SECTION 3: OUR PROCESS
+======================= -->
+<div class="reveal-content" id="section3">
+<h2 style="text-align:center; font-family:'Bebas Neue', sans-serif; font-size:2rem; margin-bottom:2rem;"></h2>
+<div class="our-process-grid">
+<!-- Explore -->
+<div class="process-step">
+<h3>EXPLORE</h3>
+<img src="assets/img/17065916_image-asset.jpg"/>
+<p>The initial step in each project involves identifying the design problem. This includes a comprehensive understanding of the purpose, the site, the context, the future users, and the budget.</p>
+<p>Similarly, at our firm, we are committed to actively learning and exploring innovative approaches to assist our clients, to engage with emerging markets, and to adopt new technologies. We strive to maintain a continual understanding of the complex and dynamic world that surrounds us.</p>
+</div>
+<div class="plus-sign">+</div>
+<!-- Create -->
+<div class="process-step">
+<h3>CREATE</h3>
+<img alt="Create" src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=80"/>
+<p>Once the design problem is identified, the design process begins with the creation of various design concepts. These concepts are subjected to testing and review through an iterative process, leading to the selection and preparation of the final design for construction.</p>
+<p>Our team fosters a culture of collaboration and creativity, ensuring that the best ideas win.</p>
+</div>
+<div class="plus-sign">+</div>
+<!-- Elevate -->
+<div class="process-step">
+<h3>ELEVATE</h3>
+<img src="assets/img/17065918_image-asset.jpg"/>
+<p>Ultimately, the goal of every design is for that design idea to become a real place that makes a real impact in the world for good. By staying engaged with our clients through the construction process, we help the contractor to ensure the client's vision is achieved.</p>
+<p>Our end goal as a team is to make a positive impact in the world through thoughtfully designed and constructed improvements that elevate the community and the world at large.</p>
+</div>
+</div>
+</div>
+<!-- ===== PRICING / FEES SECTION ===== -->
+<div class="reveal-content pricing-section" id="section4">
+<h2>HOW WE APPROACH PRICING/FEES</h2>
+<p class="pricing-intro">
+    Pricing for professional design services can be difficult to predict due to the numerous variables inherent to each project. 
+    The descriptions below provide a framework for how we typically approach our fee structures. 
+    However, we recommend reaching out and scheduling an initial design consultation so we can review the details together, 
+    allowing us to provide a detailed fee proposal for your unique project.
+  </p>
+<div class="pricing-grid">
+<!-- Column 1 -->
+<div class="pricing-card">
+<img alt="Commercial" src="assets/img/17064783_Enscape_2022-12-01-09-43-41.jpg"/>
+<h3>Commercial | Multi-Family | Institutional</h3>
+<p class="pricing-highlight">Typically 3%–7% of Expected Construction Costs</p>
+<h4>Cost Contributing Factors:</h4>
+<ul>
+<li>Additional engineering services. Civil, Structural, MEP Engineering, Landscape and/or Interior Design.</li>
+<li>Project size, complexity and timeframe</li>
+</ul>
+<p class="note">*Proposals are prepared individually per project</p>
+</div>
+<!-- Column 2 -->
+<div class="pricing-card">
+<img alt="Custom Residential" src="assets/img/5deef1d8_Revit_Cover.jpg"/>
+<h3>Custom Residential</h3>
+<p class="pricing-highlight">Typically $3–$7* per sq ft of Livable Space</p>
+<h4>Cost Contributing Factors:</h4>
+<ul>
+<li>Additional engineering services. Civil, Structural, MEP Engineering, Landscape and/or Interior Design.</li>
+<li>Required additional approvals such as HOA Design Review, etc.</li>
+</ul>
+<p class="note">*Proposals are prepared individually per project</p>
+</div>
+<!-- Column 3 -->
+<div class="pricing-card">
+<img alt="Masterplanning" src="assets/img/2ac14411_4_Acre_Final.jpg"/>
+<h3>Master-planning &amp; Site Planning</h3>
+<p class="pricing-highlight">Typically $1K–$2K per acre of Developable Land</p>
+<h4>Cost Contributing Factors:</h4>
+<ul>
+<li>Additional engineering services. Civil, Structural, MEP Engineering, Landscape and/or Interior Design.</li>
+<li>Required additional approvals</li>
+</ul>
+<p class="note">*Proposals are prepared individually per project</p>
+</div>
+</div>
+</div>
+<!-- ===== TECHNOLOGY WE UTILIZE ===== -->
+<div class="reveal-content" id="section5">
+<h2></h2>
+<div class="tech-grid">
+<!-- BIM -->
+<div class="tech-item">
+<img alt="BIM" src="assets/img/01332f1b_revit.jpg"/>
+<p>BIM (Building Information Modeling)</p>
+</div>
+<!-- 3D Scanning -->
+<div class="tech-item">
+<img alt="3D Scanning" src="assets/img/43393722_matterport.jpg"/>
+<p>3D Scanning</p>
+</div>
+<!-- Drone Imagery -->
+<div class="tech-item">
+<img alt="Drone Imagery" src="assets/img/17065865_image-asset.jpg"/>
+<p>Drone Imagery</p>
+</div>
+<!-- Photorealistic Renderings -->
+<div class="tech-item">
+<img alt="Renderings" src="assets/img/6c2d86b4_Osmond_Quick_Render_1.jpg"/>
+<p>Photorealistic Renderings</p>
+</div>
+<!-- VR Walkthroughs -->
+<div class="tech-item">
+<img alt="VR Walkthroughs" src="assets/img/17065867_image-asset.jpg"/>
+<p>Virtual Reality Walkthroughs</p>
+</div>
+</div>
+</div>
+<!-- =======================
+     SCRIPT (JS)
+======================= -->
+<script>
+document.querySelectorAll(".reveal-button").forEach(button => {
+  button.addEventListener("click", () => {
+    // Reset all buttons
+    document.querySelectorAll(".reveal-button").forEach(btn => btn.classList.remove("active"));
+    // Set clicked button active
+    button.classList.add("active");
+
+    // Hide all sections
+    document.querySelectorAll(".reveal-content").forEach(sec => sec.classList.remove("active"));
+    // Show the one linked to this button
+    const target = button.getAttribute("data-target");
+    document.getElementById(target).classList.add("active");
+  });
+});
+
+</script>
+</div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <div class="footer-group">
+      <span class="footer-label">CONTACTS</span>
+      <div class="footer-contact">
+        <p>55 N University Ave Suite 227, Provo, UT 84601</p>
+        <p><a href="mailto:info@knightonarchitecture.com">info@knightonarchitecture.com</a></p>
+        <p><a href="tel:+18015921582">+1 (801) 592-1582</a></p>
+      </div>
+    </div>
+    <a class="footer-logo" href="index.html" aria-label="Home"><img src="assets/brand/ka-shield-white.png" alt="Knighton Architecture shield"></a>
+    <div class="footer-group footer-group--right">
+      <span class="footer-label">SOCIALS</span>
+      <div class="socials"><a href="https://www.instagram.com/knightonarchitecture/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.2 4.4 2.6 6.8 7 7 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 100 12.4 6.2 6.2 0 000-12.4zM12 16a4 4 0 110-8 4 4 0 010 8zm6.4-11.8a1.4 1.4 0 100 2.9 1.4 1.4 0 000-2.9z"/></svg></a><a href="https://www.linkedin.com/company/knightonarchitecture/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.7 4.8 6.1V21h-4v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21H9z"/></svg></a><a href="https://www.youtube.com/@knightonarchitecture" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 00.5 6.2 31 31 0 000 12a31 31 0 00.5 5.8 3 3 0 002.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 002.1-2.1A31 31 0 0024 12a31 31 0 00-.5-5.8zM9.6 15.6V8.4l6.3 3.6z"/></svg></a><a href="https://www.facebook.com/knightonarchitecture/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12a12 12 0 10-13.9 11.9v-8.4h-3V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v3h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0024 12z"/></svg></a></div>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/site.js" defer></script>
+
+</body>
+</html>

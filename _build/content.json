@@ -1,0 +1,1928 @@
+{
+ "work_intro": "BELOW IS A SAMPLING OF SOME OF OUR PAST & CURRENT PROJECTS",
+ "work_meta": {
+  "title": "Featured Work | Explore Our Unique Projects — Knighton Architecture",
+  "description": "Showcasing diverse architectural and design projects across Utah and beyond, highlighting our expertise in construction and development."
+ },
+ "projects": [
+  {
+   "href": "/work/project-one-ephnc-yfl6w",
+   "slug": "project-one-ephnc-yfl6w",
+   "card_title": "The Creamery | Beaver UT",
+   "card_img": "assets/img/17063087_5D3S0019__1_.jpg",
+   "meta": {
+    "title": "The Creamery | Beaver UT — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "white",
+     "bg": "assets/img/307e217f_The_Creamery__0001.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2>The Creamery | Beaver UT</h2><p>Each of our projects at Knighton Architecture has a story that matters to the business owner, so it matters to us. A few years ago, the iconic cheese plant in Beaver was in need of a refresh. The local managers had a vision of expanding the small cheese store attached to the plant, and the Dairy Farmers of America (DFA) leadership saw the potential to create a unique experience that brings the farm directly to the table. </p><p>What was once a small building to the side of a dairy processing plant, became a beautiful new building with more customers than anyone could have imagined. The new store features expanded retail space, a cafe, and an interactive, educational dairy experience space. It’s had a massive positive impact on the local community as well as the family farmers represented by Dairy Farmers of America, telling their story of bringing fresh dairy products from farm to table.  This is only one illustration of how our process works – which begins with an idea and ends with positive impacts on communities.</p>"
+      },
+      {
+       "type": "map",
+       "addr": "165 S 500 W, Beaver, UT",
+       "lat": 38.27187199999999,
+       "lng": -112.6493957,
+       "zoom": 12
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/524591d1_dji_fly_20230928_191538_715_1695950495195_photo.jpg",
+      "assets/img/874ecf20_5D3S0019__1_.jpg",
+      "assets/img/fd85a10f_5D3S0147__1_.jpg",
+      "assets/img/0a8f0a9a_5D3S0208.jpg",
+      "assets/img/409ef8b7_5D3S0264.jpg",
+      "assets/img/6de41c2a_5D3S0287__1_.jpg",
+      "assets/img/7a056184_5D3S0290.jpg",
+      "assets/img/54b3d236_5D3S0306.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "href": "/work/patey-aviation-park",
+   "slug": "patey-aviation-park",
+   "card_title": "Patey Aviation Park | Spanish Fork UT",
+   "card_img": "assets/img/dec21b70_Scene_1_2_upscale_1.jpg",
+   "meta": {
+    "title": "Patey Aviation Park | Spanish Fork UT — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "black",
+     "bg": "assets/img/f3edbd98_Entry_2.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h1>Patey Aviation Park</h1><p>Nestled within the Spanish Fork Airport, this private hangar community caters to aviation enthusiasts with a design that blends sleek, modern forms with nods to aviation heritage.</p><p>The development’s layout prioritizes accessibility, with direct taxiway access and integrated services for convenience. This hangar community seamlessly blends utility and lifestyle, creating a functional, inspiring space for aviation lovers.</p><p>At the heart of the development is the Flight Base Operations (FBO) building, offering panoramic views of the runway and Wasatch Mountains. It features a restaurant, lounge, and office spaces, blending elegance with functionality.</p><p>Hangars offer access to a shared amenity space with a lounge, kitchenette, and restroom, fostering a sense of community. Select hangars include private amenity spaces for added exclusivity.</p><p>With hangars now available for purchase, this project is quickly becoming a landmark of aviation excellence.</p>"
+      },
+      {
+       "type": "button",
+       "text": "check out the patey website",
+       "href": "https://www.pateyaviation.com/",
+       "newtab": true
+      },
+      {
+       "type": "map",
+       "addr": "2700 North Main Street, Spanish Fork, UT, 84660",
+       "lat": 40.1505604,
+       "lng": -111.6518775,
+       "zoom": 11
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/dec21b70_Scene_1_2_upscale_1.jpg",
+      "assets/img/57580900_Scene_4_1_upscale_1.jpg",
+      "assets/img/710db7ca_Scene_6_upscale_1.jpg",
+      "assets/img/752f330d_Scene_4_upscale02.jpg",
+      "assets/img/f34e9088_Building_A_-_Exterior_1.jpg",
+      "assets/img/85bb2426_Building_D17_-_Exterior_1.jpg",
+      "assets/img/7b20869d_Building_F10_-_Exterior_1.jpg"
+     ]
+    },
+    {
+     "kind": "content",
+     "theme": "dark-bold",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h1>Video fly-through</h1><p>The video below was created to help showcase the project as the developers began taking deposits for initial hangars</p>"
+      },
+      {
+       "type": "video",
+       "hls": "https://video.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/94f395e1-50a4-4f54-9495-4020e992e0ad/playlist.m3u8",
+       "poster": "https://video.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/94f395e1-50a4-4f54-9495-4020e992e0ad/thumbnail",
+       "aspect": 1.7777777777777777
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "href": "/work/paxstation",
+   "slug": "paxstation",
+   "card_title": "Pax Station Apartments",
+   "card_img": "assets/img/3ceb5319_base_12-03_1_-_Photo.jpg",
+   "meta": {
+    "title": "Pax Station Apartments — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "black",
+     "bg": "assets/img/3ceb5319_base_12-03_1_-_Photo.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2>Pax Station Apartments | Salt Lake City UT</h2><p>Located next to the Ballpark TRAX Station in Salt Lake City, Pax Station Apartments transforms a former infill junkyard site into a vibrant, transit-oriented community. Designed to address the city’s growing need for affordable housing, the project will activate an underutilized transit stop and reimagine a narrow street into a welcoming pedestrian corridor.</p><p>The development features a thoughtful mix of micro-units—two-thirds micro-studios and one-third micro one-bedrooms—designed to maximize efficiency and livability. Residents will enjoy shared amenities including a rooftop deck with sweeping views of the Wasatch Mountains and a central elevated courtyard above the parking garage, framed by a U-shaped floor plan that ensures abundant natural light in every home.</p><p>This project has been made possible through a strong and collaborative team effort. Capital Real Estate Advisors and Redstone Residential lead the development partnership, with Bonneville Construction serving as General Contractor. From pre-construction through budget management, the team has worked seamlessly to deliver an impactful project that remains on budget. With permits approved, construction is set to begin in Fall 2025.</p>"
+      },
+      {
+       "type": "map",
+       "addr": "201 Paxton Avenue, Salt Lake City, UT, 84101",
+       "lat": 40.7435182,
+       "lng": -111.8971072,
+       "zoom": 12
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/c9df983b_base_12-03_1_-_Photo__copy_.jpg",
+      "assets/img/26a74525_base_12-03_1_-_Photo.jpg",
+      "assets/img/7d012c4b_pAX_sTATION.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "href": "/work/valleyviewresidence",
+   "slug": "valleyviewresidence",
+   "card_title": "Valley View Residence",
+   "card_img": "assets/img/b92685fa_Valley_View_Parade_Home-0366.jpg",
+   "meta": {
+    "title": "Valley View Residence — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "black",
+     "bg": "assets/img/b92685fa_Valley_View_Parade_Home-0366.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2>The Valley View Residence | Provo UT</h2><p>Perched on one of the highest lots in the foothills of Provo is a Modern Southern California inspired home, with breathtaking views of the Utah Valley. Starting up top with a spacious rooftop deck. The primary suite offers 2 full window walls. With indoor outdoor living on the main and lower level you can watch TV, enjoy company, and it opens up to the expansive outdoor space, where additional entertaining can take place. Massive theater room, bunk room, and gym located in the basement. The backyard offers a place to relax with a fire pit, BBQ, hot tub and after you enjoy those amenities you can recover with access to a-cold plunge and sauna that is tucked away off the back yard.</p>"
+      },
+      {
+       "type": "map",
+       "addr": "3943 Foothill Drive, Provo, UT, 84604",
+       "lat": 40.28575620000001,
+       "lng": -111.6373443,
+       "zoom": 12
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/0bf718f6_dji_fly_20250609_195040_319_1749520629101_photo.jpg",
+      "assets/img/f6857cf5_dji_fly_20250609_195226_323_1749520583803_photo.jpg",
+      "assets/img/074ca74e_dji_fly_20250609_195002_317_1749520694277_photo.jpg",
+      "assets/img/f69df516_dji_fly_20250609_194632_313_1749520896265_photo.jpg",
+      "assets/img/444589d1_dji_fly_20250609_194508_309_1749520943902_photo.jpg",
+      "assets/img/453a92ee_dji_fly_20250609_194528_310_1749520941864_photo.jpg",
+      "assets/img/befc735f_IMG_9174.jpg",
+      "assets/img/a60f4922_IMG_9175.jpg",
+      "assets/img/4369c0e4_IMG_9179.jpg",
+      "assets/img/bc781976_IMG_9180.jpg",
+      "assets/img/2643c7c7_IMG_9181.jpg",
+      "assets/img/bbb04ed5_IMG_9185.jpg",
+      "assets/img/a330632c_Valley_View_Parade_Home-0328.jpg",
+      "assets/img/9f4415b2_Valley_View_Parade_Home-0330.jpg",
+      "assets/img/247f9827_Valley_View_Parade_Home-0333.jpg",
+      "assets/img/fc8b2590_Valley_View_Parade_Home-0337.jpg",
+      "assets/img/86347b99_Valley_View_Parade_Home-0338.jpg",
+      "assets/img/d030fc4a_Valley_View_Parade_Home-0339.jpg",
+      "assets/img/ed3113c4_Valley_View_Parade_Home-0346.jpg",
+      "assets/img/4abb8841_Valley_View_Parade_Home-0347.jpg",
+      "assets/img/823f93ef_Valley_View_Parade_Home-0348.jpg",
+      "assets/img/81122aa5_Valley_View_Parade_Home-0349.jpg",
+      "assets/img/47b9783e_Valley_View_Parade_Home-0351.jpg",
+      "assets/img/9c1b97c6_Valley_View_Parade_Home-0352.jpg",
+      "assets/img/32617ce2_Valley_View_Parade_Home-0356.jpg",
+      "assets/img/b92685fa_Valley_View_Parade_Home-0366.jpg",
+      "assets/img/a9414ec5_Valley_View_Parade_Home-0371.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "href": "/work/enclaveapartments",
+   "slug": "enclaveapartments",
+   "card_title": "Enclave Apartments",
+   "card_img": "assets/img/ac416c58_North_West_upscale01.jpg",
+   "meta": {
+    "title": "Enclave Apartments — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "black",
+     "bg": "assets/img/dbc040ac_North_West_upscale01.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2>Enclave Apartments | Mesquite NV</h2><p>This new multi-family community in Mesquite, Nevada, introduces a much-needed housing option with a balanced mix of one- and two-bedroom residences. Thoughtfully designed around a central courtyard, the development will feature green spaces, a pool, and inviting communal areas that foster connection and relaxation.</p><p>Conveniently located on an infill site surrounded by established neighborhoods, the project integrates seamlessly into the community while providing a modern living experience. Construction is scheduled to begin in Fall 2025. We’re proud to be collaborating with Evoterra, whose partnership and vision have been instrumental in bringing this project to life.</p>"
+      },
+      {
+       "type": "map",
+       "addr": "850 Smokey Lane, Mesquite, NV, 89027",
+       "lat": 36.801564,
+       "lng": -114.095228,
+       "zoom": 12
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/ac416c58_North_West_upscale01.jpg",
+      "assets/img/20c04636_Pool_Upscale.jpg",
+      "assets/img/82d87179_South_West_upscale01.jpg",
+      "assets/img/acc9a804_2025_05-01_Enclave_Common_Room_Rendering_View_1.jpg",
+      "assets/img/bf1fa90d_2025_05-01_Enclave_Common_Room_Rendering_View_2.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "href": "/work/project-one-ephnc-yfl6w-5etry",
+   "slug": "project-one-ephnc-yfl6w-5etry",
+   "card_title": "Fifth Ward Chapel",
+   "card_img": "assets/img/f94f3c99_Cover_sheet.jpg",
+   "meta": {
+    "title": "Fifth Ward Chapel — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "white",
+     "bg": "assets/img/f94f3c99_Cover_sheet.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2>Fifth Ward Chapel | SLC UT</h2><p>The Fifth Ward Chapel in Salt Lake City is a historic architectural project focused on the reconstruction of a cherished community landmark which was originally built in 1910. The current project aims to  restore the chapel to its 1910 state, adhering closely to the original design and architectural details that characterized the early 20th-century structure. This reconstruction effort not only seeks to preserve the historical integrity of the building but also to bring new life into its abandoned state, ensuring it is a vibrant part of the community's landscape.</p>"
+      },
+      {
+       "type": "map",
+       "addr": "740 South 300 West, Salt Lake City, UT, 84101",
+       "lat": 40.7529715,
+       "lng": -111.9000165,
+       "zoom": 12
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/39a8321d_DJI_0156.jpg",
+      "assets/img/8484112d_DJI_0149.jpg",
+      "assets/img/76ecca20_Scene_1_upscale_1.jpg",
+      "assets/img/f8ff551f_PH_211_b0023_f0029_item_3-Fifth_Ward_Temple_View_Stake.jpg"
+     ]
+    },
+    {
+     "kind": "content",
+     "theme": "light",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<p>Historic Photo provided by The Church of Jesus Christ of Latter Day Saints</p>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "href": "/work/forgejewelers",
+   "slug": "forgejewelers",
+   "card_title": "Forge Jewelers",
+   "card_img": "assets/img/b822635c_Forge-1181.jpg",
+   "meta": {
+    "title": "Forge Jewelers — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "black",
+     "bg": "assets/img/358a70cb_Forge-1183.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2>Forge Jewelry Works | Provo UT</h2><p>Breathing new life into a historic building with strong architectural character, the Forge Jewelry Works headquarters underwent a full interior renovation and exterior transformation. The result is a vibrant home for a business that celebrates craftsmanship—where skilled jewelsmiths create custom pieces in full view of their clients.</p><p>Founded by a local Utah Valley family, Forge Jewelry Works has grown into a thriving creative venture. Their investment in redeveloping this property not only supports their expanding business but also adds renewed energy to the heart of downtown Provo.</p><p>Construction was completed in Spring 2025, and the space now stands as a testament to both the artistry of its occupants and the lasting value of revitalizing historic structures.</p>"
+      },
+      {
+       "type": "map",
+       "addr": "522 North Freedom Boulevard, Provo, UT, 84601",
+       "lat": 40.2405731,
+       "lng": -111.6616569,
+       "zoom": 10
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/b822635c_Forge-1181.jpg",
+      "assets/img/d12f8f48_Forge-1168.jpg",
+      "assets/img/4eaa977f_Forge-1108.jpg",
+      "assets/img/7adb2c19_Forge-1109.jpg",
+      "assets/img/8e81ee0c_Forge-1116.jpg",
+      "assets/img/13f13aa0_Forge-1117.jpg",
+      "assets/img/5d733bf6_Forge-1173.jpg",
+      "assets/img/19ddde8a_Forge-1175.jpg",
+      "assets/img/3ec18add_Forge-1176.jpg",
+      "assets/img/8ecc3823_Forge-1180.jpg",
+      "assets/img/e38fd6c2_Forge-1183.jpg",
+      "assets/img/26debcd9_Forge-1184.jpg",
+      "assets/img/17f697a6_Forge-1185.jpg",
+      "assets/img/1942bb54_Forge-1191.jpg",
+      "assets/img/0a6d96d6_Forge-1194.jpg",
+      "assets/img/b305ab99_Forge-1195.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "href": "/work/patey-aviation-park-3zzr2",
+   "slug": "patey-aviation-park-3zzr2",
+   "card_title": "Payson Passive House | Payson UT",
+   "card_img": "assets/img/17335257_Passive_House_Project_Night.jpg",
+   "meta": {
+    "title": "Payson Passive House | Payson UT — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "black",
+     "bg": "assets/img/17335257_Passive_House_Project_Night.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2>Payson Passive House</h2><p>Introducing our first custom home in Payson, Utah, designed to achieve Passive House certification. This modern two-story residence exemplifies sustainable living through innovative passive heating and cooling strategies, significantly reducing energy consumption while ensuring year-round comfort.</p><p>The home features a hyper-insulated building envelope, maintaining optimal indoor temperatures and providing exceptional air quality. Its efficient layout maximizes space and functionality, highlighted by a unique cantilever design that doubles as a carport, optimizing the use of the site.</p><p>Built to last, this home not only prioritizes energy efficiency but also offers a comfortable and healthy living environment, setting a new standard for sustainable residential design.</p>"
+      },
+      {
+       "type": "map",
+       "addr": "Payson, UT",
+       "lat": 40.0435822,
+       "lng": -111.7323853,
+       "zoom": 11
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/4e4b6e6f_Enscape_2022-08-04-17-01-47.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "href": "/work/harding-lofts-student-housing",
+   "slug": "harding-lofts-student-housing",
+   "card_title": "Harding Lofts Student Housing | Cedar City UT",
+   "card_img": "assets/img/17065975_Enscape_2023-01-05-10-22-55.jpg",
+   "meta": {
+    "title": "Harding Lofts Student Housing | Cedar City UT — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "black",
+     "bg": "assets/img/8906d1fb_Enscape_2023-01-05-10-22-55.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h1>Harding Lofts Student Housing</h1><p>The Harding Lofts project near Southern Utah University emphasizes functionality and community while reflecting a modern, approachable design. The architecture incorporates clean lines and a mix of materials, balancing durability with an inviting aesthetic. The building’s layout prioritizes natural light and efficient use of space, offering modern amenities tailored to meet diverse student needs. Communal areas, including study lounges, a fitness centers, and shared lounges, are seamlessly integrated to foster connection and collaboration among residents.</p><p>The design focuses on providing places for relaxation and social interaction, while sustainable elements like energy-efficient systems align with modern environmental standards. Positioned within walking distance of campus and local amenities, the project creates a cohesive living and learning environment that supports students' academic and social lives.</p>"
+      },
+      {
+       "type": "map",
+       "addr": "104 North 400 West, Cedar City, UT, 84720",
+       "lat": 37.6790941,
+       "lng": -113.068283,
+       "zoom": 11
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/8906d1fb_Enscape_2023-01-05-10-22-55.jpg",
+      "assets/img/6a85d320_Enscape_2023-01-05-16-45-15.jpg",
+      "assets/img/35b70565_Enscape_2023-01-06-13-39-39.jpg"
+     ]
+    },
+    {
+     "kind": "content",
+     "theme": "black",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h1>construction progress photos</h1>"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/da01a549_DJI_0240.jpg",
+      "assets/img/73324173_DJI_0238.jpg",
+      "assets/img/111d9442_DJI_0244.jpg",
+      "assets/img/c76c8b19_DJI_0236.jpg"
+     ]
+    },
+    {
+     "kind": "content",
+     "theme": "dark-bold",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h1>construction progress drone videos</h1>"
+      },
+      {
+       "type": "video",
+       "hls": "https://video.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/eb0049d8-c2f6-43af-a975-1dfc5d4be405/playlist.m3u8",
+       "poster": "https://video.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/eb0049d8-c2f6-43af-a975-1dfc5d4be405/thumbnail",
+       "aspect": 1.7777777777777777
+      },
+      {
+       "type": "video",
+       "hls": "https://video.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/c6ef4e8a-1f8f-4219-ac0c-d89ccfba1db8/playlist.m3u8",
+       "poster": "https://video.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/c6ef4e8a-1f8f-4219-ac0c-d89ccfba1db8/thumbnail",
+       "aspect": 1.7777777777777777
+      },
+      {
+       "type": "video",
+       "hls": "https://video.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/7e715a8f-d24a-493a-9c06-4bcfaae8a4b0/playlist.m3u8",
+       "poster": "https://video.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/7e715a8f-d24a-493a-9c06-4bcfaae8a4b0/thumbnail",
+       "aspect": 1.7777777777777777
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "href": "/work/the-madison-winston-arlington-hall",
+   "slug": "the-madison-winston-arlington-hall",
+   "card_title": "The Madison & Winston & Arlington Hall | Provo UT",
+   "card_img": "assets/img/17065942_DJI_0437.jpg",
+   "meta": {
+    "title": "The Madison & Winston & Arlington Hall | Provo UT — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "black",
+     "bg": "assets/img/17065942_DJI_0437.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2>The Madison + The Winston</h2><p>In 2016, our team played a key role in redesigning the interior of the historic Madison Building on Center Street in downtown Provo. Once home to a cowboy bar on the upper floors and a nightclub on the ground floor, the building was reimagined by the owner, Steven Bond of Capital Advisors Real Estate. The upper floors were transformed into a real estate brokerage office, while the ground floor became a dry bar comedy venue.</p><p>A few years later, the adjacent building, renamed “The Winston,” became available. Partnering again with Steven Bond, we undertook a comprehensive renovation, adding a new upper floor and a rear expansion to accommodate creative office spaces and a dance hall. This project has become a dynamic addition to downtown Provo, now serving as the headquarters for Angel Studios and enhancing the area’s vitality.  </p>"
+      },
+      {
+       "type": "image",
+       "src": "assets/img/d4907f47_IMG_1444.jpg",
+       "alt": "",
+       "caption": "",
+       "href": null
+      },
+      {
+       "type": "image",
+       "src": "assets/img/982e32a4_Angel_Studios-24.jpg",
+       "alt": "",
+       "caption": "",
+       "href": null
+      },
+      {
+       "type": "map",
+       "addr": "250 east center st, provo ut",
+       "lat": 40.233291,
+       "lng": -111.6542225,
+       "zoom": 12
+      }
+     ]
+    },
+    {
+     "kind": "content",
+     "theme": "dark",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2>The Winston</h2>"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/f089e64b_DJI_0668.jpg",
+      "assets/img/939a667c_Angel_Studios-15.jpg",
+      "assets/img/53c6ef94_Angel_Studios-19.jpg",
+      "assets/img/59c60497_Angel_Studios-20.jpg",
+      "assets/img/cc5e748b_Angel_Studios-22.jpg",
+      "assets/img/2b336ca8_Angel_Studios-24.jpg",
+      "assets/img/d4507359_Angel_Studios-30.jpg",
+      "assets/img/6ba802cd_Angel_Studios-33.jpg",
+      "assets/img/411bc6ce_Angel_Studios-35.jpg"
+     ]
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2>The Madison Building</h2>"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/767f620a_Angel_Studios-36.jpg",
+      "assets/img/a7933b63_Angel_Studios-37.jpg",
+      "assets/img/ac2e7963_Angel_Studios-38.jpg",
+      "assets/img/84440312_Angel_Studios-39.jpg",
+      "assets/img/5ae8bf03_Angel_Studios-40.jpg",
+      "assets/img/5ef46158_Angel_Studios-41.jpg",
+      "assets/img/102a4a20_Angel_Studios-42.jpg",
+      "assets/img/d705a2c4_Angel_Studios-43.jpg",
+      "assets/img/2c59ccf5_Angel_Studios-44.jpg",
+      "assets/img/027a9013_IMG_0415.jpg",
+      "assets/img/ad8decd9_IMG_0418.jpg"
+     ]
+    },
+    {
+     "kind": "content",
+     "theme": "dark",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2>Arlington Hall </h2>"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/11804817_dji_fly_20230519_185354_452_1684552770126_photo.jpg",
+      "assets/img/5280d784_Angel_Studios-3.jpg",
+      "assets/img/886fb7b8_Angel_Studios-5.jpg",
+      "assets/img/7ee0ceba_Angel_Studios-6.jpg",
+      "assets/img/5687f9f2_Angel_Studios-7.jpg",
+      "assets/img/a02c792a_Angel_Studios-8.jpg",
+      "assets/img/7f94c77c_Angel_Studios-10.jpg",
+      "assets/img/e519a055_Angel_Studios-11.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "href": "/work/interior-concepts-design-center",
+   "slug": "interior-concepts-design-center",
+   "card_title": "Interior Concepts Design House | Pleasant Grove UT",
+   "card_img": "assets/img/17064787_Project_-_Interior_Concepts.jpg",
+   "meta": {
+    "title": "Interior Concepts Design House | Pleasant Grove UT — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "black",
+     "bg": "assets/img/855be6ff_5N8A6831.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2>Interior Concepts Design House</h2><p>Completed in 2019, the Interior Concepts Design House serves as the headquarters for Interior Concepts, a leading local interior design firm. The facility also offers meeting spaces and material sample resources for other local designers, fostering collaboration and a community-centered approach to interior design.</p><p>Behind the main offices, a warehouse supports the firm's services by providing storage for furnishings and materials. The design goal was to create a space that feels like home, reflects the creativity and professionalism of the Interior Concepts team, and inspires innovation and collaboration.</p>"
+      },
+      {
+       "type": "map",
+       "addr": "175 South 1300 West Street, Pleasant Grove, UT, 84062",
+       "lat": 40.3615516,
+       "lng": -111.7594755,
+       "zoom": 12
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/4a89958d_DJI_0056.jpg",
+      "assets/img/855be6ff_5N8A6831.jpg",
+      "assets/img/fbd7ad0d_5N8A6845.jpg",
+      "assets/img/9be0428c__PMA3631.jpg",
+      "assets/img/5948cdd5_5N8A6739.jpg",
+      "assets/img/1174dbca_5N8A6741.jpg",
+      "assets/img/dcfbe930_5N8A6750.jpg",
+      "assets/img/5161284a_5N8A6756.jpg",
+      "assets/img/4eb4850b_5N8A6769.jpg",
+      "assets/img/615491e4_5N8A6775.jpg",
+      "assets/img/663c795a_5N8A6796.jpg",
+      "assets/img/e328af8d_5N8A6805.jpg",
+      "assets/img/325684ae_5N8A6851.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "href": "/work/dfa-innovation-center",
+   "slug": "dfa-innovation-center",
+   "card_title": "DFA Innovation Center | Springfield MO",
+   "card_img": "assets/img/17064997_Lobby_Final.jpg",
+   "meta": {
+    "title": "DFA Innovation Center | Springfield MO — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "black",
+     "bg": "assets/img/17064997_Lobby_Final.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<p>The Innovation Center for Dairy Farmers of America (DFA) is a facility in Springfield Missouri where new dairy products and ingredient solutions are developed and tested to serve the various brands and industries that work with DFA.  In 2022 the Knighton team was hired to help reimagine the office and customer experience areas of the facility, to better reflect the DFA brand direction and focus on innovation and collaboration.  </p>"
+      },
+      {
+       "type": "map",
+       "addr": "3233 E Chestnut Expressway, Springfield, MO 65802, springfield missouri",
+       "lat": 37.2110731,
+       "lng": -93.2291077,
+       "zoom": 12
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/6e543a43_Open_Office_A_Final.jpg",
+      "assets/img/785cee4f_Open_Office_B_Final.jpg",
+      "assets/img/97501293_Open_Office_C_Final.jpg",
+      "assets/img/cc1675b9_Vestibule_Final_A.jpg",
+      "assets/img/3a7dc5e3_Kitchen_A_Final.jpg",
+      "assets/img/69e30559_Kitchen_B_Final.jpg",
+      "assets/img/1e583a3d_Kitchen_C_Final.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "href": "/work/rodizio-grill-multiple-locations",
+   "slug": "rodizio-grill-multiple-locations",
+   "card_title": "Rodizio Grill | Multiple Locations",
+   "card_img": "assets/img/17065819_ORL_Exterior2.jpg",
+   "meta": {
+    "title": "Rodizio Grill | Multiple Locations — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "black",
+     "bg": "assets/img/277ad826_ORL_Exterior.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<p>The Team at Knighton Architecture has been working with Rodizio Grill on all of their new locations since 2015, including locations in Orlando, Fort Lauderdale, Tampa, Phoenix, Las Vegas, Oklahoma City, Denver, San Diego, Annapolis MD, Provo UT and Salt Lake City.  </p>"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/3c622fa6_ORL_Bar.jpg",
+      "assets/img/9ededa21_ORL_Exterior.jpg",
+      "assets/img/66bce497_ORL_Exterior2.jpg",
+      "assets/img/b37ca396_ORL_Rio_2_Room.jpg",
+      "assets/img/496b6466_ORL_Rio_Rooms_1__2__3_combined.jpg",
+      "assets/img/b19c54c4_ORL_Rio_Rooms_1_2_combined.jpg",
+      "assets/img/00a1bbb5_IMG_0403.jpg",
+      "assets/img/29db4bf9_IMG_0404.jpg",
+      "assets/img/55546951_IMG_0406.jpg",
+      "assets/img/d3068059_IMG_0408.jpg",
+      "assets/img/4fc12031_15-RDG-003_1G9P34588.jpg",
+      "assets/img/69bf5f30_15-RDG-003_1G9P34640.jpg",
+      "assets/img/67d557dc_15-RDG-003_1G9P34644.jpg",
+      "assets/img/c62fddd5_15-RDG-003_1G9P34651.jpg",
+      "assets/img/f4fb8a85_15-RDG-003_1G9P34654.jpg",
+      "assets/img/13f83994_15-RDG-003_1G9P34663.jpg",
+      "assets/img/f31c0a3d_15-RDG-003_1G9P34677_f.jpg",
+      "assets/img/3c0ef704_IMG_6674.jpg",
+      "assets/img/37758c2f_IMG_6702.jpg",
+      "assets/img/a8cf0d53_IMG_7570.jpg",
+      "assets/img/681cfe83_IMG_7607.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "href": "/work/tche-brazilian-grill",
+   "slug": "tche-brazilian-grill",
+   "card_title": "Tche Brazilian Grill | Idaho Falls ID",
+   "card_img": "assets/img/17064784_DSC00963-HDR.jpg",
+   "meta": {
+    "title": "Tche Brazilian Grill | Idaho Falls ID — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "black",
+     "bg": "assets/img/17064784_DSC00963-HDR.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2>Tche Brazilian Grill</h2><p>Located in the heart of Idaho Falls, this Brazilian steakhouse brings the warmth and energy of South American dining to life through its vibrant architecture and inviting interiors. The design blends traditional Brazilian influences with a modern aesthetic, featuring rich wood finishes, bold geometric patterns, and earthy tones that create a welcoming and dynamic atmosphere. Large windows and open floor plans foster a sense of connection, while carefully placed lighting highlights the textures and colors of the space.</p><p>At the core of the design is a commitment to creating an authentic churrasco experience. The central grilling area serves as a focal point, with an open-fire display that combines culinary tradition with visual drama. Seating areas are thoughtfully arranged to accommodate both intimate dinners and lively gatherings, reflecting the communal spirit of Brazilian dining. The architecture not only enhances the dining experience but also celebrates the cultural vibrancy of the cuisine in a setting that feels both sophisticated and approachable.</p>"
+      },
+      {
+       "type": "map",
+       "addr": "2394 E Sunnyside Rd, Idaho Falls, ID 83404",
+       "lat": 43.4673884,
+       "lng": -111.9861495,
+       "zoom": 12
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/e498aa3e_DSC00841-HDR.jpg",
+      "assets/img/a4ca1808_DSC00844-HDR.jpg",
+      "assets/img/6bd29391_DSC00847-HDR.jpg",
+      "assets/img/ef252e89_DSC00853-HDR.jpg",
+      "assets/img/07257df0_DSC00856-HDR.jpg",
+      "assets/img/27494d4a_DSC00859-HDR.jpg",
+      "assets/img/2524278f_DSC00862-HDR.jpg",
+      "assets/img/0dd71037_DSC00865-HDR.jpg",
+      "assets/img/cf08ab8a_DSC00874-HDR.jpg",
+      "assets/img/75e81fd0_DSC00877-HDR.jpg",
+      "assets/img/032502fe_DSC00963-HDR.jpg",
+      "assets/img/ba7afdaf_DSC00966-HDR.jpg",
+      "assets/img/4a4197a5_DSC00972-HDR.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "href": "/work/project-two-ky966-5c66c",
+   "slug": "project-two-ky966-5c66c",
+   "card_title": "Osmond Designs Traverse Mtn | Lehi UT",
+   "card_img": "assets/img/17066375_Osmond_Quick_Render_2.jpg",
+   "meta": {
+    "title": "Osmond Designs Traverse Mtn | Lehi UT — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "black",
+     "bg": "assets/img/17066375_Osmond_Quick_Render_2.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2>Osmond Designs | Traverse Mountain </h2><p>We were honored to collaborate with Heather Osmond, founder of Osmond Designs, on the design for her latest interior design and furniture showroom in Lehi, UT. The space is designed to feature expansive, well-lit showroom areas alongside a dedicated design center where clients can enjoy personalized interior design consultations.  Construction is anticipated to begin in 2024.</p>"
+      },
+      {
+       "type": "map",
+       "addr": "3725 Outlet Parkway, Lehi, UT, 84043",
+       "lat": 40.4331699,
+       "lng": -111.882997,
+       "zoom": 12
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/36189e3f_Osmond_Quick_Render_3.jpg",
+      "assets/img/5fc040cb_Osmond_Quick_Render_2.jpg",
+      "assets/img/6c2d86b4_Osmond_Quick_Render_1.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "href": "/work/project-two-ky966-mfaba",
+   "slug": "project-two-ky966-mfaba",
+   "card_title": "Halvorsen Candy Bomber Museum | Spanish Fork UT",
+   "card_img": "assets/img/17064992_Halvorsen_Heritage_Center_-_Exterior.jpg",
+   "meta": {
+    "title": "Halvorsen Candy Bomber Museum | Spanish Fork UT — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "black",
+     "bg": "assets/img/69586c42_Halvorsen_Heritage_Center_-_Exterior.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2>Halvorsen ‘Candy Bomber’ Museum and Education Center</h2><p>Celebrating the legacy of Gail Halvorsen, \"The Candy Bomber,\" this museum and STEM education center combines history, innovation, and timeless design. The building’s Art Deco-inspired architecture pays homage to the era of the Berlin Airlift, with streamlined forms, geometric detailing, and a sense of forward momentum that reflects Halvorsen’s humanitarian mission and the transformative power of aviation. Iconic materials of polished stone, metallic accents, and decorative glass enhance the building’s sense of elegance and historical resonance.</p><p>The interior balances form and function, with museum galleries that chronicle Halvorsen’s life and the Berlin Airlift, alongside vibrant STEM labs where visitors can engage with hands-on activities exploring the principles of flight and engineering. High ceilings, large windows, and intricate detailing create spaces that are both inspiring and welcoming. Outdoor areas, such as a garden or sculpture court, extend the experience, offering places for reflection and gathering. The design beautifully merges the inspiration of Halvorsen’s story with the optimism and innovation of the Art Deco era.</p>"
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/69586c42_Halvorsen_Heritage_Center_-_Exterior.jpg",
+      "assets/img/32f1a8ab_Halvorsen_Heritage_Center_-_Museum_Entry.jpg",
+      "assets/img/8af0f823_Halvorsen_Heritage_Center_-_Museum_Uniform.jpg",
+      "assets/img/1de2ea16_Halvorsen_Heritage_Center_-_Patriot_Hall_1.jpg",
+      "assets/img/6b743a93_Halvorsen_Heritage_Center_-_Patriot_Hall_2.jpg",
+      "assets/img/24ff2148_Halvorsen_Heritage_Center_-_Patriot_Hall_3.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "href": "/work/shoreline-townhomes",
+   "slug": "shoreline-townhomes",
+   "card_title": "Shoreline Townhomes | Park City UT",
+   "card_img": "assets/img/17064790_Project_-_Shoreline_Townhomes_2-Story.jpg",
+   "meta": {
+    "title": "Shoreline Townhomes | Park City UT — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "black",
+     "bg": "assets/img/17064790_Project_-_Shoreline_Townhomes_2-Story.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/c3de2936_Project_-_Shoreline_Townhomes_2-Story.jpg",
+      "assets/img/7dcfa609_Project_-_Shoreline_Townhomes_Uphill.jpg",
+      "assets/img/21582eeb_02-Shoreline_DH3-View_2-R00-HR.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "href": "/work/woodside-homes-townhomes",
+   "slug": "woodside-homes-townhomes",
+   "card_title": "Woodside Townhomes | Multiple Locations in UT",
+   "card_img": "assets/img/17064993_IMG_3035__1_.jpg",
+   "meta": {
+    "title": "Woodside Townhomes | Multiple Locations in UT — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "black",
+     "bg": "assets/img/8f31cf67_IMG_3035__1_.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<p>The Day Ranch Community in Bluffdale, Utah, developed by Woodside Homes, showcases townhouse prototypes crafted by Knighton Architecture through collaborative design charrettes with the Woodside Homes team. These thoughtfully designed units have proven highly popular, achieving strong sales and serving as a model for new developments in communities across Utah.</p>"
+      },
+      {
+       "type": "map",
+       "addr": "15345 Puma Mountain Wy, Bluffdale, UT 84065, bluffdale",
+       "lat": 40.4723621,
+       "lng": -111.926407,
+       "zoom": 12
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/165904ea_IMG_3035__1_.jpg",
+      "assets/img/fa24570c_IMG_3154__1_.jpg",
+      "assets/img/da0f80be_IMG_3169__1_.jpg",
+      "assets/img/6a673428_IMG_4455__1_.jpg",
+      "assets/img/b9a31cca_DSC_3644.jpg",
+      "assets/img/210a1c37_DSC_7310.jpg",
+      "assets/img/bfe8cb28_DSC_7496.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "href": "/work/contrast-therapy",
+   "slug": "contrast-therapy",
+   "card_title": "contrast therapy | Highland UT",
+   "card_img": "assets/img/17065989_Cold_Tub_and_Showers.jpg",
+   "meta": {
+    "title": "contrast therapy | Highland UT — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "black",
+     "bg": "assets/img/30658918_Cold_Tub.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2>Contrast Therapy Cedar Hills</h2><p>Contrast Therapy Spa of Highland UT, embraces simplicity and balance, creating a serene retreat for wellness and rejuvenation. The spa’s layout is thoughtfully organized to guide visitors through an immersive experience of warmth and coolness, with saunas and cold tubs positioned to encourage seamless transitions between the two. Clean, modern lines combine with natural materials like wood, stone, and concrete, fostering a sense of grounding and tranquility. Large windows and soft lighting create an interplay of light and shadow, enhancing the calming atmosphere.</p><p>The architectural details are inspired by the principles of contrast—warm textures juxtaposed with sleek, cool finishes echo the spa's therapeutic approach. Shared and private spaces are designed to be both functional and meditative, with subtle nods to Nordic design traditions.</p>"
+      },
+      {
+       "type": "map",
+       "addr": "Cedar Hills, UT, 84062",
+       "lat": 40.41411739999999,
+       "lng": -111.7585414,
+       "zoom": 12
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/582d3234_Cold_Tub_and_Showers.jpg",
+      "assets/img/05b4026c_Cold_Tub.jpg",
+      "assets/img/2e4435ae_Lobby.jpg",
+      "assets/img/ddfe1018_Overall_Shower.jpg",
+      "assets/img/642f16fa_Reception.jpg",
+      "assets/img/d51ec4da_Sauna.jpg",
+      "assets/img/3085e0d3_Showers_and_Salt_Wall_Visual.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "href": "/work/mapleview",
+   "slug": "mapleview",
+   "card_title": "Maple View Residence",
+   "card_img": "assets/img/b2da096e_Enscape_2025-01-17-12-28-24.jpg",
+   "meta": {
+    "title": "Maple View Residence — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "black",
+     "bg": "assets/img/b2da096e_Enscape_2025-01-17-12-28-24.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2>Maple View Residence | Mapleton UT</h2><p>Nestled in the heart of Mapleton, this custom home is thoughtfully oriented to capture sweeping views of Maple Mountain—also known locally as Sierra Bonita. The design centers on light, openness, and connection to the natural surroundings, with a spacious front porch that creates a welcoming presence in the neighborhood.</p><p>Sustainability is woven into every aspect of the home. Innovative materials and construction practices are used to maximize thermal efficiency, creating a residence that not only reduces its environmental impact but also promotes wellness and comfort for the family who will call it home.</p><p>Currently under construction, the Mapleton Residence is scheduled for completion in Fall 2025.</p>"
+      },
+      {
+       "type": "map",
+       "addr": "3943 Foothill Drive, Provo, UT, 84604",
+       "lat": 40.28575620000001,
+       "lng": -111.6373443,
+       "zoom": 12
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/0bf718f6_dji_fly_20250609_195040_319_1749520629101_photo.jpg",
+      "assets/img/f6857cf5_dji_fly_20250609_195226_323_1749520583803_photo.jpg",
+      "assets/img/074ca74e_dji_fly_20250609_195002_317_1749520694277_photo.jpg",
+      "assets/img/f69df516_dji_fly_20250609_194632_313_1749520896265_photo.jpg",
+      "assets/img/444589d1_dji_fly_20250609_194508_309_1749520943902_photo.jpg",
+      "assets/img/453a92ee_dji_fly_20250609_194528_310_1749520941864_photo.jpg",
+      "assets/img/befc735f_IMG_9174.jpg",
+      "assets/img/a60f4922_IMG_9175.jpg",
+      "assets/img/4369c0e4_IMG_9179.jpg",
+      "assets/img/bc781976_IMG_9180.jpg",
+      "assets/img/2643c7c7_IMG_9181.jpg",
+      "assets/img/bbb04ed5_IMG_9185.jpg",
+      "assets/img/a330632c_Valley_View_Parade_Home-0328.jpg",
+      "assets/img/9f4415b2_Valley_View_Parade_Home-0330.jpg",
+      "assets/img/247f9827_Valley_View_Parade_Home-0333.jpg",
+      "assets/img/fc8b2590_Valley_View_Parade_Home-0337.jpg",
+      "assets/img/86347b99_Valley_View_Parade_Home-0338.jpg",
+      "assets/img/d030fc4a_Valley_View_Parade_Home-0339.jpg",
+      "assets/img/ed3113c4_Valley_View_Parade_Home-0346.jpg",
+      "assets/img/4abb8841_Valley_View_Parade_Home-0347.jpg",
+      "assets/img/823f93ef_Valley_View_Parade_Home-0348.jpg",
+      "assets/img/81122aa5_Valley_View_Parade_Home-0349.jpg",
+      "assets/img/47b9783e_Valley_View_Parade_Home-0351.jpg",
+      "assets/img/9c1b97c6_Valley_View_Parade_Home-0352.jpg",
+      "assets/img/32617ce2_Valley_View_Parade_Home-0356.jpg",
+      "assets/img/b92685fa_Valley_View_Parade_Home-0366.jpg",
+      "assets/img/a9414ec5_Valley_View_Parade_Home-0371.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "href": "/work/north-main-medical",
+   "slug": "north-main-medical",
+   "card_title": "North Main Medical | Cedar City UT",
+   "card_img": "assets/img/17064783_Enscape_2022-12-01-09-43-41.jpg",
+   "meta": {
+    "title": "North Main Medical | Cedar City UT — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "black",
+     "bg": "assets/img/17064783_Enscape_2022-12-01-09-43-41.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2>North Main Medical Office Building</h2><p>The North Main Medical office building is designed to provide a welcoming and efficient environment for patients, staff, and practitioners. The architecture balances functionality with a calming aesthetic, featuring a clean, modern façade accented by natural materials like wood or stone to create a sense of approachability. Expansive windows and strategic use of natural light brighten the interior, contributing to a sense of wellness and reducing stress for visitors.</p><p>Inside, the layout prioritizes flow and accessibility, with clear wayfinding, adaptable clinical spaces, and comfortable waiting areas. Flexible floor plans allow for a range of medical and wellness services, while sustainable features like energy-efficient systems and environmentally conscious materials reflect a commitment to health and sustainability. Designed as both a professional and restorative space, the building fosters a connection between care and comfort.</p>"
+      },
+      {
+       "type": "map",
+       "addr": "Cedar City",
+       "lat": 37.67747689999999,
+       "lng": -113.0618931,
+       "zoom": 12
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/81f4f6d5_Enscape_2022-12-01-09-40-36.jpg",
+      "assets/img/d3214eb7_Enscape_2022-12-01-09-43-41.jpg",
+      "assets/img/965da0e7_Enscape_2022-12-01-09-45-29.jpg",
+      "assets/img/4089bc11_Enscape_2022-12-01-09-47-13.jpg",
+      "assets/img/6b244f9a_Enscape_2022-12-01-09-49-29.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "href": "/work/porters-crossing-retail-development",
+   "slug": "porters-crossing-retail-development",
+   "card_title": "Porters Crossing Commercial | Eagle Mountain UT",
+   "card_img": "assets/img/17065967_Porters_Crossing_master_A42_cam01.jpg",
+   "meta": {
+    "title": "Porters Crossing Commercial | Eagle Mountain UT — Knighton Architecture",
+    "description": ""
+   },
+   "sections": [
+    {
+     "kind": "content",
+     "theme": "black",
+     "bg": "assets/img/f198afb4_Porters_Crossing_master_A42_cam03.jpg",
+     "blocks": []
+    },
+    {
+     "kind": "content",
+     "theme": "",
+     "bg": null,
+     "blocks": [
+      {
+       "type": "text",
+       "html": "<h2>Porters Crossing Retail</h2><p>The Porter’s Crossing project was a series of leasable retail &amp; office spaces adjacent to an existing grocery anchor, in the Eagle Mountain community.  </p>"
+      },
+      {
+       "type": "map",
+       "addr": "4095 Pony Express Parkway, Eagle Mountain, UT, 84005",
+       "lat": 40.36371159999999,
+       "lng": -111.9654303,
+       "zoom": 10
+      }
+     ]
+    },
+    {
+     "kind": "gallery",
+     "images": [
+      "assets/img/5ccf9e82_Porters_Crossing_master_A42_cam01.jpg",
+      "assets/img/b2fb3159_Porters_Crossing_master_A42_cam02.jpg",
+      "assets/img/f198afb4_Porters_Crossing_master_A42_cam03.jpg",
+      "assets/img/603f1540_Porters_Crossing_master_A42_cam04.jpg",
+      "assets/img/ad7c9b59_IMG_20181222_153647.jpg"
+     ]
+    }
+   ]
+  }
+ ],
+ "team_meta": {
+  "title": "Who We Are | Discover Trusted Architectural Solutions — Knighton Architecture",
+  "description": "Knighton Architecture offers meaningful, client-focused design services to create inspiring spaces. We prioritize relationships, collaboration, and a rewarding design experience."
+ },
+ "team_intro": [
+  {
+   "type": "text",
+   "html": "<h1>MEANINGFUL DESIGN DRIVEN BY REAL RELATIONSHIPS</h1><p>Knighton Architecture is a team of designers and creators dedicated to shaping a better built environment. Our focus is on cultivating meaningful, lasting relationships with our clients, enabling us to collaborate effectively and bring great places to life. Rather than specializing in specific project types, we prioritize trust and connection, embracing a growth mindset to remain flexible and open to diverse opportunities.</p><p>Too often, the architectural and design process can feel confusing, stressful, and expensive. At Knighton Architecture, we believe it should be the opposite: rewarding, inspiring, and enjoyable. That’s why we are committed to fostering a positive and engaging design experience for our clients and collaborators at every step of the journey.</p>"
+  }
+ ],
+ "team": [
+  {
+   "href": "/our-team/jeff-knighton-aia-ncarb-founder-principal-architect",
+   "slug": "jeff-knighton-aia-ncarb-founder-principal-architect",
+   "name": "Jeff Knighton AIA NCARB | Founder + Principal Architect",
+   "card_img": "assets/img/17335249_Jeff.jpg",
+   "meta": {
+    "title": "Jeff Knighton AIA NCARB | Founder + Principal Architect — Knighton Architecture",
+    "description": ""
+   },
+   "blocks": [
+    {
+     "type": "image",
+     "src": "assets/img/89c3b103_AdobeStock_63185428.jpg",
+     "alt": "",
+     "caption": "",
+     "href": null
+    },
+    {
+     "type": "image",
+     "src": "assets/img/96daa1e3_Jeff.jpg",
+     "alt": "",
+     "caption": "",
+     "href": null
+    },
+    {
+     "type": "text",
+     "html": "<h3>Jeff Knighton AIA NCARB | Founder + Principal Architect</h3><p>Raised in Provo Utah, Jeff had the desire to draw and create at a young age, and decided as a kid that he wanted to become an architect.  In high school he took an advanced architectural drafting course, where he designed his first project – a new custom home for his parents – and then helped to build it the following summer.  </p><p>The experience of taking something imagined in the mind and turning it into a built reality that enhanced someone else’s life was life-changing and set the hook for Jeff.  He went on to study Urban Planning at Brigham Young University, and then pursued a master’s degree in Architecture at the University of Oregon, also earning a graduate certificate in Ecological Design.  After studying and working in the Northwest for several years, he moved back to Utah to live closer to family and set out to create his own architectural practice that focused on creative and meaningful projects, strong client relationships, and a collaborative family-like environment.  </p><p>He is a father of five busy kids, and a colon cancer survivor (diagnosed the same year he started his own business).  He is passionate about getting outside and exploring the natural world with his family.  He also loves to play his guitar and dreams of writing and recording his own music.</p>"
+    }
+   ]
+  },
+  {
+   "href": "/our-team/jeff-knighton-aia-ncarb-founder-principal-architect-hs5lw",
+   "slug": "jeff-knighton-aia-ncarb-founder-principal-architect-hs5lw",
+   "name": "Melvin Rodriguez | Project Lead",
+   "card_img": "assets/img/17335264_Melvin_for_website.jpg",
+   "meta": {
+    "title": "Melvin Rodriguez | Project Lead — Knighton Architecture",
+    "description": ""
+   },
+   "blocks": [
+    {
+     "type": "image",
+     "src": "assets/img/17335281_unsplash-image-OGJp-AJeIoM.jpg",
+     "alt": "",
+     "caption": "",
+     "href": null
+    },
+    {
+     "type": "image",
+     "src": "assets/img/fea32fa8_Melvin_for_website.jpg",
+     "alt": "",
+     "caption": "",
+     "href": null
+    },
+    {
+     "type": "text",
+     "html": "<h3>Melvin Rodriguez | Project Manager</h3><p>Melvin comes from a line of architects. His mom was an architect in Mexico City, same as her father. His passion for design and functionality runs deep, and he’s always looking for new challenges in all aspects of design, with a dual background in both architecture and landscape design. Along with design, Melvin is passionate about technology, entrepreneurship, and community service through non-profit organizations. Melvin currently resides in Provo with his wife and 4 kids, and is a hot sauce collector and connoisseur.</p>"
+    }
+   ]
+  },
+  {
+   "href": "/our-team/jeff-knighton-aia-ncarb-founder-principal-architect-jg8zt",
+   "slug": "jeff-knighton-aia-ncarb-founder-principal-architect-jg8zt",
+   "name": "Wesley Romeril | Project Lead",
+   "card_img": "assets/img/17335263_Wesley.jpg",
+   "meta": {
+    "title": "Wesley Romeril | Project Lead — Knighton Architecture",
+    "description": ""
+   },
+   "blocks": [
+    {
+     "type": "image",
+     "src": "assets/img/26af503f_CHIEF_1.jpg",
+     "alt": "",
+     "caption": "",
+     "href": null
+    },
+    {
+     "type": "image",
+     "src": "assets/img/135fc350_Wesley.jpg",
+     "alt": "",
+     "caption": "",
+     "href": null
+    },
+    {
+     "type": "text",
+     "html": "<h3>Wesley Romeril | Project Lead</h3><p>Wesley was born in Logan. UT, but grew up in Alberta, Canada the son of school teachers. Wesley grew up in a small rural town in the rocky mountains on his family’s 3rd generation cattle ranch. Wesley’s father was an experienced carpenter with drafting experience in university, and introduced Wesley to architectural design. Wesley moved to Utah in 2013, and received a degree in Architecture from Utah Valley University. Wesley has been working in Architectural offices since 2019, and joined Knighton Architecture in 2022. </p><p>Wesley’s passion for Architecture stems from his love of building, and love of history. Wesley has a love for historic American Architecture, and Architectural craft and ornament. His goal in Architecture is to help design buildings, neighborhoods, and communities that improve peoples way of life. </p><p>Wesley is a husband, and father of one. In his limited free time he enjoys the outdoors, sports, carpentry, and spending time with his family.</p>"
+    }
+   ]
+  },
+  {
+   "href": "/our-team/jeff-knighton-aia-ncarb-founder-principal-architect-69a74",
+   "slug": "jeff-knighton-aia-ncarb-founder-principal-architect-69a74",
+   "name": "Thomas Shorts | Project Lead",
+   "card_img": "assets/img/17335266_Thomas_for_web.jpg",
+   "meta": {
+    "title": "Thomas Shorts | Project Lead — Knighton Architecture",
+    "description": ""
+   },
+   "blocks": [
+    {
+     "type": "image",
+     "src": "assets/img/17335303_unsplash-image-JkMkp2qL1vc.jpg",
+     "alt": "",
+     "caption": "",
+     "href": null
+    },
+    {
+     "type": "image",
+     "src": "assets/img/a356578c_Thomas_for_web.jpg",
+     "alt": "",
+     "caption": "",
+     "href": null
+    },
+    {
+     "type": "text",
+     "html": "<h3>Thomas Shorts | Project Lead</h3><p>Thomas was born in Orem, and lived most of his life as a resident of Mapleton, Utah. His passion for designing buildings is matched only by his dedication to learning about them. With a degree in Engineering and Design Technology from UVU and ongoing studies in Tech Management, Thomas combines technical expertise with a creative vision to shape the future of construction. His fascination with building science drives him to explore the intricacies of long lasting, energy efficient design, as well as the health and comfort of building occupants. Outside of his professional pursuits, Thomas finds his greatest joy in his recently formed family. He loves his spouse and enjoys spending time with her more than anything else.</p>"
+    }
+   ]
+  },
+  {
+   "href": "/our-team/jeff-knighton-aia-ncarb-founder-principal-architect-hj652",
+   "slug": "jeff-knighton-aia-ncarb-founder-principal-architect-hj652",
+   "name": "Hattie Herrera | Interior Designer",
+   "card_img": "assets/img/17335267_Hattie.jpg",
+   "meta": {
+    "title": "Hattie Herrera | Interior Designer — Knighton Architecture",
+    "description": ""
+   },
+   "blocks": [
+    {
+     "type": "image",
+     "src": "assets/img/d491bd77_art.jpg",
+     "alt": "",
+     "caption": "",
+     "href": null
+    },
+    {
+     "type": "image",
+     "src": "assets/img/262b0145_Hattie.jpg",
+     "alt": "",
+     "caption": "",
+     "href": null
+    },
+    {
+     "type": "text",
+     "html": "<h3>Hattie Herrera | Interior Designer</h3><p>Hattie’s journey towards interior design was subtly guided by her lifelong passions. Hattie has always been passionate about art, particularly hyper-realistic depictions. Unbeknownst to her future career aspirations, Hattie entered a competition for an architecture calendar in middle school because she was excited by the challenge of drawing the school accurately. Her passion for hyper-realistic art transitioned seamlessly into her meticulous approach to design.</p><p>As she matured, Hattie realized that art was more than a visual representation: it was a medium for storytelling. This revelation has carried over into Hattie’s interior design, where she strives to create spaces that are imbued with meaning and a narrative.</p><p>Her journey continued at The University of Texas at Austin, where she studied interior design. Beyond her professional pursuits, Hattie enjoys cooking, running, and nature.</p>"
+    }
+   ]
+  },
+  {
+   "href": "/our-team/jeff-knighton-aia-ncarb-founder-principal-architect-d4std",
+   "slug": "jeff-knighton-aia-ncarb-founder-principal-architect-d4std",
+   "name": "Bailey Romeril | Team Administrator",
+   "card_img": "assets/img/17335269_Bailey.jpg",
+   "meta": {
+    "title": "Bailey Romeril | Team Administrator — Knighton Architecture",
+    "description": ""
+   },
+   "blocks": [
+    {
+     "type": "image",
+     "src": "assets/img/15898477_image-asset.jpg",
+     "alt": "",
+     "caption": "",
+     "href": null
+    },
+    {
+     "type": "image",
+     "src": "assets/img/03cd6904_Bailey.jpg",
+     "alt": "",
+     "caption": "",
+     "href": null
+    },
+    {
+     "type": "text",
+     "html": "<h3>Bailey Romeril | Team Administrator</h3><p>Bailey is from the eastern Utah town of Elmo, and was the runner-up valedictorian and a star athlete of Emery High School. She graduated from Utah Valley University with a bachelor’s degree in Exercise Science, and received the salutatorian award from the college of science. </p><p>Bailey has experience in the healthcare industry through working as a physical/occupational therapy aide at a skilled nursing facility. As the office manager, she helps make sure our clients, consultants, and team members are taken care of, and keeps order for our busy team. She is also the mother of a bouncy small child and caretaker of another large child, her husband and fellow Knighton team-mate, Wesley.</p>"
+    }
+   ]
+  },
+  {
+   "href": "/our-team/jeff-knighton-aia-ncarb-founder-principal-architect-d4std-cb6jp",
+   "slug": "jeff-knighton-aia-ncarb-founder-principal-architect-d4std-cb6jp",
+   "name": "Taelor Wright | Architectural Designer",
+   "card_img": "assets/img/6b982cfb_Taelor_for_Web.jpg",
+   "meta": {
+    "title": "Taelor Wright | Architectural Designer — Knighton Architecture",
+    "description": ""
+   },
+   "blocks": [
+    {
+     "type": "image",
+     "src": "assets/img/80d66ead_Arches-3198.jpg",
+     "alt": "",
+     "caption": "",
+     "href": null
+    },
+    {
+     "type": "image",
+     "src": "assets/img/b44756b8_Taelor_for_Web.jpg",
+     "alt": "",
+     "caption": "",
+     "href": null
+    },
+    {
+     "type": "text",
+     "html": "<h3>Taelor Wright | Architectural Designer</h3><p>Taelor is from Brigham City Utah. He is currently getting a bachelors in Construction Management from BYU, and plans to get a masters in architecture. He is excited to eventually learn and practice architecture with sustainability in mind.  As a design intern Taelor helps with a variety of projects and tasks including drafting, marketing efforts, and wherever else he can help out. Taelor enjoys sports, music, photography, the outdoors, and especially spending time with his wife and son. </p>"
+    }
+   ]
+  },
+  {
+   "href": "/our-team/jeff-knighton-aia-ncarb-founder-principal-architect-d4std-cb6jp-575ww",
+   "slug": "jeff-knighton-aia-ncarb-founder-principal-architect-d4std-cb6jp-575ww",
+   "name": "Van Rasmussen | Design Intern",
+   "card_img": "assets/img/667b5d45_Team_Headshot_BW-34.jpg",
+   "meta": {
+    "title": "Van Rasmussen | Design Intern — Knighton Architecture",
+    "description": ""
+   },
+   "blocks": [
+    {
+     "type": "image",
+     "src": "assets/img/17767916_unsplash-image-DkKE_E5r9i4.jpg",
+     "alt": "",
+     "caption": "",
+     "href": null
+    },
+    {
+     "type": "image",
+     "src": "assets/img/d5018f3c_Team_Headshot_BW-34.jpg",
+     "alt": "",
+     "caption": "",
+     "href": null
+    },
+    {
+     "type": "text",
+     "html": "<h3>Van Rasmussen | Design Intern</h3><p>Van is from Provo Utah. He began interning at Esai Design Co in 2021, and later joined the Knighton team after graduating from Timpview High School. He plans to study at UVU and eventually get a masters in architecture. He loves and looks forward to learning new skills and developing an understanding of the industry, especially to benefit the Knighton team and the community. Van loves a wide variety of physical activities and loves to be in nature whenever possible.</p>"
+    }
+   ]
+  }
+ ],
+ "journal_meta": {
+  "title": "Field Journal — Knighton Architecture",
+  "description": "Stories from the field: Knighton Architecture shares project highlights, design insights, and behind-the-scenes looks at custom homes, historic restorations, and community events across Utah. Follow our team's journey from concept to completion."
+ },
+ "posts": [
+  {
+   "href": "/field-journal/knighton-before-christmas-a-gingerbread-building-charity-event-supporting-homeaid-utah",
+   "slug": "knighton-before-christmas-a-gingerbread-building-charity-event-supporting-homeaid-utah",
+   "title": "THE KNIGHTON ARCHITECTURE TEAM BLOG",
+   "cover": "assets/img/17558023_image-asset.jpg",
+   "excerpt": "",
+   "date": "Dec 17",
+   "datetime": "Dec 17",
+   "meta": {
+    "title": "Knighton Before Christmas: A Gingerbread-Building Charity Event Supporting HomeAid Utah — Knighton Architecture",
+    "description": ""
+   },
+   "blocks": [
+    {
+     "type": "text",
+     "html": "<p>Knighton Architecture, alongside our partners and community, proudly hosted <em>The Knighton Before Christmas</em>, a festive gingerbread-building charity event in support of <strong>HomeAid Utah</strong>. Designed to bring together families, colleagues, and friends, the evening blended creativity, connection, and purpose—raising awareness and funds for individuals and families experiencing homelessness in our community.</p><h3>Event Inspiration</h3><p>Rooted in the spirit of the holiday season, the event was created as a meaningful way to celebrate creativity while giving back. Gingerbread building served as the centerpiece activity, encouraging friendly competition, teamwork, and imagination across all ages. The event reflected Knighton Architecture’s belief that design—at any scale—has the power to bring people together.</p>"
+    },
+    {
+     "type": "gallery",
+     "images": [
+      "assets/img/17660150_Knighton_Before_Christmas-1.jpg",
+      "assets/img/17660150_Knighton_Before_Christmas-2.jpg",
+      "assets/img/17660150_Knighton_Before_Christmas-3.jpg",
+      "assets/img/17660150_Knighton_Before_Christmas-4.jpg",
+      "assets/img/17660150_Knighton_Before_Christmas-5.jpg"
+     ]
+    },
+    {
+     "type": "text",
+     "html": "<h3>Community, Creativity, and Giving</h3><p>Participants gathered to design and construct gingerbread creations while enjoying food, hot chocolate, and a welcoming atmosphere. The gingerbread competition offered an engaging way to support HomeAid Utah, with entry fees donated directly to the organization. Additional opportunities to contribute throughout the evening further strengthened the collective impact of the event.</p>"
+    },
+    {
+     "type": "gallery",
+     "images": [
+      "assets/img/17660150_Knighton_Before_Christmas-6.jpg",
+      "assets/img/17660150_Knighton_Before_Christmas-7.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-8.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-9.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-10.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-11.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-12.jpg"
+     ]
+    },
+    {
+     "type": "text",
+     "html": "<h3>Competition and Celebration</h3><p>The gingerbread competition showcased impressive creativity and craftsmanship, with competitors recognized through a variety of curated prizes. The energy of the evening was fueled not only by the competition itself, but by shared laughter, collaboration, and the joy of celebrating the season together.</p>"
+    },
+    {
+     "type": "gallery",
+     "images": [
+      "assets/img/17660151_Knighton_Before_Christmas-13.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-15.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-19.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-20.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-21.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-22.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-23.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-27.jpg"
+     ]
+    },
+    {
+     "type": "text",
+     "html": "<h3>Collaboration and Support</h3><p>The success of <em>The Knighton Before Christmas</em> was made possible through the generosity of participants, donors, and supporters who contributed prizes, time, and resources. Their involvement helped transform a festive gathering into a meaningful charitable effort with lasting impact.</p><h3>A Commitment to Community</h3><p>Events like this reflect Knighton Architecture’s ongoing commitment to community engagement and social responsibility. By supporting organizations like HomeAid Utah, we aim to extend our impact beyond the built environment and contribute to initiatives that strengthen and uplift our region.</p>"
+    },
+    {
+     "type": "gallery",
+     "images": [
+      "assets/img/17660151_Knighton_Before_Christmas-28.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-29.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-30.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-31.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-32.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-33.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-34.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-35.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-36.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-37.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-38.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-39.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-40.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-41.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-42.jpg",
+      "assets/img/17660151_Knighton_Before_Christmas-43.jpg"
+     ]
+    },
+    {
+     "type": "text",
+     "html": "<p>We are grateful to everyone who joined us, competed, donated, and helped make <em>The Knighton Before Christmas</em> a memorable and impactful event. We look forward to continuing to create opportunities where design, community, and purpose come together.</p>"
+    },
+    {
+     "type": "gallery",
+     "images": [
+      "assets/img/17660152_Screenshot_2025-12-17_163723.jpg",
+      "assets/img/17660152_Screenshot_2025-12-17_163758.jpg"
+     ]
+    },
+    {
+     "type": "embed",
+     "src": "https://www.youtube-nocookie.com/embed/s9vCz92VhwQ"
+    }
+   ]
+  },
+  {
+   "href": "/field-journal/7gmi0lwdh7fl4fcm2fqzj8sizo6jmn",
+   "slug": "7gmi0lwdh7fl4fcm2fqzj8sizo6jmn",
+   "title": "Valley View: A Modern Showcase in the Utah Valley Parade of Homes",
+   "cover": "assets/img/17557975_Valley_View_Parade_Home-0367.jpg",
+   "excerpt": "<h3><strong>Valley View – Utah Valley Parade of Homes</strong></h3><p>Featured in the <strong>Utah Valley Parade of Homes</strong>, <em>Valley View</em> is a Modern Southern California–inspired residence designed by <strong>Knighton Architecture</strong> and built by <strong>10X Construction</strong>. Perched high in the Provo foothills, the 7,207-square-foot home blends panoramic views with refined design, offering indoor–outdoor living, wellness amenities, and modern comforts. This project reflects our commitment to creating custom homes in Utah that are both functional and inspiring.</p>",
+   "date": "Aug 21",
+   "datetime": "Aug 21",
+   "meta": {
+    "title": "Valley View: A Modern Showcase in the Utah Valley Parade of Homes — Knighton Architecture",
+    "description": "  Valley View – Utah Valley Parade of Homes   Featured in the  Utah Valley Parade of Homes ,  Valley View  is a Modern Southern California–inspired residence designed by  Knighton Architecture  and built by  10X Construction . Perched high in the Provo foothills, the 7,207-square-foot home blends panoramic views with refined design, offering indoor–outdoor living, wellness amenities, and modern comforts. This project reflects our commitment to creating custom homes in Utah that are both functional and inspiring. "
+   },
+   "blocks": [
+    {
+     "type": "image",
+     "src": "assets/img/f8b0e9a7_Valley_View_Parade_Home-0367.jpg",
+     "alt": "",
+     "caption": "",
+     "href": null
+    },
+    {
+     "type": "text",
+     "html": "<p><strong>Knighton Architecture</strong>, in collaboration with <strong>10X Construction</strong>, is proud to present <em>Valley View</em>, a residence featured in the <strong>Utah Valley Parade of Homes</strong>. Positioned high in the foothills of Provo, the home offers sweeping views of Utah Valley and demonstrates the possibilities of modern residential architecture in Utah.</p><h3><strong>Design Inspiration</strong></h3><p>Drawing from a <strong>Modern Southern California–inspired style</strong>, the design emphasizes clean lines, open floor plans, and seamless connections to the outdoors. The elevated site shaped the architecture, with large windows and expansive terraces designed to capture natural light and panoramic vistas.</p><h3><strong>Outdoor Living and Wellness</strong></h3><p>The home celebrates indoor–outdoor living with multiple spaces for relaxation and entertainment. A <strong>rooftop deck</strong> provides unmatched views, while the backyard is designed as a private retreat complete with a fire pit, hot tub, sauna, and cold plunge. These elements create a wellness-focused environment that extends the home’s livable space.</p>"
+    },
+    {
+     "type": "gallery",
+     "images": [
+      "assets/img/17557980_Valley_View_Parade_Home-0358.jpg",
+      "assets/img/17557977_Valley_View_Parade_Home-0348.jpg",
+      "assets/img/17557980_Valley_View_Parade_Home-0366.jpg",
+      "assets/img/17557977_Valley_View_Parade_Home-0351.jpg",
+      "assets/img/17557980_Valley_View_Parade_Home-0367.jpg",
+      "assets/img/17557977_Valley_View_Parade_Home-0352.jpg",
+      "assets/img/17557980_Valley_View_Parade_Home-0369.jpg",
+      "assets/img/17557978_Valley_View_Parade_Home-0355.jpg",
+      "assets/img/17557981_Valley_View_Parade_Home-0370.jpg",
+      "assets/img/17557978_Valley_View_Parade_Home-0356.jpg",
+      "assets/img/17557981_Valley_View_Parade_Home-0328.jpg",
+      "assets/img/17557978_Valley_View_Parade_Home-0357.jpg",
+      "assets/img/17557981_Valley_View_Parade_Home-0330.jpg",
+      "assets/img/17557978_Valley_View_Parade_Home-0358.jpg",
+      "assets/img/17557981_Valley_View_Parade_Home-0333.jpg",
+      "assets/img/17557978_Valley_View_Parade_Home-0366.jpg",
+      "assets/img/17557981_Valley_View_Parade_Home-0338.jpg",
+      "assets/img/17557978_Valley_View_Parade_Home-0367.jpg",
+      "assets/img/17557982_Valley_View_Parade_Home-0339.jpg",
+      "assets/img/17557978_Valley_View_Parade_Home-0369.jpg",
+      "assets/img/17557982_Valley_View_Parade_Home-0346.jpg",
+      "assets/img/17557978_Valley_View_Parade_Home-0370.jpg",
+      "assets/img/17557982_Valley_View_Parade_Home-0347.jpg",
+      "assets/img/17557979_Valley_View_Parade_Home-0371.jpg",
+      "assets/img/17557979_Valley_View_Parade_Home-0328.jpg",
+      "assets/img/17557982_Valley_View_Parade_Home-0351.jpg",
+      "assets/img/17557982_Valley_View_Parade_Home-0352.jpg",
+      "assets/img/17557983_Valley_View_Parade_Home-0355.jpg",
+      "assets/img/17557983_Valley_View_Parade_Home-0356.jpg",
+      "assets/img/17557979_Valley_View_Parade_Home-0330.jpg",
+      "assets/img/17557979_Valley_View_Parade_Home-0333.jpg",
+      "assets/img/17557979_Valley_View_Parade_Home-0337.jpg",
+      "assets/img/17557980_Valley_View_Parade_Home-0338.jpg",
+      "assets/img/17557980_Valley_View_Parade_Home-0339.jpg"
+     ]
+    },
+    {
+     "type": "text",
+     "html": "<h3><strong>Interior Features</strong></h3><p>Spanning 7,207 square feet, <em>Valley View</em> includes <strong>six bedrooms, five full baths, and one half bath</strong>. Lifestyle features enhance the home’s functionality, including a large theater room, a dedicated gym, and a bunk room for guests. Each space is carefully planned to balance comfort, family living, and modern elegance.</p><h3><strong>Collaboration and Craftsmanship</strong></h3><p>The success of <em>Valley View</em> is a testament to collaboration. <strong>Knighton Architecture</strong> provided the vision and design, while <strong>10X Construction</strong> brought craftsmanship and technical expertise to the build. Together, the team ensured the project achieved both architectural integrity and lasting quality.</p><h3><strong>A Statement of Design Excellence</strong></h3><p>The Utah Valley Parade of Homes is a platform for celebrating design innovation in the region, and <em>Valley View</em> stands as an example of how thoughtful architecture can enrich daily life. At <strong>Knighton Architecture</strong>, we are proud to see this home realized and look forward to continuing to design spaces that inspire and endure.</p>"
+    },
+    {
+     "type": "embed",
+     "src": "https://www.youtube-nocookie.com/embed/LFaGv_X9pLU"
+    },
+    {
+     "type": "embed",
+     "src": "https://www.youtube-nocookie.com/embed/us67aUe5z3o"
+    },
+    {
+     "type": "text",
+     "html": "<p><br/><br/></p>"
+    }
+   ]
+  },
+  {
+   "href": "/field-journal/restoring-the-fifth-ward-chapel-preserving-a-salt-lake-city-landmark",
+   "slug": "restoring-the-fifth-ward-chapel-preserving-a-salt-lake-city-landmark",
+   "title": "Restoring the Fifth Ward Chapel: Reviving a Salt Lake City Landmark",
+   "cover": "assets/img/17557959__url_http_3a_2f_2fewscripps-brightspot.s3.amazonaws.com_2f88_2f67_2f6c36e94040128a9391e8881d62cf_2f5th-ward-building.jpg",
+   "excerpt": "<p>Knighton Architecture is honored to partner with Skylar Baird on the restoration of the historic <strong>Fifth Ward Chapel</strong> in Salt Lake City. Originally built in 1910 and recognized as both a National Register and Salt Lake City Landmark, the chapel is being returned to its original architectural form after decades of change and a recent partial demolition. Our team has restored the design to reflect its authentic character, and we look forward to seeing this landmark continue its new life as a space for community renewal.</p>",
+   "date": "Aug 21",
+   "datetime": "Aug 21",
+   "meta": {
+    "title": "Restoring the Fifth Ward Chapel: Reviving a Salt Lake City Landmark — Knighton Architecture",
+    "description": " Knighton Architecture is honored to partner with Skylar Baird on the restoration of the historic  Fifth Ward Chapel  in Salt Lake City. Originally built in 1910 and recognized as both a National Register and Salt Lake City Landmark, the chapel is being returned to its original architectural form after decades of change and a recent partial demolition. Our team has restored the design to reflect its authentic character, and we look forward to seeing this landmark continue its new life as a space for community renewal. "
+   },
+   "blocks": [
+    {
+     "type": "text",
+     "html": "<p><strong>The Fifth Ward Chapel, also known as the Fifth Ward Meetinghouse, has stood at 740 South 300 West in Salt Lake City, Utah since 1910. Designed by the respected architectural firm Cannon &amp; Fetzer, the chapel is an important example of Gothic Revival and Tudor Revival architecture and has long been recognized as a landmark of the city’s cultural and architectural heritage.</strong></p>"
+    },
+    {
+     "type": "gallery",
+     "images": [
+      "assets/img/17557959_fifth_ward__pioneer_ward_chl_ph_800fd2it008_360.jpg",
+      "assets/img/17557959_ph_211_b0023_f0029_item_3-fifth_ward_temple_view_stake_720.jpg",
+      "assets/img/17557959_book_10_360.jpg"
+     ]
+    },
+    {
+     "type": "text",
+     "html": "<p><strong>For more than six decades, the building served as a meetinghouse for the Church of Jesus Christ of Latter-day Saints. After being sold in the 1970s, the chapel found new life in many forms, including as a music venue, a Buddhist temple, and a community arts center. In recognition of its historic and architectural significance, the Fifth Ward Chapel was added to the National Register of Historic Places and designated a Salt Lake City Landmark in 1978.</strong></p>"
+    },
+    {
+     "type": "gallery",
+     "images": [
+      "assets/img/17557960_book_15_1_720.jpg",
+      "assets/img/17557960__url_http_3a_2f_2fewscripps-brightspot.s3.amazonaws.com_2f88_2f67_2f6c36e94040128a9391e8881d62cf_2f5th-ward-building.jpg",
+      "assets/img/17557960_069_adj_360.jpg"
+     ]
+    },
+    {
+     "type": "text",
+     "html": "<p><strong>In recent years, the chapel faced serious challenges. Following an unauthorized partial demolition in 2024, concerns grew about the loss of one of Salt Lake City’s most treasured historic structures. Fortunately, new ownership and a renewed commitment to preservation have given the building a second chance.</strong></p>"
+    },
+    {
+     "type": "gallery",
+     "images": [
+      "assets/img/17557961_DJI_0366.jpg",
+      "assets/img/17557961_DJI_0587.jpg"
+     ]
+    },
+    {
+     "type": "text",
+     "html": "<p><strong>Knighton Architecture is honored to be leading the architectural restoration of the Fifth Ward Chapel. Our team has carefully studied the building’s history and original design, restoring the plans to reflect the chapel’s authentic 1910 appearance. This approach ensures that the structure will not only regain its historic character but also stand as a lasting example of preservation and adaptive reuse in Salt Lake City.</strong></p>"
+    },
+    {
+     "type": "image",
+     "src": "assets/img/b3a0f8ea_Scene_2_1__upscale03.jpg",
+     "alt": "",
+     "caption": "",
+     "href": null
+    },
+    {
+     "type": "text",
+     "html": "<p><strong>As the project progresses, the chapel will once again serve the community, providing space for renewal and connection while honoring its historic roots. At Knighton Architecture, we are proud to contribute our expertise in historic preservation and architectural restoration in Utah, and we look forward to seeing the continued progress of this important project.</strong></p>"
+    },
+    {
+     "type": "embed",
+     "src": "https://www.youtube-nocookie.com/embed/9vAtS7-4mIk"
+    }
+   ]
+  }
+ ],
+ "services_meta": {
+  "title": "Our Services — Knighton Architecture",
+  "description": ""
+ },
+ "services_blocks": [
+  {
+   "type": "text",
+   "html": "<h1>OUR SERVICES</h1>"
+  },
+  {
+   "type": "code",
+   "html": "\n<!-- =======================\n     STYLES (CSS)\n======================= -->\n<style>\n/* Import Google font (closest match).\n   Replace with your Adobe Fonts embed if you have Bebas Neue Pro SemiExpanded */\n@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');\n\n/* ===== Button Row Styling ===== */\n.reveal-container {\n  display: flex;\n  gap: 8rem;\n  justify-content: center;\n  margin-bottom: 4rem;\n  flex-wrap: wrap; /* Wraps buttons on smaller screens */\n}\n\n.reveal-button {\n  cursor: pointer;\n  font-size: 1.6rem;\n  font-family: 'Bebas Neue', sans-serif;\n  letter-spacing: 0.5px;\n  font-weight: 400;\n  position: relative;\n  transition: all 0.3s ease;\n  text-transform: uppercase;\n  text-decoration: none;\n}\n\n.reveal-button:hover {\n  text-decoration: underline;\n}\n\n/* Active button styling */\n.reveal-button.active {\n  text-decoration: underline;\n  font-size: 1.8rem; /* slightly larger than base size */\n}\n\n/* ===== Content Sections ===== */\n.reveal-content {\n  display: none;\n  text-align: center;\n  max-width: 1200px;\n  margin: 0 auto;\n  animation: fadeIn 0.4s ease;\n}\n\n.reveal-content.active {\n  display: block;\n}\n\n/* Fade animation */\n@keyframes fadeIn {\n  from {opacity: 0; transform: translateY(10px);}\n  to {opacity: 1; transform: translateY(0);}\n}\n\n/* ===== Design Services Grid ===== */\n.services-grid {\n  display: grid;\n  grid-template-columns: repeat(5, 250px);\n  gap: 2rem;\n  justify-content: center;\n  margin-top: 2rem;\n}\n\n.service-item {\n  text-align: center;\n}\n\n.service-item img {\n  width: 250px;\n  height: 250px;\n  object-fit: cover;\n  border-radius: 0 !important;\n  margin-bottom: 0.3rem;\n}\n\n.service-item p {\n  margin: 0.15rem 0;\n  font-size: 0.8rem;\n  line-height: 1.2;\n}\n\n.service-item p strong {\n  font-size: 1.2rem;\n  display: block;\n  margin-bottom: 0.15rem;\n}\n\n/* Responsive: drop columns on smaller screens */\n@media (max-width: 1400px) {\n  .services-grid {\n    grid-template-columns: repeat(4, 250px);\n  }\n}\n@media (max-width: 1100px) {\n  .services-grid {\n    grid-template-columns: repeat(3, 250px);\n  }\n}\n@media (max-width: 800px) {\n  .services-grid {\n    grid-template-columns: repeat(2, 250px);\n  }\n}\n@media (max-width: 500px) {\n  .services-grid {\n    grid-template-columns: 1fr;\n  }\n}\n\n/* ===== Overall Process Section ===== */\n.process-grid {\n  display: grid;\n  grid-template-columns: 1fr;\n  gap: 3rem;\n  margin-top: 2rem;\n  max-width: 800px;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.process-item {\n  display: flex;\n  align-items: flex-start;\n  gap: 2rem;\n}\n\n.process-item img {\n  width: 150px;\n  height: 150px;\n  object-fit: cover;\n  border-radius: 0 !important;\n  flex-shrink: 0;\n}\n\n.process-text {\n  text-align: left;\n}\n\n.process-text p {\n  margin: 0.3rem 0;\n  font-size: 0.85rem;\n  line-height: 1.4;\n}\n\n.process-text p strong {\n  font-size: 1.05rem;\n  font-weight: bold;\n  display: block;\n  margin-bottom: 0.4rem;\n}\n\n/* Responsive stacking */\n@media (max-width: 900px) {\n  .process-item {\n    flex-direction: column;\n    align-items: center;\n    text-align: center;\n  }\n\n  .process-text {\n    text-align: center;\n  }\n\n  .process-item img {\n    width: 100%;\n    max-width: 300px;\n    height: auto;\n  }\n}\n\n/* ===== Our Process Section ===== */\n.our-process-grid {\n  display: grid;\n  grid-template-columns: 1fr auto 1fr auto 1fr;\n  align-items: start;\n  gap: 2rem;\n  max-width: 1200px;\n  margin: 0 auto;\n  text-align: center;\n}\n\n.process-step {\n  max-width: 300px;\n  margin: 0 auto;\n}\n\n.process-step h3 {\n  font-family: 'Bebas Neue', sans-serif;\n  font-size: 1.8rem;\n  color: #7BA76F; /* green accent color */\n  margin-bottom: 1rem;\n}\n\n.process-step img {\n  width: 200px;\n  height: 200px;\n  object-fit: cover;\n  border-radius: 50%; /* makes circle images */\n  margin-bottom: 1rem;\n}\n\n.process-step p {\n  font-size: 0.9rem;\n  line-height: 1.4;\n  margin: 0.4rem 0;\n}\n\n.plus-sign {\n  font-size: 2rem;\n  font-weight: bold;\n  color: #fff;\n  align-self: center;\n}\n\n/* Responsive: stack into rows */\n@media (max-width: 1000px) {\n  .our-process-grid {\n    grid-template-columns: 1fr;\n  }\n  .plus-sign {\n    display: none;\n  }\n}\n\n/* ===== Pricing / Fees ===== */\n.pricing-section {\n  text-align: center;\n  padding: 3rem 2rem;\n  background: #7BA76F;\n  color: #fff;\n}\n\n.pricing-section h2 {\n  font-family: 'Bebas Neue', sans-serif;\n  font-size: 2.2rem;\n  text-decoration: underline;\n  margin-bottom: 1rem;\n}\n\n.pricing-intro {\n  max-width: 900px;\n  margin: 0 auto 3rem;\n  font-size: 1rem;\n  line-height: 1.5;\n}\n\n.pricing-grid {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 2rem;\n  max-width: 1200px;\n  margin: 0 auto;\n}\n\n.pricing-card {\n  background: #f9f9f9;\n  color: #000;\n  border-radius: 8px;\n  padding: 1.5rem;\n  text-align: left;\n}\n\n.pricing-card img {\n  width: 100%;\n  height: 220px;\n  object-fit: cover;\n  margin-bottom: 1rem;\n}\n\n.pricing-card h3 {\n  font-family: 'Bebas Neue', sans-serif;\n  font-size: 1.5rem;\n  margin-bottom: 0.5rem;\n}\n\n.pricing-highlight {\n  font-weight: bold;\n  margin-bottom: 1rem;\n}\n\n.pricing-card h4 {\n  font-weight: bold;\n  margin: 1rem 0 0.5rem;\n}\n\n.pricing-card ul {\n  margin: 0;\n  padding-left: 1.2rem;\n  font-size: 0.95rem;\n}\n\n.pricing-card ul li {\n  margin-bottom: 0.5rem;\n}\n\n.pricing-card .note {\n  margin-top: 1rem;\n  font-size: 0.8rem;\n  font-style: italic;\n}\n\n/* ===== Technology ===== */\n.technology-section {\n  text-align: center;\n  padding: 4rem 2rem;\n  background: #000;\n  padding:2rem;\n  color: #fff;\n}\n\n.technology-section h2 {\n  font-family: 'Bebas Neue', sans-serif;\n  font-size: 2.2rem;\n  margin-bottom: 3rem;\n}\n\n.tech-grid {\n  display: grid;\n  grid-template-columns: repeat(5, 1fr);\n  gap: 2rem;\n  max-width: 1400px;\n  margin: 0 auto;\n}\n\n.tech-item {\n  text-align: center;\n}\n\n.tech-item img {\n  width: 180px;\n  height: 180px;\n  object-fit: cover;\n  border-radius: 50%;\n  margin-bottom: 1rem;\n  border: 4px solid #fff;\n}\n\n.tech-item p {\n  font-weight: bold;\n  font-size: 1rem;\n  line-height: 1.3;\n}\n\n/* Mobile styling for reveal buttons */\n@media (max-width: 600px) {\n  .reveal-container {\n    gap: .1rem;               /* reduce the space */\n    justify-content: center;   /* keep them aligned */\n    flex-wrap: nowrap;         /* keep them side-by-side */\n    overflow-x: auto;          /* allow horizontal scroll if needed */\n    padding-bottom: 0.5rem;\n  }\n\n  .reveal-button {\n    font-size: 0.9rem;         /* MUCH smaller button text */\n    padding: 0.3rem 0.6rem;    /* optional: makes button smaller */\n  }\n\n  .reveal-button.active {\n    font-size: 1rem;           /* slightly larger than the base */\n  }\n}\n\n/* -----------------------------\n   MOBILE / DEVICE FIXES\n   ----------------------------- */\n\n/* Pricing Section Grid on Mobile */\n@media (max-width: 600px) {\n  .pricing-grid {\n    display: grid;\n    grid-template-columns: 1fr; /* stack cards vertically */\n    gap: 1.5rem;\n    padding: 0 1rem;            /* optional: small horizontal padding */\n  }\n\n  .pricing-card img {\n    height: auto;               /* let image scale naturally */\n    width: 100%;\n  }\n}\n\n/* Technology Section Grid on Mobile */\n@media (max-width: 600px) {\n  .tech-grid {\n    display: grid;\n    grid-template-columns: 1fr; /* stack cards vertically */\n    gap: 1rem;\n    padding: 0 1rem;\n  }\n\n  .tech-item img {\n    width: 100%;\n    height: auto;\n  }\n}\n\n</style>\n<!-- =======================\n     BUTTON NAVIGATION\n======================= -->\n<div class=\"reveal-container\">\n<div class=\"reveal-button active\" data-target=\"section1\">Design Services</div>\n<div class=\"reveal-button\" data-target=\"section2\">Overall Process</div>\n<div class=\"reveal-button\" data-target=\"section3\">Our Process</div>\n<div class=\"reveal-button\" data-target=\"section4\">Pricing / Fees</div>\n<div class=\"reveal-button\" data-target=\"section5\">Technology we use</div>\n</div>\n<!-- =======================\n     SECTION 1: DESIGN SERVICES\n======================= -->\n<div class=\"reveal-content active\" id=\"section1\">\n<div class=\"services-grid\">\n<!-- Service Item 1 -->\n<div class=\"service-item\">\n<img alt=\"Service 1\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/2ac14411-310f-460b-88b9-d1008e311027/4+Acre+Final.png?format=2500w\"/>\n<p><strong>Master Planning</strong></p>\n<p>With expertise in urban planning and community design, we optimize expansive project sites. Our neighborhood designs prioritize the experiences of community members, including both new residents and those in nearby areas.</p>\n</div>\n<!-- Service Item 2 -->\n<div class=\"service-item\">\n<img alt=\"Service 2\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/bddcbe4c-6bf2-4325-8944-5db6a2576878/Millcreek+2.jpg?format=1500w\"/>\n<p><strong>Multi-Family &amp; Mixed-Use</strong></p>\n<p>We are passionate about housing and creating diverse living environments. We can bring high-end multi-family experiences alongside high-efficiency and attainable housing units that complement the site context and provide a range of housing options.</p>\n</div>\n<!-- Service Item 3 -->\n<div class=\"service-item\">\n<img alt=\"Service 3\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/943ca8f6-5655-4fac-bfca-3b30d7ed2fcf/DSC00963-HDR.jpg?format=1500w\"/>\n<p><strong>Retail &amp; Restaurants</strong></p>\n<p>Allow us to assist in conveying your brand narrative crafting the customer experience you envision. We engage with our retail and restaurant clients to facilitate the creation of distinctive experiences for their customers, ensuring they are both memorable and meaningful.</p>\n</div>\n<!-- Service Item 4 -->\n<div class=\"service-item\">\n<img alt=\"Service 4\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/ef31d48c-fb68-43f8-be3d-2607b4cc5c57/Building+R01+-+Exterior+2.png?format=1000w\"/>\n<p><strong>Aviation</strong></p>\n<p>Our recent work with Patey Aviation Park in Spanish Fork, Utah, has solidified our expertise in private aviation design, subsequently opening avenues for additional opportunities in other aviation projects.</p>\n</div>\n<!-- Service Item 5 -->\n<div class=\"service-item\">\n<img alt=\"Service 5\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/5deef1d8-d16d-4077-94e3-0be1aad3e19e/Revit+Cover.jpg?format=2500w\"/>\n<p><strong>Custom Residences</strong></p>\n<p>We offer high-level custom design services for clients seeking a personalized and experience-driven design for their personal residence or vacation home.</p>\n</div>\n<!-- Service Item 6 -->\n<div class=\"service-item\">\n<img alt=\"Service 6\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/52e0cded-e175-4af5-a2ea-bcec52d2c5c2/Office+photo-17.jpg?format=1500w\"/>\n<p><strong>Office &amp; Workplace</strong></p>\n<p>We collaborate with clients to create innovative, adaptable work environments tailored to individual and organizational needs.</p>\n</div>\n<!-- Service Item 7 -->\n<div class=\"service-item\">\n<img alt=\"Service 7\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/2cac3d4c-1206-4374-81bc-bfaedc49edb9/Angel+Studios-41.jpg?format=1500w\"/>\n<p><strong>Preservation &amp; Adaptive Re-Use</strong></p>\n<p>Having worked in several historic buildings, we can bring new life to an existing or otherwise tired structure or space by finding creative solutions despite fixed constraints.</p>\n</div>\n<!-- Service Item 8 -->\n<div class=\"service-item\">\n<img alt=\"Service 8\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/37b4e37d-b583-4185-9581-aa625542fe7d/Enscape_2022-07-01-19-08-43.png?format=1000w\"/>\n<p><strong>Passive House &amp; High-Performance</strong></p>\n<p>With a certified Passive House designer on our team, we can provide high-performance design and energy modeling for our clients and assist those interested in pursuing PHIUS certification.</p>\n</div>\n<!-- Service Item 9 -->\n<div class=\"service-item\">\n<img alt=\"Service 9\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/3fa94d39-9568-4b1c-956e-06c88af2e4cc/Rodizio+Danie+Pointe.jpg?format=750w\"/>\n<p><strong>Interior Design</strong></p>\n<p>We provide integrated interior design services alongside our architecture or as standalone options tailored to clients' needs.</p>\n</div>\n<!-- Service Item 10 -->\n<div class=\"service-item\">\n<img alt=\"Service 10\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/1724018627691-ANNN30T5XV6MF8U3VAUG/unsplash-image-40JmKOnu6Cc.jpg?format=750w\"/>\n<p><strong>Landscape Design</strong></p>\n<p>We can provide integrated in-house landscape design services for our residential design projects.</p>\n</div>\n</div>\n</div>\n<!-- =======================\n     SECTION 2: OVERALL PROCESS\n======================= -->\n<div class=\"reveal-content\" id=\"section2\">\n<p></p>\n<div class=\"process-grid\">\n<!-- Step 1 -->\n<div class=\"process-item\">\n<img alt=\"Step 1\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/1706593152087-BKXTYDDYTJ5M0M60TNMQ/image-asset.jpeg?format=300w\"/>\n<div class=\"process-text\">\n<p><strong>STEP 1 | Project Discovery</strong></p>\n<p>Before we start designing, we gather the information needed to begin the project. We meet with you to understand your needs, expectations, end goals, budgets, and any constraints you might have. We also study local zoning codes and regulations. If circumstances permit, we’d love to visit the site to help us understand the opportunities and challenges of your unique location.</p>\n</div>\n</div>\n<!-- Step 2 -->\n<div class=\"process-item\">\n<img alt=\"Step 2\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/1706593337921-0CDP04O4SOCBZWLG3X1D/image-asset.jpeg?format=300w\"/>\n<div class=\"process-text\">\n<p><strong>STEP 2 | Concept Design</strong></p>\n<p>Once we understand the ideas and needs behind the project, we start with early conceptual design. We share ideas, explore possibilities, and give you a preview of what the project could ultimately look like. If the project is feasible and meets your needs, we will move to the next phase. Occasionally, it becomes clear that a project does not fit the site, or vice versa. In those instances, we will collaboratively tweak the design until you feel ready to proceed to the next phase.</p>\n</div>\n</div>\n<!-- Step 3 -->\n<div class=\"process-item\">\n<img alt=\"Step 3\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/1706593244991-LGPHW1N4EY7M8IPAQEEU/image-asset.jpeg?format=300w\"/>\n<div class=\"process-text\">\n<p><strong>STEP 3 | Construction Documents</strong></p>\n<p>This is where the real fun (and work) starts. We delve into the details of the design and carefully address all the complex elements that come together to bring the project to life. We offer digital 3D renderings and virtual walkthroughs to help you visualize and imagine what the project will look like when it's completed. Our team collaborates with various professional engineers who provide the technical specifications necessary to ensure the project is buildable. Additionally, we prepare the drawings and documents for city approval and guide you through that process.</p>\n</div>\n</div>\n<!-- Step 4 -->\n<div class=\"process-item\">\n<img alt=\"Step 4\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/1706593410200-AYTU0FJ9KBTS79M3W7G5/image-asset.jpeg?format=1500w\"/>\n<div class=\"process-text\">\n<p><strong>STEP 4 | Construction Administration</strong></p>\n<p>At this point, your project truly comes to life. We provide support throughout construction to advocate for the owner, working closely with the contractor to coordinate and resolve any issues that arise during the building process. Our goal is to ensure that the project unfolds according to the plans. We remain engaged and by your side until the project is ready for you to move in.</p>\n</div>\n</div>\n</div>\n</div>\n<!-- =======================\n     SECTION 3: OUR PROCESS\n======================= -->\n<div class=\"reveal-content\" id=\"section3\">\n<h2 style=\"text-align:center; font-family:'Bebas Neue', sans-serif; font-size:2rem; margin-bottom:2rem;\"></h2>\n<div class=\"our-process-grid\">\n<!-- Explore -->\n<div class=\"process-step\">\n<h3>EXPLORE</h3>\n<img src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/1706591659007-D4Y0H1771HBE4MLX9O6P/image-asset.jpeg?format=2500w\"/>\n<p>The initial step in each project involves identifying the design problem. This includes a comprehensive understanding of the purpose, the site, the context, the future users, and the budget.</p>\n<p>Similarly, at our firm, we are committed to actively learning and exploring innovative approaches to assist our clients, to engage with emerging markets, and to adopt new technologies. We strive to maintain a continual understanding of the complex and dynamic world that surrounds us.</p>\n</div>\n<div class=\"plus-sign\">+</div>\n<!-- Create -->\n<div class=\"process-step\">\n<h3>CREATE</h3>\n<img alt=\"Create\" src=\"https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=80\"/>\n<p>Once the design problem is identified, the design process begins with the creation of various design concepts. These concepts are subjected to testing and review through an iterative process, leading to the selection and preparation of the final design for construction.</p>\n<p>Our team fosters a culture of collaboration and creativity, ensuring that the best ideas win.</p>\n</div>\n<div class=\"plus-sign\">+</div>\n<!-- Elevate -->\n<div class=\"process-step\">\n<h3>ELEVATE</h3>\n<img src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/1706591870903-5Q5PAULC3A1GT7LM35UV/image-asset.jpeg?format=2500w\"/>\n<p>Ultimately, the goal of every design is for that design idea to become a real place that makes a real impact in the world for good. By staying engaged with our clients through the construction process, we help the contractor to ensure the client's vision is achieved.</p>\n<p>Our end goal as a team is to make a positive impact in the world through thoughtfully designed and constructed improvements that elevate the community and the world at large.</p>\n</div>\n</div>\n</div>\n<!-- ===== PRICING / FEES SECTION ===== -->\n<div class=\"reveal-content pricing-section\" id=\"section4\">\n<h2>HOW WE APPROACH PRICING/FEES</h2>\n<p class=\"pricing-intro\">\n    Pricing for professional design services can be difficult to predict due to the numerous variables inherent to each project. \n    The descriptions below provide a framework for how we typically approach our fee structures. \n    However, we recommend reaching out and scheduling an initial design consultation so we can review the details together, \n    allowing us to provide a detailed fee proposal for your unique project.\n  </p>\n<div class=\"pricing-grid\">\n<!-- Column 1 -->\n<div class=\"pricing-card\">\n<img alt=\"Commercial\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/1706478329894-21WUIOP0BXPTQFNPVKCB/Enscape_2022-12-01-09-43-41.png?format=2500w\"/>\n<h3>Commercial | Multi-Family | Institutional</h3>\n<p class=\"pricing-highlight\">Typically 3%–7% of Expected Construction Costs</p>\n<h4>Cost Contributing Factors:</h4>\n<ul>\n<li>Additional engineering services. Civil, Structural, MEP Engineering, Landscape and/or Interior Design.</li>\n<li>Project size, complexity and timeframe</li>\n</ul>\n<p class=\"note\">*Proposals are prepared individually per project</p>\n</div>\n<!-- Column 2 -->\n<div class=\"pricing-card\">\n<img alt=\"Custom Residential\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/5deef1d8-d16d-4077-94e3-0be1aad3e19e/Revit+Cover.jpg?format=2500w\"/>\n<h3>Custom Residential</h3>\n<p class=\"pricing-highlight\">Typically $3–$7* per sq ft of Livable Space</p>\n<h4>Cost Contributing Factors:</h4>\n<ul>\n<li>Additional engineering services. Civil, Structural, MEP Engineering, Landscape and/or Interior Design.</li>\n<li>Required additional approvals such as HOA Design Review, etc.</li>\n</ul>\n<p class=\"note\">*Proposals are prepared individually per project</p>\n</div>\n<!-- Column 3 -->\n<div class=\"pricing-card\">\n<img alt=\"Masterplanning\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/2ac14411-310f-460b-88b9-d1008e311027/4+Acre+Final.png?format=2500w\"/>\n<h3>Master-planning &amp; Site Planning</h3>\n<p class=\"pricing-highlight\">Typically $1K–$2K per acre of Developable Land</p>\n<h4>Cost Contributing Factors:</h4>\n<ul>\n<li>Additional engineering services. Civil, Structural, MEP Engineering, Landscape and/or Interior Design.</li>\n<li>Required additional approvals</li>\n</ul>\n<p class=\"note\">*Proposals are prepared individually per project</p>\n</div>\n</div>\n</div>\n<!-- ===== TECHNOLOGY WE UTILIZE ===== -->\n<div class=\"reveal-content\" id=\"section5\">\n<h2></h2>\n<div class=\"tech-grid\">\n<!-- BIM -->\n<div class=\"tech-item\">\n<img alt=\"BIM\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/01332f1b-8efa-4d4e-bf2f-803e9fea5ab0/revit.png?format=1500w\"/>\n<p>BIM (Building Information Modeling)</p>\n</div>\n<!-- 3D Scanning -->\n<div class=\"tech-item\">\n<img alt=\"3D Scanning\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/43393722-5aea-43d8-a169-4fed8dec263b/matterport.png?format=1000w\"/>\n<p>3D Scanning</p>\n</div>\n<!-- Drone Imagery -->\n<div class=\"tech-item\">\n<img alt=\"Drone Imagery\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/1706586554330-KXCNAITLWD51TGULF0CA/image-asset.jpeg?format=1000w\"/>\n<p>Drone Imagery</p>\n</div>\n<!-- Photorealistic Renderings -->\n<div class=\"tech-item\">\n<img alt=\"Renderings\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/6c2d86b4-42cd-42cf-ad93-54cc84d5db90/Osmond+Quick+Render+1.png?format=1000w\"/>\n<p>Photorealistic Renderings</p>\n</div>\n<!-- VR Walkthroughs -->\n<div class=\"tech-item\">\n<img alt=\"VR Walkthroughs\" src=\"https://images.squarespace-cdn.com/content/v1/65b42ae99f9c94748f626c66/1706586725950-ABNUWP9I0ELKWY0QB48K/image-asset.jpeg?format=750w\"/>\n<p>Virtual Reality Walkthroughs</p>\n</div>\n</div>\n</div>\n<!-- =======================\n     SCRIPT (JS)\n======================= -->\n<script>\ndocument.querySelectorAll(\".reveal-button\").forEach(button => {\n  button.addEventListener(\"click\", () => {\n    // Reset all buttons\n    document.querySelectorAll(\".reveal-button\").forEach(btn => btn.classList.remove(\"active\"));\n    // Set clicked button active\n    button.classList.add(\"active\");\n\n    // Hide all sections\n    document.querySelectorAll(\".reveal-content\").forEach(sec => sec.classList.remove(\"active\"));\n    // Show the one linked to this button\n    const target = button.getAttribute(\"data-target\");\n    document.getElementById(target).classList.add(\"active\");\n  });\n});\n\n</script>\n"
+  }
+ ],
+ "contact_meta": {
+  "title": "Get Started | Begin Your Project Today — Knighton Architecture",
+  "description": "Explore how K Test can help initiate your architecture project with expert consultation and support in Provo, UT. Contact us to get started."
+ },
+ "contact_sections": [
+  {
+   "bg": null,
+   "theme": "bright",
+   "blocks": [
+    {
+     "type": "text",
+     "html": "<h1>Meet with Us</h1>"
+    },
+    {
+     "type": "button",
+     "text": "Get Started",
+     "href": "https://docs.google.com/forms/d/e/1FAIpQLSf0GhakVULiYaPQttS6pty5u-W2W8mwT-_wZ8-U1WHuvdGmsw/viewform?usp=header",
+     "newtab": true
+    },
+    {
+     "type": "text",
+     "html": "<p>No pressure, just here to help!</p>"
+    }
+   ]
+  },
+  {
+   "bg": null,
+   "theme": "",
+   "blocks": [
+    {
+     "type": "text",
+     "html": "<h1>Visit us</h1>"
+    },
+    {
+     "type": "map",
+     "addr": "",
+     "lat": 40.234505,
+     "lng": -111.6590391,
+     "zoom": 13
+    },
+    {
+     "type": "text",
+     "html": "<p>55 N University Ave Suite 227, Provo, UT 84601</p>"
+    },
+    {
+     "type": "text",
+     "html": "<p><strong>Hours</strong><br/>Monday–Friday<br/>10am–5pm</p><p><strong>Phone</strong></p><p><a href=\"https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TMtJKiwwrTAxYLRSNaiwMDdJsTQ3MzExMzI3MbFMszKoSDRLM7Q0NTM0NjAxMzQ1TPESzc7LTM8oyc9TSCxKzsgsSU0uKS1KBQAxsRa5&amp;q=knighton+architecture&amp;rlz=1C1ONGR_enUS1127US1127&amp;oq=knighton+archite&amp;gs_lcrp=EgZjaHJvbWUqEAgBEC4YrwEYxwEYgAQYjgUyCggAEAAY4wIYgAQyEAgBEC4YrwEYxwEYgAQYjgUyBggCEEUYOTIICAMQABgWGB4yBggEEEUYQTIGCAUQRRhBMgYIBhBFGEEyBggHEEUYPdIBCDM5OThqMGo3qAIAsAIA&amp;sourceid=chrome&amp;ie=UTF-8#\">(801) 592-1582</a><br/><br/><strong>Email</strong></p><p><a href=\"mailto:info@knightonarchitecture.com\">info@knightonarchitecture.com</a></p>"
+    }
+   ]
+  }
+ ],
+ "home_meta": {
+  "title": "Knighton Architecture",
+  "description": "Explore our architectural design services, client successes, and locations. We create meaningful spaces tailored to your vision with expert guidance."
+ },
+ "home_sections": [
+  {
+   "bg": null,
+   "theme": "black",
+   "cls": "page-section has-section-divider full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle black",
+   "blocks": [
+    {
+     "type": "code",
+     "html": "\n<div id=\"rotator-wrap\">\n<div id=\"word-rotator\">EXPLORE</div>\n</div>\n<style>\n  #rotator-wrap {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: transparent !important;\n  pointer-events: none;\n  z-index: 10; /* make text visible above video */\n}\n\n  #word-rotator {\n    font-size: 10vw; /* scales with screen width */\n    font-weight: 500;\n    text-align: center;\n    color: white;\n    opacity: 0;\n    transition: opacity 1s ease-in-out;\n    font-family: Impact, sans-serif;\n    letter-spacing: 0.02em;\n    transform: scaleX(1);\n    display: inline-block;\n    white-space: nowrap;\n  }\n\n  @media (max-width: 768px) {\n    #word-rotator {\n      font-size: 14vw;\n      letter-spacing: 0.05em;\n    }\n  }\n\n  @media (max-width: 480px) {\n    #word-rotator {\n      font-size: 18vw;\n      letter-spacing: 0.08em;\n    }\n  }\n</style>\n<script>\n  const words = [\"EXPLORE\", \"CREATE\", \"ELEVATE\"];\n  let index = 0;\n  const rotator = document.getElementById(\"word-rotator\");\n  const fadeTime = 1000;\n  const visibleTime = 2000;\n  const totalTime = fadeTime * 2 + visibleTime;\n\n  function showNextWord() {\n    rotator.style.opacity = 0;\n    setTimeout(() => {\n      index = (index + 1) % words.length;\n      rotator.textContent = words[index];\n      rotator.style.opacity = 1;\n    }, fadeTime);\n  }\n\n  rotator.style.opacity = 1;\n  setInterval(showNextWord, totalTime);\n</script>\n"
+    }
+   ],
+   "text": "EXPLORE",
+   "imgs": []
+  },
+  {
+   "bg": null,
+   "theme": "light",
+   "cls": "page-section user-items-list-section full-bleed-section light",
+   "blocks": [],
+   "text": "OUR EXPERIENCE Master-Planning Multi-Family & Mixed-Use Retail & Restaurants Aviation Custom Single-Family Office & Workplace Preservation & Adaptive Re-Use Passive House & High-Performance",
+   "imgs": [
+    "assets/img/2ac14411_4_Acre_Final.jpg",
+    "assets/img/bddcbe4c_Millcreek_2.jpg",
+    "assets/img/943ca8f6_DSC00963-HDR.jpg",
+    "assets/img/ef31d48c_Building_R01_-_Exterior_2.jpg",
+    "assets/img/5deef1d8_Revit_Cover.jpg",
+    "assets/img/52e0cded_Office_photo-17.jpg",
+    "assets/img/2cac3d4c_Angel_Studios-41.jpg",
+    "assets/img/37b4e37d_Enscape_2022-07-01-19-08-43.jpg"
+   ]
+  },
+  {
+   "bg": null,
+   "theme": "",
+   "cls": "page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--custom content-width--wide horizontal-alignment--center vertical-alignment--middle",
+   "blocks": [
+    {
+     "type": "image",
+     "src": "assets/img/16b629b9_logotitle.png",
+     "alt": "",
+     "caption": "",
+     "href": null
+    },
+    {
+     "type": "button",
+     "text": "THE UNDERSTORY COLLECTION SITE",
+     "href": "https://theunderstorycollection.com/",
+     "newtab": true
+    },
+    {
+     "type": "text",
+     "html": "<h3>Architecture that roots itself quietly in the neighborhood fabric. Denser than a house, more human than a tower — the vital middle ground that healthy cities are built upon.</h3>"
+    }
+   ],
+   "text": "THE UNDERSTORY COLLECTION SITE Architecture that roots itself quietly in the neighborhood fabric. Denser than a house, more human than a tower — the vital middle ground that healthy cities are built upon.",
+   "imgs": [
+    "assets/img/16b629b9_logotitle.png"
+   ]
+  },
+  {
+   "bg": null,
+   "theme": "black",
+   "cls": "page-section has-section-divider user-items-list-section full-bleed-section black",
+   "blocks": [],
+   "text": "CLIENT TESTIMONIALS \"Jeff has been my architect of choice on four projects now. He was instrumental in the design of the Creamery in Beaver, Utah (the first project) helping our team navigate the complexity of building a 12,000 square foot retail visitor center for the Creamery cheese brand. When we needed to expand the store footprint, Jeff was there to assist and design again. Currently working on two additional projects with him, Jeff listens and provides valuable solutions drawn from his broad experience. He has my highest recommendation.\"” - Marie “I have worked with Knighton Architecture on multiple projects - most recently being Rodizio Grill locations in Denver, Fort Lauderdale, and Orlando. Jeff is professional, timely, and incredibly creative. He has been able to make our vision come to life in stunningly beautiful restaurants.\" - Ashlee “I have worked with Knighton Architecture for years and I'm always impressed with their designs and professionalism on all projects. As a general contractor, i fully understand that the choice of architect can make or break a project. I will gladly do any job with knighton architecture any time. some architects seam to not understand the construction process or they have unrealistic expectations. knighton is down to earth, easy to work with, and is a team player.” - Jed",
+   "imgs": []
+  },
+  {
+   "bg": null,
+   "theme": "light",
+   "cls": "page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--medium content-width--wide horizontal-alignment--center vertical-alignment--middle light",
+   "blocks": [
+    {
+     "type": "text",
+     "html": "<h1><strong>LOCATIONS  &amp;  LICENSES</strong></h1>"
+    },
+    {
+     "type": "image",
+     "src": "assets/img/c2652f31_Locations_and_licenses_graphic_for_website.jpg",
+     "alt": "",
+     "caption": "",
+     "href": null
+    }
+   ],
+   "text": "LOCATIONS  &  LICENSES",
+   "imgs": [
+    "assets/img/c2652f31_Locations_and_licenses_graphic_for_website.jpg"
+   ]
+  },
+  {
+   "bg": "assets/img/088cafd4_AdobeStock_117485719.jpg",
+   "theme": "light",
+   "cls": "page-section full-bleed-section layout-engine-section background-width--full-bleed section-height--small content-width--wide horizontal-alignment--center vertical-alignment--middle has-background light",
+   "blocks": [
+    {
+     "type": "text",
+     "html": "<h2>We want to hear from you! </h2>"
+    },
+    {
+     "type": "button",
+     "text": "Begin your new project here",
+     "href": "/contact-1",
+     "newtab": false
+    }
+   ],
+   "text": "We want to hear from you! Begin your new project here",
+   "imgs": [
+    "assets/img/088cafd4_AdobeStock_117485719.jpg"
+   ]
+  }
+ ]
+}
