@@ -24,6 +24,10 @@ See `DOMAIN-SWITCH.md` for the cutover itself.
       server-side redirects, so keep a small stub page at each old URL with a
       `<meta http-equiv="refresh">` and a `<link rel="canonical">` to the new one.
 
+- [ ] **Unsplash hotlink.** The "CREATE" step image on `working-1.html` loads
+      straight from images.unsplash.com (carried over from Squarespace). Swap in
+      a Knighton project photo, or download it into `assets/img/`.
+
 ## Optional
 
 - [ ] Replace the Google Form "Get Started" button on `contact-1.html` with an
