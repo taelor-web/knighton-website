@@ -44,10 +44,10 @@
       else if (y < lastY - 4) hdr.classList.remove("compact");
     }
     logo.classList.toggle("open", !hdr.classList.contains("compact")); /* full logo whenever the header bar is showing */
-    /* The bar matches what is behind the middle of the header (charcoal over dark areas, white over light); once the bar
-       has slid away, the small shield matches what is directly behind it. */
-    const sr = shield.getBoundingClientRect();
-    hdr.classList.toggle("dark", darkAt(innerWidth / 2));
+    /* No bar: the logo and the menu icon each match what is directly behind them (white over dark, dark over light).
+       .dark on the header colors the icon and its dropdown; .on-dark on the logo colors the shield and wordmark. */
+    const sr = shield.getBoundingClientRect(), br = document.getElementById("menuBtn").getBoundingClientRect();
+    hdr.classList.toggle("dark", darkAt(br.left + br.width / 2));
     logo.classList.toggle("on-dark", darkAt(sr.left + sr.width / 2));
     lastY = y;
   }
