@@ -22,11 +22,11 @@
 .hdr-in { display: flex; align-items: center; justify-content: space-between; height: 82px; padding-inline: max(16px, 3vw); }
 .logo { display: flex; align-items: center; height: 50px; text-decoration: none; }
 .logo .shield { height: 50px; width: auto; }
-/* The KNIGHTON wordmark fades out (like the menu icon) to leave the shield, and fades back in. Once it has faded, its space
-   collapses instantly and out of sight, so no invisible clickable strip is left beside the shield. */
-.logo .word { display: flex; align-items: center; height: 50px; overflow: hidden; max-width: 0; margin-left: 0; opacity: 0; visibility: hidden; transition: opacity .5s ease, visibility 0s linear .5s, max-width 0s linear .5s, margin-left 0s linear .5s; }
+/* The KNIGHTON wordmark slides into the shield and fades out at the same time, at the same pace as the menu icon's fade
+   (0.5s ease), and does the reverse on scroll-up. Once closed it is also hidden, so nothing is left beside the shield. */
+.logo .word { display: flex; align-items: center; height: 50px; overflow: hidden; max-width: 0; margin-left: 0; opacity: 0; visibility: hidden; transition: max-width .5s ease, margin-left .5s ease, opacity .5s ease, visibility 0s linear .5s; }
 .logo .word img { height: 21px; width: auto; max-width: none; }
-.logo.open .word { max-width: 126px; margin-left: 14px; opacity: 1; visibility: visible; transition: opacity .5s ease, visibility 0s, max-width 0s, margin-left 0s; } /* = wordmark width at 21px tall */
+.logo.open .word { max-width: 126px; margin-left: 14px; opacity: 1; visibility: visible; transition: max-width .5s ease, margin-left .5s ease, opacity .5s ease, visibility 0s; } /* = wordmark width at 21px tall */
 .logo img { filter: brightness(0) saturate(100%); opacity: .88; transition: filter .7s ease, opacity .7s ease; }
 /* Over dark areas the logo shows in its own white + green, with a soft shadow so it stays readable over bright photos */
 .logo.on-dark img { filter: drop-shadow(0 1px 3px rgba(0,0,0,.4)); opacity: 1; }
