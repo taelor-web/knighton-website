@@ -21,6 +21,15 @@
   rot.addEventListener("focusout", e => { if (!rot.contains(e.relatedTarget)) off(); });
   }
 
+  /* What we design: pointing at (or focusing) a category swaps the large image and the caption */
+  const wwd = document.getElementById("wwd");
+  if (wwd) {
+    const rows = [...wwd.querySelectorAll("a")], fig = document.querySelector(".wwd-fig");
+    const imgs = fig ? [...fig.querySelectorAll(":scope > img")] : [], caps = fig ? [...fig.querySelectorAll("figcaption p")] : [];
+    const pick = i => { rows.forEach((r, j) => r.classList.toggle("on", j === i)); imgs.forEach((m, j) => m.classList.toggle("on", j === i)); caps.forEach((c, j) => c.classList.toggle("on", j === i)); };
+    rows.forEach((r, i) => { r.addEventListener("mouseenter", () => pick(i)); r.addEventListener("focus", () => pick(i)); });
+  }
+
   /* Page: white for the first half, then one fade to charcoal from the element with id="turn" down.
      (The header and its menu live in header.js, which reads this tone to color the shield.) */
   const turn = document.getElementById("turn");
