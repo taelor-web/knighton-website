@@ -27,7 +27,7 @@ a { color: inherit; }
 .wrap { max-width: 1400px; margin: 0 auto; padding-inline: max(16px, 3vw); }
 
 /* ---------- header (A structure, B type, smaller) ---------- */
-.hdr { position: fixed; top: 0; left: 0; right: 0; z-index: 20; color: var(--ink); background: rgba(251,251,249,.72); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); box-shadow: 0 1px 0 rgba(28,29,27,.08); padding-top: env(safe-area-inset-top, 0px); transition: background-color .6s ease, box-shadow .6s ease, backdrop-filter .6s ease, -webkit-backdrop-filter .6s ease; }
+.hdr { position: fixed; top: 0; left: 0; right: 0; z-index: 20; color: var(--ink); background: rgba(251,251,249,.80); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); box-shadow: 0 1px 0 rgba(28,29,27,.08); padding-top: env(safe-area-inset-top, 0px); transition: background-color .6s ease, box-shadow .6s ease, backdrop-filter .6s ease, -webkit-backdrop-filter .6s ease; }
 /* Scrolled down: the bar, menu and name fade away; only the small shield stays, colored for whatever is behind it */
 .hdr.compact { background: rgba(251,251,249,0); box-shadow: 0 1px 0 rgba(28,29,27,0); backdrop-filter: none; -webkit-backdrop-filter: none; pointer-events: none; }
 .hdr.compact .logo { pointer-events: auto; }
@@ -53,7 +53,7 @@ nav.main a.cta { color: var(--green); }
   .logo .word img { height: 17px; }
   .logo.open .word { max-width: 102px; margin-left: 11px; }
   /* No blur on phones: a blurred header becomes the containing box for the full-screen menu and would trap it. A slightly more solid white keeps it readable instead. */
-  .hdr { backdrop-filter: none; -webkit-backdrop-filter: none; background: rgba(251,251,249,.85); }
+  .hdr { backdrop-filter: none; -webkit-backdrop-filter: none; background: rgba(251,251,249,.90); }
   .hdr.compact { background: rgba(251,251,249,0); }
   body.nav-open .hdr { background: var(--dark); }
   body.nav-open .logo img { filter: none; opacity: 1; }
