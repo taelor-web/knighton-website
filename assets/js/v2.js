@@ -1,6 +1,6 @@
-/* Knighton Architecture: v2 header, logo, page tone, reveal and hero-word behaviour */
+/* Knighton Architecture: v2 page tone, reveal and hero-word behaviour (header: see header.js) */
 (function () {
-  const root = document.documentElement, logo = document.getElementById("logo");
+  const root = document.documentElement;
   const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   /* Hero words: hovering one outlines it and shrinks the other two. Each word links to its section of the Our Approach page. On touch screens a tap simply follows the link. */
@@ -15,24 +15,12 @@
   rot.addEventListener("focusout", e => { if (!rot.contains(e.relatedTarget)) off(); });
   }
 
-  /* Header: full bar (logo + menu) at the top. Scrolling down, everything fades away except the small shield,
-     which turns white over dark backgrounds and dark over white ones. Scrolling back up brings the menu back.
-     Page: white for the first half, then one slow fade to charcoal from the testimonials down. */
-  const turn = document.getElementById("turn"), hero = document.querySelector(".hero"), hdr = document.getElementById("hdr");
-  let lastY = window.scrollY;
+  /* Page: white for the first half, then one fade to charcoal from the element with id="turn" down.
+     (The header and its menu live in header.js, which reads this tone to color the shield.) */
+  const turn = document.getElementById("turn");
   function update() {
-    const y = window.scrollY;
     const dark = !!turn && turn.getBoundingClientRect().top <= innerHeight * 0.55;
     root.dataset.tone = dark ? "dark" : "light";
-    if (!document.body.classList.contains("nav-open")) {
-      if (y < 80) hdr.classList.remove("compact");
-      else if (y > lastY + 4) hdr.classList.add("compact");
-      else if (y < lastY - 4) hdr.classList.remove("compact");
-    }
-    logo.classList.toggle("open", !hdr.classList.contains("compact")); /* full logo whenever the header bar is showing */
-    const overHero = !!hero && hero.getBoundingClientRect().bottom > 46;
-    logo.classList.toggle("on-dark", overHero || dark);
-    lastY = y;
   }
   addEventListener("scroll", update, { passive: true });
   addEventListener("resize", update);
@@ -45,12 +33,4 @@
     const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); e.target.classList.remove("pre"); io.unobserve(e.target); } }), { rootMargin: "0px 0px -10% 0px" });
     items.forEach(el => io.observe(el));
   }
-
-  /* Dropdown menu: the icon toggles it; a link, a click outside it, or Esc closes it */
-  const mb = document.getElementById("menuBtn"), nav = document.getElementById("nav");
-  const setMenu = o => { document.body.classList.toggle("nav-open", o); mb.setAttribute("aria-expanded", o); mb.textContent = o ? "Close" : "Menu"; };
-  mb.addEventListener("click", () => setMenu(!document.body.classList.contains("nav-open")));
-  nav.querySelectorAll("a").forEach(a => a.addEventListener("click", () => setMenu(false)));
-  document.addEventListener("click", e => { if (document.body.classList.contains("nav-open") && !nav.contains(e.target) && !mb.contains(e.target)) setMenu(false); });
-  document.addEventListener("keydown", e => { if (e.key === "Escape" && document.body.classList.contains("nav-open")) { setMenu(false); mb.focus(); } });
 })();

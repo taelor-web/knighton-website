@@ -1,0 +1,57 @@
+/* Knighton Architecture: shared site header (v2), used on every page.
+   Translucent white bar with the shield + KNIGHTON wordmark and a three-line menu icon that opens a small dropdown.
+   Scrolling down, everything fades away except the small shield, which turns white over dark backgrounds.
+   Self-contained: its own colors and font, so it works on top of either v2.css or the Phase 1 site.css. */
+.hdr {
+  --h-ink: #1c1d1b;
+  --h-green: #7d9862;
+  --h-line: #e2e2dc;
+  --h-cond: "Barlow Condensed", "Arial Narrow", Impact, sans-serif;
+  position: fixed; top: 0; left: 0; right: 0; z-index: 20; color: var(--h-ink); background: rgba(251,251,249,.80); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); box-shadow: 0 1px 0 rgba(28,29,27,.08); padding-top: env(safe-area-inset-top, 0px); transition: background-color .6s ease, box-shadow .6s ease, backdrop-filter .6s ease, -webkit-backdrop-filter .6s ease;
+}
+.hdr *, .hdr *::before, .hdr *::after { box-sizing: border-box; }
+.hdr img { display: block; max-width: 100%; }
+.hdr a { color: inherit; }
+.hdr :focus-visible { outline: 2px solid var(--h-green); outline-offset: 3px; }
+/* Scrolled down: the bar, menu and name fade away; only the small shield stays, colored for whatever is behind it */
+.hdr.compact { background: rgba(251,251,249,0); box-shadow: 0 1px 0 rgba(28,29,27,0); backdrop-filter: none; -webkit-backdrop-filter: none; pointer-events: none; }
+.hdr.compact .logo { pointer-events: auto; }
+.hdr .menu-btn { transition: opacity .5s ease, visibility .5s; }
+.hdr.compact nav.main, .hdr.compact .menu-btn { opacity: 0; visibility: hidden; }
+.hdr-in { display: flex; align-items: center; justify-content: space-between; height: 82px; padding-inline: max(16px, 3vw); }
+.logo { display: flex; align-items: center; height: 50px; text-decoration: none; }
+.logo .shield { height: 50px; width: auto; }
+.logo .word { display: flex; align-items: center; height: 50px; overflow: hidden; max-width: 0; margin-left: 0; transition: max-width .8s cubic-bezier(.4,0,.2,1), margin-left .8s cubic-bezier(.4,0,.2,1); }
+.logo .word img { height: 21px; width: auto; max-width: none; }
+.logo.open .word { max-width: 126px; margin-left: 14px; } /* = wordmark width at 21px tall, so the slide runs the whole time */
+.logo img { filter: brightness(0) saturate(100%); opacity: .88; transition: filter .7s ease, opacity .7s ease; }
+.hdr.compact .logo.on-dark img { filter: none; opacity: 1; }
+/* Menu: a three-line icon at every size opens a small dropdown under the header, so the page stays in view */
+nav.main { position: absolute; top: 100%; right: max(16px, 3vw); min-width: 250px; display: flex; flex-direction: column; padding: 8px 0; background: rgba(251,251,249,.97); color: var(--h-ink); box-shadow: 0 12px 32px rgba(28,29,27,.14), 0 0 0 1px rgba(28,29,27,.06); font-family: var(--h-cond); font-weight: 600; font-size: 18px; line-height: 1.55; letter-spacing: .04em; text-transform: uppercase; opacity: 0; visibility: hidden; transform: translateY(-8px); transition: opacity .25s ease, transform .25s ease, visibility 0s linear .25s; }
+body.nav-open nav.main { opacity: 1; visibility: visible; transform: none; transition: opacity .25s ease, transform .25s ease, visibility 0s; }
+nav.main a { text-decoration: none; text-align: left; padding: 12px 26px; border: 0; }
+nav.main a + a { border-top: 1px solid var(--h-line); }
+nav.main a:hover { background: rgba(28,29,27,.05); }
+nav.main a.cta { color: var(--h-green); }
+/* Icon drawn in CSS; the button's text ("Menu" / "Close") stays as its accessible name. Lines cross into an X while open. */
+.menu-btn { position: relative; width: 44px; height: 44px; padding: 0; background: none; border: 0; color: inherit; font-size: 0; cursor: pointer; }
+.menu-btn::before, .menu-btn::after { content: ""; position: absolute; left: 10px; right: 10px; top: 50%; height: 2px; margin-top: -1px; background: currentColor; transition: transform .3s ease, box-shadow .3s ease, opacity .2s ease; }
+.menu-btn::before { box-shadow: 0 -8px 0 currentColor, 0 8px 0 currentColor; }
+.menu-btn::after { opacity: 0; }
+body.nav-open .menu-btn::before { box-shadow: 0 0 0 currentColor, 0 0 0 currentColor; transform: rotate(45deg); }
+body.nav-open .menu-btn::after { opacity: 1; transform: rotate(-45deg); }
+@media (max-width: 1080px) {
+  .hdr-in { height: 62px; }
+  .logo, .logo .word { height: 40px !important; }
+  .logo .shield { height: 40px; }
+  .logo .word img { height: 17px; }
+  .logo.open .word { max-width: 102px; margin-left: 11px; }
+  /* No blur on phones; a slightly more solid white keeps the bar readable instead. */
+  .hdr { backdrop-filter: none; -webkit-backdrop-filter: none; background: rgba(251,251,249,.90); }
+  .hdr.compact { background: rgba(251,251,249,0); }
+  body.nav-open .hdr { background: rgba(251,251,249,.98); }
+  /* On phones the dropdown spans the full width under the bar */
+  nav.main { left: 0; right: 0; min-width: 0; background: rgba(251,251,249,.98); font-size: 20px; }
+  nav.main a { padding: 14px max(16px, 3vw); }
+}
+@media (prefers-reduced-motion: reduce) { .hdr, .logo .word, .logo img, .hdr nav.main, .hdr .menu-btn, .menu-btn::before, .menu-btn::after { transition: none !important; } }
