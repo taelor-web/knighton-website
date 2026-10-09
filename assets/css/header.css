@@ -21,9 +21,10 @@
 .hdr-in { display: flex; align-items: center; justify-content: space-between; height: 82px; padding-inline: max(16px, 3vw); }
 .logo { display: flex; align-items: center; height: 50px; text-decoration: none; }
 .logo .shield { height: 50px; width: auto; }
-/* Closed, the wordmark is also hidden once the slide ends: on scaled displays (125%, 150%) a 0px clip can round to a
-   pixel or two and leave the K's stroke showing beside the shield. Visibility switches instantly, so there is still no fade. */
-.logo .word { display: flex; align-items: center; height: 50px; overflow: hidden; max-width: 0; margin-left: 0; visibility: hidden; transition: max-width .8s cubic-bezier(.4,0,.2,1), margin-left .8s cubic-bezier(.4,0,.2,1), visibility 0s linear .8s; }
+/* Closing slide eases IN, so it finishes at speed into the shield (an ease-out close crawls through its last few pixels
+   and looks like it stops short). Opening keeps the ease-out below. Once closed, the wordmark is also hidden: on scaled
+   displays a 0px clip can round to a pixel and leave the K's stroke showing. Visibility switches instantly: no fade. */
+.logo .word { display: flex; align-items: center; height: 50px; overflow: hidden; max-width: 0; margin-left: 0; visibility: hidden; transition: max-width .8s cubic-bezier(.5,0,.9,.6), margin-left .8s cubic-bezier(.5,0,.9,.6), visibility 0s linear .8s; }
 .logo .word img { height: 21px; width: auto; max-width: none; }
 .logo.open .word { max-width: 126px; margin-left: 14px; visibility: visible; transition: max-width .8s cubic-bezier(.4,0,.2,1), margin-left .8s cubic-bezier(.4,0,.2,1), visibility 0s; } /* = wordmark width at 21px tall, so the slide runs the whole time */
 .logo img { filter: brightness(0) saturate(100%); opacity: .88; transition: filter .7s ease, opacity .7s ease; }
