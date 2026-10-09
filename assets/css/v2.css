@@ -33,11 +33,14 @@ a { color: inherit; }
 .hero .bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transform: scale(1.04); }
 .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,10,.5) 0%, rgba(10,10,10,.22) 40%, rgba(10,10,10,.6) 100%); }
 .rot { position: absolute; inset: 0; z-index: 2; margin: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; pointer-events: none; padding-top: 60px; }
-.rot a { display: block; pointer-events: auto; cursor: pointer; text-decoration: none; font-family: var(--f-cond); font-weight: 700; font-size: clamp(64px, 11.5vw, 176px); line-height: .86; letter-spacing: -.005em; text-transform: uppercase; text-align: center; color: #fff; -webkit-text-stroke: 2px rgba(255,255,255,0); transform-origin: 50% 50%; transition: transform .55s cubic-bezier(.4,0,.2,1), color .4s ease, -webkit-text-stroke-color .4s ease, opacity .4s ease; }
+.rot a { display: block; pointer-events: auto; cursor: pointer; text-decoration: none; font-family: var(--f-cond); font-weight: 700; font-size: clamp(64px, 11.5vw, 176px); line-height: .86; letter-spacing: -.005em; text-transform: uppercase; text-align: center; color: #fff; -webkit-text-stroke: 2px rgba(255,255,255,0); transition: color .2s ease, -webkit-text-stroke-color .2s ease; }
+/* Only the letters (the inner span) scale; each link keeps its full-size hover area, so the words never shrink out from under the cursor */
+.rot a span { display: block; transform-origin: 50% 50%; transition: transform .32s cubic-bezier(.2,.7,.2,1), opacity .2s ease; }
 /* Hover (or keyboard focus) one word: it turns to outlined letters, the other two shrink back */
 .rot a:focus-visible { outline: 2px solid #fff; outline-offset: 6px; }
-.rot.has-active a { transform: scale(.56); opacity: .9; } /* scale, not font-size, so words never move out from under the cursor */
-.rot.has-active a.active { transform: none; color: rgba(255,255,255,0); -webkit-text-stroke-color: #fff; opacity: 1; }
+.rot.has-active a span { transform: scale(.56); opacity: .9; } /* scale, not font-size, so the layout never moves */
+.rot.has-active a.active { color: rgba(255,255,255,0); -webkit-text-stroke-color: #fff; }
+.rot.has-active a.active span { transform: none; opacity: 1; }
 .cue { position: absolute; z-index: 2; left: 50%; bottom: 28px; transform: translateX(-50%); font-family: var(--f-cond); font-weight: 600; letter-spacing: .14em; font-size: 13px; text-transform: uppercase; opacity: .85; display: flex; flex-direction: column; align-items: center; gap: 8px; }
 .cue i { width: 1px; height: 34px; background: currentColor; opacity: .7; animation: cue 2.2s ease-in-out infinite; transform-origin: top; }
 @keyframes cue { 0%,100% { transform: scaleY(.3); } 50% { transform: scaleY(1); } }
@@ -105,7 +108,7 @@ footer { border-top: 1px solid var(--line); padding-block: 44px; }
 .pre { opacity: .001; transform: translateY(22px); }
 .rev { transition: opacity 1s ease, transform 1s ease; }
 .rev.in { opacity: 1; transform: none; }
-@media (prefers-reduced-motion: reduce) { body, .hdr, .rev, .logo .word, .logo img, .hdr nav.main, .rot a { transition: none !important; } .pre { opacity: 1; transform: none; } .cue i { animation: none; } html { scroll-behavior: auto; } }
+@media (prefers-reduced-motion: reduce) { body, .hdr, .rev, .logo .word, .logo img, .hdr nav.main, .rot a, .rot a span { transition: none !important; } .pre { opacity: 1; transform: none; } .cue i { animation: none; } html { scroll-behavior: auto; } }
 
 /* ---------- Our Approach page ---------- */
 .ap-intro { padding-top: calc(82px + 80px); padding-bottom: 40px; }

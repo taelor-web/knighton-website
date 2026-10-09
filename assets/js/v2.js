@@ -10,12 +10,14 @@
   /* Hero words: hovering one outlines it and shrinks the other two. Each word links to its section of the Our Approach page. On touch screens a tap simply follows the link. */
   const rot = document.getElementById("rot");
   if (rot) {
+  let offTimer;
   rot.querySelectorAll("a").forEach(sp => {
-    const on = () => { rot.classList.add("has-active"); rot.querySelectorAll("a").forEach(x => x.classList.toggle("active", x === sp)); };
+    const on = () => { clearTimeout(offTimer); rot.classList.add("has-active"); rot.querySelectorAll("a").forEach(x => x.classList.toggle("active", x === sp)); };
     sp.addEventListener("mouseenter", on); sp.addEventListener("focus", on);
   });
   const off = () => { rot.classList.remove("has-active"); rot.querySelectorAll("a").forEach(x => x.classList.remove("active")); };
-  rot.addEventListener("mouseleave", off);
+  /* A short grace period, so cutting diagonally from one word to the next doesn't flash all three back to full size */
+  rot.addEventListener("mouseleave", () => { clearTimeout(offTimer); offTimer = setTimeout(off, 120); });
   rot.addEventListener("focusout", e => { if (!rot.contains(e.relatedTarget)) off(); });
   }
 
