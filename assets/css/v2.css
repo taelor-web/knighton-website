@@ -197,7 +197,7 @@ footer { border-top: 1px solid var(--line); padding-block: 44px; }
 .wwd-fig figcaption p { grid-area: 1 / 1; margin: 0; max-width: 46ch; color: var(--mute); opacity: 0; transition: opacity .5s ease; }
 .wwd-fig figcaption p.on { opacity: 1; }
 .wwd-fig figcaption .arrow { grid-area: 2 / 1; }
-@media (max-width: 860px) {
+@media (max-width: 1199px) { /* list with thumbnails (no big image) on phones and tablets */
   .wwd { grid-template-columns: 1fr; }
   .wwd-fig { display: none; }
   .wwd-list a { grid-template-columns: 72px minmax(0, 1fr) 20px; padding: 14px 0; }
@@ -207,5 +207,19 @@ footer { border-top: 1px solid var(--line); padding-block: 44px; }
   .wwd-list .ex { grid-column: 2; max-height: none; opacity: 1; }
   .wwd-list .go { grid-column: 3; grid-row: 1 / span 2; opacity: 1; transform: none; }
   .wwd-list a.on .nm { color: inherit; }
+}
+/* 1200px and wider: the list takes one third and the image two thirds (4:3). The list is exactly as tall as the image:
+   it does not size the row (height 0 + min-height 100%), so the image sets the height and the 8 rows share it evenly.
+   The caption hangs below the image (absolute), with room left for it under the grid. */
+@media (min-width: 1200px) {
+  .wwd { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 48px; align-items: stretch; margin-bottom: 110px; }
+  .wwd-fig { position: relative; top: auto; }
+  .wwd-fig > img { aspect-ratio: 4 / 3; }
+  .wwd-fig figcaption { position: absolute; top: 100%; left: 0; right: 0; }
+  .wwd-list { height: 0; min-height: 100%; display: flex; flex-direction: column; }
+  .wwd-list li { flex: 1 1 0; min-height: 0; display: flex; }
+  .wwd-list a { flex: 1; padding-block: 0; align-content: center; }
+  .wwd-list .nm { font-size: clamp(17px, 1.4vw, 23px); }
+  .wwd-list .ex { font-size: 12.5px; line-height: 1.4; }
 }
 @media (prefers-reduced-motion: reduce) { .wwd-fig > img, .wwd-list a, .wwd-list .ex, .wwd-fig figcaption p { transition: none; } }
