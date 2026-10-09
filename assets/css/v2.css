@@ -215,7 +215,7 @@ footer { border-top: 1px solid var(--line); padding-block: 44px; }
   .wwd { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 48px; align-items: stretch; margin-bottom: 0; }
   .wwd-fig { position: relative; top: auto; }
   .wwd-fig > img { aspect-ratio: 4 / 3; }
-  .wwd-fig figcaption { position: absolute; z-index: 1; left: 0; right: 0; bottom: 0; margin: 0; padding: 90px 32px 26px; background: linear-gradient(0deg, rgba(251,251,249,.96) 0%, rgba(251,251,249,.9) 38%, rgba(251,251,249,0) 100%); }
+  .wwd-fig figcaption { position: absolute; z-index: 1; left: 0; right: 0; bottom: 0; margin: 0; padding: 180px 32px 26px; background: linear-gradient(0deg, rgba(251,251,249,.96) 0%, rgba(251,251,249,.9) 26%, rgba(251,251,249,.62) 55%, rgba(251,251,249,.22) 80%, rgba(251,251,249,0) 100%); }
   .wwd-fig figcaption p { color: var(--ink); font-size: 17px; line-height: 1.45; max-width: 52ch; }
   .wwd-list { height: 0; min-height: 100%; display: flex; flex-direction: column; }
   .wwd-list li { flex: 1 1 0; min-height: 0; display: flex; }
