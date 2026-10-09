@@ -144,9 +144,9 @@ p { margin: 0 0 1em; }
 .header--dark { color: var(--ka-black); }
 .header--dark .site-header__logo img { filter: brightness(0) saturate(100%); opacity: .85; }
 .header--dark .site-nav .btn { color: #fff; }
-@media (max-width: 900px) { .header--dark .site-nav { color: #fff; } }
+@media (max-width: 1000px) { .header--dark .site-nav { color: #fff; } }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .nav-toggle { display: block; }
   .site-nav {
     position: fixed; inset: 0; background: var(--ka-black); color: #fff;
