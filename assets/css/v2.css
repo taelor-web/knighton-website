@@ -148,3 +148,58 @@ footer { border-top: 1px solid var(--line); padding-block: 44px; }
   .step { grid-template-columns: 1fr; gap: 12px; }
   .step img { aspect-ratio: 16 / 9; }
 }
+
+/* ---------- v3 homepage (from Cowork, Oct 9 2026): project stories and What We Design ---------- */
+/* featured project stories (after SUM): each project fills the screen with a short story */
+.story { position: relative; height: 100vh; height: 100svh; min-height: 560px; overflow: hidden; background: #0e0f0e; color: #fff; }
+.story img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.story::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(10,10,10,.62) 0%, rgba(10,10,10,.18) 55%, rgba(10,10,10,0) 100%); }
+.story.right::after { background: linear-gradient(270deg, rgba(10,10,10,.62) 0%, rgba(10,10,10,.18) 55%, rgba(10,10,10,0) 100%); }
+.story-cap { position: absolute; z-index: 2; left: max(16px, 4vw); bottom: max(40px, 8vh); max-width: 480px; }
+.story.right .story-cap { left: auto; right: max(16px, 4vw); }
+.story-tag { font-family: var(--f-mono); font-size: 12.5px; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 10px; opacity: .85; }
+.story-cap h3 { font-family: var(--f-cond); font-weight: 700; font-size: clamp(40px, 5vw, 72px); line-height: .92; text-transform: uppercase; margin: 0 0 16px; }
+.story-cap p:not(.story-tag) { margin: 0 0 22px; font-size: 16.5px; line-height: 1.5; }
+.arrow { font-family: var(--f-cond); font-weight: 600; font-size: 16px; letter-spacing: .08em; text-transform: uppercase; text-decoration: none; display: inline-flex; gap: 10px; align-items: center; border-bottom: 1px solid currentColor; padding-bottom: 3px; }
+.arrow::after { content: "→"; transition: transform .3s ease; }
+.arrow:hover::after { transform: translateX(4px); }
+#experience { padding-bottom: 70px; }
+#experience .intro { margin-bottom: 0; }
+@media (max-width: 760px) {
+  .story::after, .story.right::after { background: linear-gradient(0deg, rgba(10,10,10,.75) 0%, rgba(10,10,10,.2) 60%, rgba(10,10,10,0) 100%); }
+  .story-cap, .story.right .story-cap { left: 16px; right: 16px; }
+  #experience { padding-bottom: 48px; }
+}
+
+/* what we design: a category list with one large image that changes as you point at each row */
+.wwd { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: 56px; align-items: start; }
+.wwd-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.wwd-list a { display: grid; grid-template-columns: minmax(0, 1fr) 24px; gap: 4px 16px; align-items: center; text-decoration: none; border-bottom: 1px solid var(--line); padding: 18px 0; transition: padding .35s ease, color .35s ease; }
+.wwd-list .th { display: none; }
+.wwd-list .nm { font-family: var(--f-cond); font-weight: 600; font-size: clamp(22px, 2.2vw, 32px); line-height: 1.05; text-transform: uppercase; letter-spacing: .01em; }
+.wwd-list .ex { grid-column: 1; font-size: 13.5px; color: var(--mute); max-height: 0; overflow: hidden; opacity: 0; transition: max-height .4s ease, opacity .4s ease; }
+.wwd-list .go { grid-column: 2; grid-row: 1; color: var(--green); opacity: 0; transform: translateX(-6px); transition: opacity .3s ease, transform .3s ease; }
+.wwd-list a.on { padding-left: 14px; color: var(--fg); }
+.wwd-list a.on .nm { color: var(--green); }
+.wwd-list a.on .ex { max-height: 3em; opacity: 1; }
+.wwd-list a.on .go { opacity: 1; transform: none; }
+.wwd-fig { position: sticky; top: 110px; margin: 0; }
+.wwd-fig > img { width: 100%; aspect-ratio: 4 / 5; max-width: 100%; object-fit: cover; background: var(--line); grid-area: 1 / 1; opacity: 0; transition: opacity .6s ease; }
+.wwd-fig { display: grid; }
+.wwd-fig > img.on { opacity: 1; }
+.wwd-fig figcaption { grid-area: 2 / 1; display: grid; margin-top: 16px; gap: 14px; justify-items: start; }
+.wwd-fig figcaption p { grid-area: 1 / 1; margin: 0; max-width: 46ch; color: var(--mute); opacity: 0; transition: opacity .5s ease; }
+.wwd-fig figcaption p.on { opacity: 1; }
+.wwd-fig figcaption .arrow { grid-area: 2 / 1; }
+@media (max-width: 860px) {
+  .wwd { grid-template-columns: 1fr; }
+  .wwd-fig { display: none; }
+  .wwd-list a { grid-template-columns: 72px minmax(0, 1fr) 20px; padding: 14px 0; }
+  .wwd-list a.on { padding-left: 0; }
+  .wwd-list .th { display: block; grid-row: 1 / span 2; width: 72px; aspect-ratio: 1; object-fit: cover; }
+  .wwd-list .nm { grid-column: 2; font-size: 21px; }
+  .wwd-list .ex { grid-column: 2; max-height: none; opacity: 1; }
+  .wwd-list .go { grid-column: 3; grid-row: 1 / span 2; opacity: 1; transform: none; }
+  .wwd-list a.on .nm { color: inherit; }
+}
+@media (prefers-reduced-motion: reduce) { .wwd-fig > img, .wwd-list a, .wwd-list .ex, .wwd-fig figcaption p { transition: none; } }
