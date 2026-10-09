@@ -137,6 +137,8 @@ footer { border-top: 1px solid var(--line); padding-block: 44px; }
 .foot .lbl { font-family: var(--f-cond); font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--mute); font-size: 13px; display: block; margin-bottom: 6px; }
 .foot .right { text-align: right; }
 .foot img { height: 46px; width: auto; }
+.foot .to-top { display: block; justify-self: center; transition: opacity .2s ease, transform .2s ease; }
+.foot .to-top:hover { opacity: .75; transform: translateY(-2px); }
 @media (max-width: 760px) { .foot { grid-template-columns: 1fr; text-align: center; } .foot .right { text-align: center; } .foot img { margin: 0 auto; } }
 
 /* gentle reveal, applied by script only to content below the fold */
