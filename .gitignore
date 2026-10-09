@@ -25,3 +25,6 @@ __pycache__/
 # Editors
 .vscode/
 .idea/
+
+# Design handoff working folder (source files copied into place; not published)
+_handoff-v2/
