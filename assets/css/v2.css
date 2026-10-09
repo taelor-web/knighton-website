@@ -27,33 +27,33 @@ a { color: inherit; }
 .wrap { max-width: 1400px; margin: 0 auto; padding-inline: max(16px, 3vw); }
 
 /* ---------- header (A structure, B type, smaller) ---------- */
-.hdr { position: fixed; top: 0; left: 0; right: 0; z-index: 20; color: var(--ink); background: rgba(251,251,249,.86); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); box-shadow: 0 1px 0 rgba(28,29,27,.08); padding-top: env(safe-area-inset-top, 0px); transition: background-color .6s ease, box-shadow .6s ease, backdrop-filter .6s ease, -webkit-backdrop-filter .6s ease; }
+.hdr { position: fixed; top: 0; left: 0; right: 0; z-index: 20; color: var(--ink); background: rgba(251,251,249,.72); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); box-shadow: 0 1px 0 rgba(28,29,27,.08); padding-top: env(safe-area-inset-top, 0px); transition: background-color .6s ease, box-shadow .6s ease, backdrop-filter .6s ease, -webkit-backdrop-filter .6s ease; }
 /* Scrolled down: the bar, menu and name fade away; only the small shield stays, colored for whatever is behind it */
 .hdr.compact { background: rgba(251,251,249,0); box-shadow: 0 1px 0 rgba(28,29,27,0); backdrop-filter: none; -webkit-backdrop-filter: none; pointer-events: none; }
 .hdr.compact .logo { pointer-events: auto; }
 .hdr nav.main, .hdr .menu-btn { transition: opacity .5s ease, visibility .5s; }
 .hdr.compact nav.main, .hdr.compact .menu-btn { opacity: 0; visibility: hidden; }
-.hdr-in { display: flex; align-items: center; justify-content: space-between; height: 92px; padding-inline: max(16px, 3vw); }
-.logo { display: flex; align-items: center; height: 56px; text-decoration: none; }
-.logo .shield { height: 56px; width: auto; }
-.logo .word { display: flex; align-items: center; height: 56px; overflow: hidden; max-width: 0; margin-left: 0; transition: max-width .8s cubic-bezier(.4,0,.2,1), margin-left .8s cubic-bezier(.4,0,.2,1); }
-.logo .word img { height: 24px; width: auto; max-width: none; }
-.logo.open .word { max-width: 146px; margin-left: 16px; } /* = wordmark width at 24px tall, so the slide runs the whole time */
+.hdr-in { display: flex; align-items: center; justify-content: space-between; height: 82px; padding-inline: max(16px, 3vw); }
+.logo { display: flex; align-items: center; height: 50px; text-decoration: none; }
+.logo .shield { height: 50px; width: auto; }
+.logo .word { display: flex; align-items: center; height: 50px; overflow: hidden; max-width: 0; margin-left: 0; transition: max-width .8s cubic-bezier(.4,0,.2,1), margin-left .8s cubic-bezier(.4,0,.2,1); }
+.logo .word img { height: 21px; width: auto; max-width: none; }
+.logo.open .word { max-width: 126px; margin-left: 14px; } /* = wordmark width at 21px tall, so the slide runs the whole time */
 .logo img { filter: brightness(0) saturate(100%); opacity: .88; transition: filter .7s ease, opacity .7s ease; }
 .hdr.compact .logo.on-dark img { filter: none; opacity: 1; }
-nav.main { display: flex; align-items: center; gap: 26px; font-family: var(--f-cond); font-weight: 600; font-size: 17px; letter-spacing: .04em; text-transform: uppercase; }
+nav.main { display: flex; align-items: center; gap: 24px; font-family: var(--f-cond); font-weight: 600; font-size: 16px; letter-spacing: .04em; text-transform: uppercase; }
 nav.main a { text-decoration: none; padding-block: 4px; border-bottom: 1px solid transparent; }
 nav.main a:hover { border-bottom-color: currentColor; }
 nav.main a.cta { color: var(--green); }
-.menu-btn { display: none; font-family: var(--f-cond); font-weight: 600; font-size: 17px; letter-spacing: .04em; text-transform: uppercase; background: none; border: 1px solid currentColor; color: inherit; padding: 6px 12px; border-radius: 999px; cursor: pointer; }
+.menu-btn { display: none; font-family: var(--f-cond); font-weight: 600; font-size: 16px; letter-spacing: .04em; text-transform: uppercase; background: none; border: 1px solid currentColor; color: inherit; padding: 6px 12px; border-radius: 999px; cursor: pointer; }
 @media (max-width: 1080px) {
-  .hdr-in { height: 68px; }
-  .logo, .logo .word { height: 44px !important; }
-  .logo .shield { height: 44px; }
-  .logo .word img { height: 19px; }
-  .logo.open .word { max-width: 116px; margin-left: 12px; }
+  .hdr-in { height: 62px; }
+  .logo, .logo .word { height: 40px !important; }
+  .logo .shield { height: 40px; }
+  .logo .word img { height: 17px; }
+  .logo.open .word { max-width: 102px; margin-left: 11px; }
   /* No blur on phones: a blurred header becomes the containing box for the full-screen menu and would trap it. A slightly more solid white keeps it readable instead. */
-  .hdr { backdrop-filter: none; -webkit-backdrop-filter: none; background: rgba(251,251,249,.94); }
+  .hdr { backdrop-filter: none; -webkit-backdrop-filter: none; background: rgba(251,251,249,.85); }
   .hdr.compact { background: rgba(251,251,249,0); }
   body.nav-open .hdr { background: var(--dark); }
   body.nav-open .logo img { filter: none; opacity: 1; }
@@ -141,7 +141,7 @@ footer { border-top: 1px solid var(--line); padding-block: 44px; }
 @media (prefers-reduced-motion: reduce) { body, .hdr, .rev, .logo .word, .logo img, .hdr nav.main, .rot a { transition: none !important; } .pre { opacity: 1; transform: none; } .cue i { animation: none; } html { scroll-behavior: auto; } }
 
 /* ---------- Our Approach page ---------- */
-.ap-intro { padding-top: calc(92px + 80px); padding-bottom: 40px; }
+.ap-intro { padding-top: calc(82px + 80px); padding-bottom: 40px; }
 .ap-title { font-family: var(--f-cond); font-weight: 700; font-size: clamp(44px, 7vw, 104px); line-height: .92; text-transform: uppercase; margin: 0 0 28px; max-width: 14ch; text-wrap: balance; }
 .ap-lede { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; max-width: 980px; color: var(--mute); font-size: 17px; }
 .ap-lede p { margin: 0; }
@@ -168,7 +168,7 @@ footer { border-top: 1px solid var(--line); padding-block: 44px; }
 .step img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
 .step h3 { font-family: var(--f-cond); font-weight: 600; font-size: 21px; letter-spacing: .03em; text-transform: uppercase; margin: 0 0 8px; }
 .step p { margin: 0; color: var(--mute); font-size: 15px; max-width: 72ch; }
-@media (max-width: 1080px) { .ap-intro { padding-top: calc(68px + 56px); } }
+@media (max-width: 1080px) { .ap-intro { padding-top: calc(62px + 56px); } }
 @media (max-width: 760px) {
   .ap-lede { grid-template-columns: 1fr; gap: 14px; font-size: 16px; }
   .chapter { padding-block: 56px 32px; }
