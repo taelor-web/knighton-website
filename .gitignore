@@ -28,3 +28,4 @@ __pycache__/
 
 # Design handoff working folder (source files copied into place; not published)
 _handoff-v2/
+_handoff-v3/
