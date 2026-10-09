@@ -3,6 +3,10 @@
   const root = document.documentElement;
   const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  /* Hero video: hold it on its poster frame for visitors who ask for reduced motion */
+  const heroVideo = document.querySelector(".hero video");
+  if (heroVideo && reduce) { heroVideo.removeAttribute("autoplay"); heroVideo.pause(); }
+
   /* Hero words: hovering one outlines it and shrinks the other two. Each word links to its section of the Our Approach page. On touch screens a tap simply follows the link. */
   const rot = document.getElementById("rot");
   if (rot) {
