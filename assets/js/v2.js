@@ -46,8 +46,11 @@
     items.forEach(el => io.observe(el));
   }
 
-  /* Mobile menu */
-  const mb = document.getElementById("menuBtn");
-  mb.addEventListener("click", () => { const o = document.body.classList.toggle("nav-open"); mb.setAttribute("aria-expanded", o); mb.textContent = o ? "Close" : "Menu"; });
-  document.querySelectorAll("nav.main a").forEach(a => a.addEventListener("click", () => { document.body.classList.remove("nav-open"); mb.setAttribute("aria-expanded", false); mb.textContent = "Menu"; }));
+  /* Dropdown menu: the icon toggles it; a link, a click outside it, or Esc closes it */
+  const mb = document.getElementById("menuBtn"), nav = document.getElementById("nav");
+  const setMenu = o => { document.body.classList.toggle("nav-open", o); mb.setAttribute("aria-expanded", o); mb.textContent = o ? "Close" : "Menu"; };
+  mb.addEventListener("click", () => setMenu(!document.body.classList.contains("nav-open")));
+  nav.querySelectorAll("a").forEach(a => a.addEventListener("click", () => setMenu(false)));
+  document.addEventListener("click", e => { if (document.body.classList.contains("nav-open") && !nav.contains(e.target) && !mb.contains(e.target)) setMenu(false); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape" && document.body.classList.contains("nav-open")) { setMenu(false); mb.focus(); } });
 })();
