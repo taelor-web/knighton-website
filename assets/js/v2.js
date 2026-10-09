@@ -43,9 +43,20 @@
 
   /* Gentle reveal for content below the fold (content stays visible if script or observer is missing) */
   if ("IntersectionObserver" in window && !reduce) {
-    const items = [...document.querySelectorAll(".rev")].filter(el => el.getBoundingClientRect().top > innerHeight);
+    const items = [...document.querySelectorAll(".rev:not(.story)")].filter(el => el.getBoundingClientRect().top > innerHeight);
     items.forEach(el => el.classList.add("pre"));
     const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); e.target.classList.remove("pre"); io.unobserve(e.target); } }), { rootMargin: "0px 0px -10% 0px" });
     items.forEach(el => io.observe(el));
+
+    /* Project stories reveal both ways: they come in as they rise into view, and go back out as they drop below it on
+       the way up. Stories scrolled past at the top stay shown. */
+    const stories = [...document.querySelectorAll(".story.rev")];
+    stories.forEach(s => { if (s.getBoundingClientRect().top > innerHeight) s.classList.add("pre"); });
+    const so = new IntersectionObserver(es => es.forEach(e => {
+      const s = e.target;
+      if (e.isIntersecting) { s.classList.add("in"); s.classList.remove("pre"); }
+      else if (e.boundingClientRect.top > 0) { s.classList.remove("in"); s.classList.add("pre"); }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    stories.forEach(s => so.observe(s));
   }
 })();
