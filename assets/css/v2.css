@@ -210,12 +210,13 @@ footer { border-top: 1px solid var(--line); padding-block: 44px; }
 }
 /* 1200px and wider: the list takes one third and the image two thirds (4:3). The list is exactly as tall as the image:
    it does not size the row (height 0 + min-height 100%), so the image sets the height and the 8 rows share it evenly.
-   The caption hangs below the image (absolute), with room left for it under the grid. */
+   Each category's one-line description sits on the bottom of the image over a white gradient. */
 @media (min-width: 1200px) {
-  .wwd { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 48px; align-items: stretch; margin-bottom: 110px; }
+  .wwd { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 48px; align-items: stretch; margin-bottom: 0; }
   .wwd-fig { position: relative; top: auto; }
   .wwd-fig > img { aspect-ratio: 4 / 3; }
-  .wwd-fig figcaption { position: absolute; top: 100%; left: 0; right: 0; }
+  .wwd-fig figcaption { position: absolute; z-index: 1; left: 0; right: 0; bottom: 0; margin: 0; padding: 90px 32px 26px; background: linear-gradient(0deg, rgba(251,251,249,.96) 0%, rgba(251,251,249,.9) 38%, rgba(251,251,249,0) 100%); }
+  .wwd-fig figcaption p { color: var(--ink); font-size: 17px; line-height: 1.45; max-width: 52ch; }
   .wwd-list { height: 0; min-height: 100%; display: flex; flex-direction: column; }
   .wwd-list li { flex: 1 1 0; min-height: 0; display: flex; }
   .wwd-list a { flex: 1; padding-block: 0; align-content: center; }
@@ -236,3 +237,7 @@ footer { border-top: 1px solid var(--line); padding-block: 44px; }
 .story.pre .story-cap { opacity: 0; transform: translateX(-36px); }
 .story.right.pre .story-cap { transform: translateX(36px); }
 @media (prefers-reduced-motion: reduce) { .story.rev, .story.rev img, .story.rev .story-cap { transition: none; } .story.pre, .story.pre img, .story.pre .story-cap { opacity: 1; transform: none; } }
+
+/* What we design: the "Our services" link sits beside the section title (under it on phones) */
+.intro .wwd-services { justify-self: end; margin-bottom: 10px; }
+@media (max-width: 760px) { .intro .wwd-services { justify-self: start; margin-bottom: 0; } }
