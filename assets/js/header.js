@@ -14,6 +14,7 @@
     const r = shield.getBoundingClientRect(), x = r.left + r.width / 2, y = r.top + r.height / 2;
     for (const el of document.elementsFromPoint(x, y)) {
       if (hdr.contains(el)) continue;
+      if (el.closest("[data-dark]")) return true; /* full-screen photo blocks (the homepage project stories) */
       const toned = el.closest("[data-tone]"); /* v2 sections declare their tone; that wins over any photo inside them */
       if (toned) return toned.getAttribute("data-tone") === "dark";
       for (let n = el; n && n !== root; n = n.parentElement) {
