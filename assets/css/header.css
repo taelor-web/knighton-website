@@ -7,7 +7,7 @@
   --h-green: #7d9862;
   --h-line: #e2e2dc;
   --h-cond: "Barlow Condensed", "Arial Narrow", Impact, sans-serif;
-  position: fixed; top: 0; left: 0; right: 0; z-index: 20; color: var(--h-ink); background: rgba(251,251,249,.80); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); box-shadow: 0 1px 0 rgba(28,29,27,.08); padding-top: env(safe-area-inset-top, 0px); transition: background-color .6s ease, box-shadow .6s ease, backdrop-filter .6s ease, -webkit-backdrop-filter .6s ease;
+  position: fixed; top: 0; left: 0; right: 0; z-index: 20; color: var(--h-ink); background: rgba(251,251,249,.80); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); box-shadow: 0 1px 0 rgba(28,29,27,.08); padding-top: env(safe-area-inset-top, 0px); transition: background-color .6s ease, color .6s ease, box-shadow .6s ease, backdrop-filter .6s ease, -webkit-backdrop-filter .6s ease;
 }
 .hdr *, .hdr *::before, .hdr *::after { box-sizing: border-box; }
 .hdr img { display: block; max-width: 100%; }
@@ -57,4 +57,16 @@ body.nav-open .menu-btn::after { opacity: 1; transform: rotate(-45deg); }
   nav.main { left: 0; right: 0; min-width: 0; background: rgba(251,251,249,.98); font-size: 20px; }
   nav.main a { padding: 14px max(16px, 3vw); }
 }
+/* Dark theme: header.js adds .dark whenever the area behind the header is dark (hero video, project stories, charcoal
+   sections), so the bar matches its background: charcoal with the logo in its own white + green, light text and menu. */
+.hdr.dark { color: #ecebe6; background: rgba(22,23,22,.82); box-shadow: 0 1px 0 rgba(255,255,255,.07); }
+.hdr.dark:not(.compact) .logo img { filter: none; opacity: 1; }  /* once compact, the shield follows .on-dark instead */
+.hdr.dark nav.main { background: rgba(22,23,22,.97); color: #ecebe6; box-shadow: 0 12px 32px rgba(0,0,0,.35), 0 0 0 1px rgba(255,255,255,.06); }
+.hdr.dark nav.main a + a { border-top-color: rgba(255,255,255,.09); }
+.hdr.dark nav.main a:hover { background: rgba(255,255,255,.06); }
+@media (max-width: 1080px) {
+  .hdr.dark { background: rgba(22,23,22,.92); }
+  body.nav-open .hdr.dark, .hdr.dark nav.main { background: rgba(22,23,22,.98); }
+}
+.hdr.dark.compact { background: rgba(22,23,22,0); box-shadow: 0 1px 0 rgba(255,255,255,0); }
 @media (prefers-reduced-motion: reduce) { .hdr, .logo .word, .logo img, .hdr nav.main, .hdr .menu-btn, .menu-btn::before, .menu-btn::after { transition: none !important; } }

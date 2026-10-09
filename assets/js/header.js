@@ -7,11 +7,15 @@
   if (!hdr) return;
   const root = document.documentElement, logo = document.getElementById("logo"), shield = logo.querySelector(".shield");
 
-  /* Is the area behind the shield dark? v2 pages say so with data-tone; Phase 1 pages are read from
-     what is actually there: a photo or video counts as dark, otherwise the first solid background color. */
-  function darkBehindShield() {
+  /* Is the area behind the header dark at horizontal position x (at the shield's height)? v2 pages say so with
+     data-tone; Phase 1 pages are read from what is actually there: a photo or video counts as dark, otherwise the
+     first solid background color. */
+  function darkAt(x) {
     if (root.dataset.tone === "dark") return true;
-    const r = shield.getBoundingClientRect(), x = r.left + r.width / 2, y = r.top + r.height / 2;
+    const r = shield.getBoundingClientRect(), y = r.top + r.height / 2;
+    /* Bridge the small gaps between consecutive [data-dark] blocks (the framed homepage stories), so the bar doesn't flash light between them */
+    const inDarkBlock = py => document.elementsFromPoint(x, py).some(e => !hdr.contains(e) && e.closest("[data-dark]"));
+    if (inDarkBlock(y - 34) && inDarkBlock(y + 34)) return true;
     for (const el of document.elementsFromPoint(x, y)) {
       if (hdr.contains(el)) continue;
       if (el.closest("[data-dark]")) return true; /* full-screen photo blocks (the homepage project stories) */
@@ -40,7 +44,11 @@
       else if (y < lastY - 4) hdr.classList.remove("compact");
     }
     logo.classList.toggle("open", !hdr.classList.contains("compact")); /* full logo whenever the header bar is showing */
-    logo.classList.toggle("on-dark", darkBehindShield());
+    /* The bar matches what is behind the middle of the header (charcoal over dark areas, white over light); once the bar
+       has slid away, the small shield matches what is directly behind it. */
+    const sr = shield.getBoundingClientRect();
+    hdr.classList.toggle("dark", darkAt(innerWidth / 2));
+    logo.classList.toggle("on-dark", darkAt(sr.left + sr.width / 2));
     lastY = y;
   }
   addEventListener("scroll", update, { passive: true });
