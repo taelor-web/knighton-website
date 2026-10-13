@@ -201,7 +201,8 @@ body.modal-open { overflow: hidden; }
 /* Wider profile pop-up (wider than tall), with a bigger text column so the bio has room to breathe */
 @media (min-width: 861px) {
   .modal-box { width: min(1320px, 100%); }
-  .modal .pf { grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); }
+  .modal .pf { grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); } /* text starts after the photo has faded to white */
+  .modal .pf::before { background: linear-gradient(90deg, rgba(251,251,249,0) 0%, rgba(251,251,249,.06) 28%, rgba(251,251,249,.88) 42%, rgba(251,251,249,.97) 52%, #fbfbf9 100%); }
   .modal .pf-bio { max-width: 70ch; }
   .modal .pf-bio p { font-size: 16px; }
 }
