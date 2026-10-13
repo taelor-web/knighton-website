@@ -245,7 +245,7 @@ body.modal-open { overflow: hidden; }
 .mnav.light { opacity: .7; }
 .mnav.light:hover, .mnav.light:focus-visible { opacity: 1; }
 
-/* Desktop (.fit, every profile): the place photo fills just the visible left part of the profile (ending under the white
+/* Desktop (.fit: Jeff, Hattie, Bailey, Taelor): the place photo fills just the visible left part of the profile (ending under the white
    fade) and is shifted per person (--px in our-team.html) so its subject shows, e.g. Jeff's summit above the portrait and
    Thomas's house beside it. */
 @media (min-width: 861px) {
