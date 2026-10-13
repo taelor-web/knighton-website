@@ -196,3 +196,12 @@ body.modal-open { overflow: hidden; }
   .s.team { padding-top: 16px; }
   .team .intro { margin-bottom: 20px; }
 }
+.team .intro h2.kicker { margin: 0; } /* "The team" in the small label style, on its own line */
+
+/* Wider profile pop-up (wider than tall), with a bigger text column so the bio has room to breathe */
+@media (min-width: 861px) {
+  .modal-box { width: min(1320px, 100%); }
+  .modal .pf { grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); }
+  .modal .pf-bio { max-width: 70ch; }
+  .modal .pf-bio p { font-size: 16px; }
+}
