@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="assets/css/header.css?v=20261009p">
 <link rel="stylesheet" href="assets/css/footer.css?v=20261013a">
 <link rel="stylesheet" href="assets/css/v2.css?v=20261009aa">
-<link rel="stylesheet" href="assets/css/who.css?v=20261013e">
+<link rel="stylesheet" href="assets/css/who.css?v=20261013f">
 </head>
 <body>
 <header class="hdr" id="hdr">
@@ -120,7 +120,10 @@
 <div class="modal" id="modal" hidden>
   <div class="modal-scrim" data-close></div>
   <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-    <div class="modal-bar"><button class="mbtn" type="button" id="mPrev" aria-label="Previous person">←</button><span class="mcount" id="mCount"></span><button class="mbtn" type="button" id="mNext" aria-label="Next person">→</button><button class="mclose" type="button" data-close>Close ×</button></div>
+    <button class="mclose" type="button" data-close aria-label="Close profile" title="Close"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg></button>
+    <button class="mnav prev" type="button" id="mPrev" aria-label="Previous person"><svg viewBox="0 0 16 40" aria-hidden="true"><path d="M13 2L3 20l10 18"/></svg></button>
+    <button class="mnav next" type="button" id="mNext" aria-label="Next person"><svg viewBox="0 0 16 40" aria-hidden="true"><path d="M3 2l10 18L3 38"/></svg></button>
+    <span class="mcount" id="mCount" aria-live="polite"></span>
     <div class="modal-body" id="modalBody"></div>
   </div>
 </div>
@@ -136,7 +139,7 @@
   <img class="pf-place" src="assets/img/17335281_unsplash-image-OGJp-AJeIoM.jpg" alt="">
   <div class="pf-media"><img class="pf-hs" src="assets/img/17335264_Melvin_for_website.jpg" alt="Portrait of Melvin Rodriguez"></div>
   <div class="pf-txt"><p class="kicker">Project Lead</p><h2 class="pf-name" id="pfn-melvin">Melvin Rodriguez</h2>
-    <p class="pf-from">From the Dallas area, Texas</p>
+    <p class="pf-from">From Dallas, Texas</p>
     <p class="pf-lede">Third generation in the profession, after his mother and grandfather. Serious hot sauce collector.</p>
     <div class="pf-bio"><p>Melvin comes from a line of architects. His mom was an architect in Mexico City, same as her father.</p><p>His passion for design and functionality runs deep, and he’s always looking for new challenges in all aspects of design, with a dual background in both architecture and landscape design. Along with design, Melvin is passionate about technology, entrepreneurship, and community service through non-profit organizations. Melvin currently resides in Provo with his wife and 4 kids, and is a hot sauce collector and connoisseur.</p></div>
     <span class="chip soon" title="Edited, not on YouTube yet">▶ Melvin’s video coming soon</span></div>
@@ -189,7 +192,7 @@
     <div class="pf-bio"><p>Van is from Provo Utah. He began interning at Esai Design Co in 2021, and later joined the Knighton team after graduating from Timpview High School.</p><p>He plans to study at UVU and eventually get a masters in architecture. He loves and looks forward to learning new skills and developing an understanding of the industry, especially to benefit the Knighton team and the community. Van loves a wide variety of physical activities and loves to be in nature whenever possible.</p></div>
     </div>
 </article></template>
-<script src="assets/js/who.js?v=20261013a" defer></script>
+<script src="assets/js/who.js?v=20261013f" defer></script>
 <script src="assets/js/header.js?v=20261009n" defer></script>
 </body>
 </html>

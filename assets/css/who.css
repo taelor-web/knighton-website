@@ -100,11 +100,6 @@
 .modal-box { position: relative; width: min(1080px, 100%); max-height: min(86vh, 860px); overflow-y: auto; overscroll-behavior: contain; background: #fbfbf9; color: #1c1d1b; --fg: #1c1d1b; --mute: #6f736c; --line: #e2e2dc; --bg: #fbfbf9; box-shadow: 0 30px 80px rgba(0,0,0,.35); animation: mrise .45s cubic-bezier(.2,.7,.2,1); }
 @keyframes mfade { from { opacity: 0; } }
 @keyframes mrise { from { opacity: 0; transform: translateY(18px) scale(.985); } }
-.modal-bar { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; gap: 10px; padding: 12px clamp(16px, 3vw, 28px); background: rgba(251,251,249,.94); border-bottom: 1px solid #e2e2dc; }
-.mbtn { width: 38px; height: 38px; border-radius: 50%; border: 1px solid #1c1d1b; background: transparent; color: #1c1d1b; cursor: pointer; font-size: 16px; }
-.mbtn:hover { background: var(--green); border-color: var(--green); color: #fff; }
-.mcount { font-family: var(--f-mono); font-size: 12px; color: #6f736c; font-variant-numeric: tabular-nums; }
-.mclose { margin-left: auto; font-family: var(--f-cond); font-weight: 600; font-size: 15px; letter-spacing: .08em; text-transform: uppercase; background: #1c1d1b; color: #fbfbf9; border: 0; border-radius: 999px; padding: 9px 16px; cursor: pointer; }
 .modal-body { padding: clamp(20px, 3.5vw, 44px); }
 .modal .pf { border-top: 0; padding-block: 0; gap: clamp(28px, 4vw, 56px); align-items: start; }
 .modal .pf-media { position: sticky; top: 80px; }
@@ -176,7 +171,6 @@ body.modal-open { overflow: hidden; }
   .modal .pf-media { position: sticky; top: calc(64px + clamp(24px, 4vw, 52px)); height: calc(min(86vh, 860px) - 64px - 2 * clamp(24px, 4vw, 52px)); display: flex; align-items: center; justify-content: center; }
 }
 /* phones: intro stacks, headline fits, solid profile bar */
-.modal-bar { background: #fbfbf9; }
 .hint-touch { display: none; }
 @media (hover: none) { .hint-mouse { display: none; } .hint-touch { display: inline; } }
 @media (max-width: 760px) {
@@ -206,3 +200,30 @@ body.modal-open { overflow: hidden; }
   .modal .pf-bio { max-width: 70ch; }
   .modal .pf-bio p { font-size: 16px; }
 }
+
+/* Pop-up controls: no header bar. A thin × in the top-right corner and thin chevrons on the left and right sides.
+   The box no longer scrolls; its content area does, so the controls stay put while a long bio scrolls under them.
+   A faint white halo keeps the dark controls readable over the place photo. */
+.modal-box { overflow: hidden; display: flex; flex-direction: column; }
+.modal-body { flex: 1 1 auto; min-height: 0; overflow-y: auto; overscroll-behavior: contain; }
+.mclose, .mnav { position: absolute; z-index: 3; display: grid; place-items: center; padding: 0; margin: 0; background: none; border: 0; color: #1c1d1b; cursor: pointer; filter: drop-shadow(0 0 5px rgba(251,251,249,.95)); }
+.mclose svg, .mnav svg { fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.mclose { top: 12px; right: 12px; width: 40px; height: 40px; border-radius: 50%; opacity: .75; transition: opacity .2s ease, background-color .2s ease; }
+.mclose svg { width: 18px; height: 18px; }
+.mclose:hover, .mclose:focus-visible { opacity: 1; background: rgba(28,29,27,.06); }
+.mnav { top: 50%; transform: translateY(-50%); width: 44px; height: 80px; opacity: .5; transition: opacity .2s ease; }
+.mnav svg { width: 14px; height: 36px; }
+.mnav:hover, .mnav:focus-visible { opacity: 1; }
+.mnav.prev { left: 4px; }
+.mnav.next { right: 4px; }
+.mcount { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; } /* read out by screen readers only */
+@media (min-width: 861px) {
+  /* no bar above the content any more, so the sticky portrait column uses the full box height */
+  .modal .pf-media { top: clamp(24px, 4vw, 52px); height: calc(min(86vh, 860px) - 2 * clamp(24px, 4vw, 52px)); }
+}
+@media (max-width: 860px) {
+  .mnav { width: 32px; height: 64px; }
+  .mnav.prev { left: 0; } .mnav.next { right: 0; }
+  .modal .pf { padding-inline: 34px; } /* keeps the bio clear of the side chevrons */
+}
+@media (prefers-reduced-motion: reduce) { .mclose, .mnav { transition: none; } }

@@ -17,7 +17,7 @@
     body.replaceChildren(t.content.cloneNode(true)); window.__fill && __fill(body);
     box.setAttribute("aria-labelledby", "pfn-" + order[cur]);
     count.textContent = (cur + 1) + " / " + order.length;
-    box.scrollTop = 0;
+    body.scrollTop = 0;
   }
   function open(k) {
     lastFocus = document.activeElement;
