@@ -185,3 +185,14 @@ body.modal-open { overflow: hidden; }
   .wa-cols { grid-template-columns: 1fr; gap: 14px; font-size: 16px; }
   .team { padding-top: 24px; }
 }
+
+/* Tighter top of page: the intro and the team sit close together so the faces come into view sooner.
+   (.s.x, not .x, so these win over v2.css's section.s padding.) */
+.s.wa-intro { padding-block: 110px 24px; }
+.s.team { padding-top: 24px; }
+.team .intro { margin-bottom: 32px; }
+@media (max-width: 760px) {
+  .s.wa-intro { padding-block: 72px 16px; }
+  .s.team { padding-top: 16px; }
+  .team .intro { margin-bottom: 20px; }
+}
