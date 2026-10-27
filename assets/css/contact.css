@@ -2,7 +2,7 @@
 
 /* ================= Begin Now / Meet with Us ================= */
 img { max-width: 100%; }
-.ct-h { font-family: var(--f-cond); font-weight: 700; font-size: clamp(48px, 7vw, 110px); line-height: .9; text-transform: uppercase; margin: 0 0 20px; text-wrap: balance; }
+.ct-h { font-family: var(--f-cond); font-weight: 700; font-size: clamp(44px, 6.4vw, 100px); line-height: .9; text-transform: uppercase; margin: 0 0 20px; text-wrap: balance; }
 .ct-p { margin: 0; max-width: 52ch; font-size: 18px; line-height: 1.6; color: var(--mute); }
 .cdl { margin: 0; display: grid; gap: 16px; }
 .cdl div { border-top: 1px solid var(--line); padding-top: 12px; }
