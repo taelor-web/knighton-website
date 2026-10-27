@@ -83,7 +83,7 @@ h2.big { font-family: var(--f-cond); font-weight: 700; font-size: clamp(40px, 5.
 /* locations */
 .loc { text-align: center; }
 .loc .map { width: 100%; max-width: 1100px; margin: 40px auto 0; mix-blend-mode: multiply; }
-.offices { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; max-width: 900px; margin: 36px auto 0; text-align: left; font-size: 14.5px; }
+.offices { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; max-width: 600px; margin: 36px auto 0; text-align: left; font-size: 14.5px; }
 .offices div { border-top: 1px solid var(--line); padding-top: 14px; }
 .offices b { display: block; font-family: var(--f-cond); font-weight: 600; font-size: 17px; letter-spacing: .05em; text-transform: uppercase; margin-bottom: 4px; }
 .offices span { color: var(--mute); }
