@@ -1,0 +1,62 @@
+/* Our Work & Services page (work.html). Loads after header.css, footer.css and v2.css. */
+.cta { text-align: center; }
+.cta h2.big { margin-bottom: 22px; }
+.cta p { color: var(--mute); margin: 0 auto 26px; max-width: 48ch; }
+
+
+/* ================= Work & Services ================= */
+section.ws-intro { padding-block: 170px 10px; }
+.ws-h { font-family: var(--f-cond); font-weight: 700; font-size: clamp(44px, 6.4vw, 100px); line-height: .92; text-transform: uppercase; margin: 0 0 24px; max-width: 15ch; text-wrap: balance; }
+.ws-p { margin: 0; max-width: 60ch; font-size: 17.5px; line-height: 1.6; color: var(--mute); }
+section.ws-pans { padding-top: 44px; }
+
+/* projects on the left, services as filters on the right (after SUM) */
+.ws-layout { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 48px; align-items: start; }
+.ws-side { position: sticky; top: 100px; display: grid; gap: 18px; justify-items: start; }
+.ws-side-k { margin: 0; font-family: var(--f-mono); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--mute); }
+.fl-list { list-style: none; margin: 0; padding: 0; width: 100%; border-top: 1px solid var(--fg); }
+.fl { width: 100%; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; background: none; border: 0; border-bottom: 1px solid var(--line); padding: 11px 0; cursor: pointer; text-align: left; color: var(--mute); font-family: var(--f-cond); font-weight: 600; font-size: 19px; letter-spacing: .02em; text-transform: uppercase; transition: color .25s ease, padding .25s ease; }
+.fl-c { font-family: var(--f-mono); font-weight: 400; font-size: 12px; font-variant-numeric: tabular-nums; color: var(--mute); }
+.fl:hover { color: var(--fg); }
+.fl[aria-pressed="true"] { color: var(--fg); padding-left: 12px; box-shadow: inset 3px 0 0 var(--green); }
+.fl[aria-pressed="true"] .fl-c { color: var(--green); }
+.fl:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+.ws-sel { border-top: 1px solid var(--fg); padding-top: 16px; margin-bottom: 30px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 6px 40px; align-items: end; }
+.ws-sel .kicker { grid-column: 1 / -1; margin: 0; }
+.ws-selh { font-family: var(--f-cond); font-weight: 700; font-size: clamp(36px, 3.8vw, 58px); line-height: .92; text-transform: uppercase; margin: 0; }
+.ws-sel p:not(.kicker) { margin: 0; line-height: 1.6; color: var(--mute); max-width: 56ch; }
+.ws-count { grid-column: 1 / -1; font-family: var(--f-mono); font-size: 12px; letter-spacing: .05em; text-transform: uppercase; color: var(--green) !important; margin-top: 8px !important; }
+.wk-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 34px 22px; }
+.wk[hidden] { display: none; }
+.wk a { display: grid; gap: 4px; text-decoration: none; }
+.wk-im { display: block; aspect-ratio: 4 / 3; max-width: 100%; overflow: hidden; background: var(--line); margin-bottom: 10px; }
+.wk-im img { width: 100%; height: 100%; object-fit: cover; transition: transform .9s ease; }
+.wk a:hover .wk-im img, .wk a:focus-visible .wk-im img { transform: scale(1.04); }
+.wk-name { font-family: var(--f-cond); font-weight: 700; font-size: clamp(22px, 2vw, 30px); line-height: 1; text-transform: uppercase; }
+.wk a:hover .wk-name { color: var(--green); }
+.wk-place { font-size: 14px; color: var(--mute); }
+.wk-tags { font-family: var(--f-mono); font-size: 11.5px; letter-spacing: .04em; text-transform: uppercase; color: var(--green); }
+.wk.in { animation: wkin .5s ease both; }
+@keyframes wkin { from { opacity: 0; transform: translateY(12px); } }
+.ws-empty { color: var(--mute); }
+.ws-fees { margin-top: 18px; }
+.ws-fees .fee { padding: 20px 22px; }
+@media (min-width: 1300px) { .wk-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 980px) {
+  .ws-layout { grid-template-columns: 1fr; gap: 0; }
+  .ws-side { position: sticky; top: 0; z-index: 5; order: -1; grid-template-columns: minmax(0, 1fr); margin: 0 calc(-1 * max(16px, 3vw)) 24px; padding: 10px max(16px, 3vw); background: var(--bg); border-bottom: 1px solid var(--line); }
+  .ws-side-k, .ws-side .btn { display: none; }
+  .fl-list { display: flex; gap: 8px; overflow-x: auto; border: 0; scrollbar-width: none; padding-bottom: 2px; }
+  .fl-list::-webkit-scrollbar { display: none; }
+  .fl-list li { flex: none; }
+  .fl { border: 1px solid var(--line); border-radius: 999px; padding: 8px 14px; font-size: 15px; gap: 8px; white-space: nowrap; }
+  .fl[aria-pressed="true"] { padding-left: 14px; box-shadow: none; background: var(--fg); color: var(--bg); border-color: var(--fg); }
+  .fl[aria-pressed="true"] .fl-c { color: #b7c9a4; }
+  .ws-sel { grid-template-columns: 1fr; }
+}
+@media (max-width: 760px) { section.ws-intro { padding-block: 112px 0; } .wk-grid { grid-template-columns: 1fr; gap: 28px; } }
+@media (prefers-reduced-motion: reduce) { .wk.in { animation: none; } .wk-im img { transition: none; } }
+@media (max-width: 980px) { .ws-side { top: 60px; } }
+@media (max-width: 560px) { .sc-tabs { width: 100%; flex-wrap: nowrap; border-radius: 999px; } .sc-tabs button { flex: 1; padding: 10px 8px; font-size: 14px; white-space: nowrap; } }
+/* phones: the filter bar sits under the header zone with a solid background, so nothing shows through behind the logo */
+@media (max-width: 980px) { .ws-side { top: 0; padding-top: 66px; } }
