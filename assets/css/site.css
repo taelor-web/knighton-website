@@ -23,9 +23,9 @@
      these are the closest Google Fonts. If Knighton has an Adobe
      Creative Cloud plan, add a web project at fonts.adobe.com
      and swap the names below. */
-  --font-heading: "Barlow Semi Condensed", "Bebas Neue Pro", "Arial Narrow", sans-serif;
-  --font-body: "Questrial", "Nudista", "Helvetica Neue", Arial, sans-serif;
-  --font-meta: "Saira Semi Condensed", "Purista", sans-serif;
+  --font-heading: "Barlow Condensed", "Arial Narrow", Impact, sans-serif;   /* same families as v2.css */
+  --font-body: "Instrument Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-meta: "IBM Plex Mono", ui-monospace, monospace;
 
   /* Type scale (Squarespace values: h1 5rem, h2 3rem, h3 1.5rem, h4 1rem) */
   --h1: clamp(2.6rem, 5vw, 5rem);
@@ -46,9 +46,8 @@ body {
   background: var(--ka-white);
   color: var(--ka-black);
   font-family: var(--font-body);
-  font-size: 15px;
-  line-height: 1.5;
-  letter-spacing: .05em;
+  font-size: 16px;
+  line-height: 1.55;
   -webkit-font-smoothing: antialiased;
   overflow-x: clip;
 }
@@ -57,8 +56,10 @@ a { color: inherit; }
 h1, h2, h3, h4 {
   font-family: var(--font-heading);
   font-weight: 700;
-  line-height: 1.15;
-  letter-spacing: .02em;
+  line-height: .95;
+  letter-spacing: .005em;
+  text-transform: uppercase;
+  text-wrap: balance;
   margin: 0 0 .5em;
 }
 h1 { font-size: var(--h1); }
@@ -76,15 +77,15 @@ p { margin: 0 0 1em; }
 .btn {
   display: inline-block;
   font-family: var(--font-heading);
-  font-weight: 700;
-  font-size: 1.1rem;
-  letter-spacing: .04em;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: .08em;
   text-transform: uppercase;
   text-decoration: none;
   background: var(--ka-green);
   color: #fff;
-  padding: .85em 2em;
-  border-radius: 300px;
+  padding: 12px 22px;
+  border-radius: 999px;
   border: 0;
   cursor: pointer;
   transition: opacity .2s ease, transform .2s ease;
@@ -265,8 +266,12 @@ p { margin: 0 0 1em; }
 .project-hero::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 160px; background: linear-gradient(rgba(0,0,0,.35), transparent); z-index: 1; }
 .project-body { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; }
 .project-body.single { grid-template-columns: minmax(0, 900px); }
-.project-body h1, .project-body h2 { font-size: clamp(2.2rem, 4vw, 3.6rem); }
-.project-body .btn { margin-top: 1rem; min-width: 300px; text-align: center; }
+/* project titles match the v2 section headings (h2.big); sub-headings one step down */
+.project-body h1 { font-size: clamp(40px, 5.6vw, 76px); margin-bottom: 28px; }
+.project-body h2, .video-band h2 { font-size: clamp(32px, 3.6vw, 52px); }
+.kicker { font-family: var(--font-heading); font-weight: 600; font-size: 15px; letter-spacing: .14em; text-transform: uppercase; color: var(--ka-green); margin: 0 0 14px; }
+.project-text p { max-width: 62ch; }
+.project-body .btn { margin-top: 1rem; }
 .project-media > * + * { margin-top: 20px; }
 .map-frame { width: 100%; aspect-ratio: 4/5; border: 0; filter: grayscale(1) contrast(.9); background: #e5e5e2; }
 @media (max-width: 900px) { .project-body { grid-template-columns: 1fr; } .map-frame { aspect-ratio: 4/3; } }
