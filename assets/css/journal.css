@@ -120,3 +120,8 @@ section.fj-intro::after { content: ""; position: absolute; inset: 0; z-index: -1
 .fj-intro .fj-p { color: rgba(251,251,249,.88); }
 section.fa-feat-s { padding-top: 64px; } /* breathing room below the photo banner */
 @media (max-width: 760px) { section.fj-intro { padding-bottom: 64px; } section.fa-feat-s { padding-top: 40px; } }
+/* Taller banner: the forest fills most of the first screen and the title + description sit in its lower part */
+section.fj-intro { min-height: clamp(560px, 78vh, 820px); display: flex; flex-direction: column; justify-content: flex-end; }
+section.fj-intro > .wrap { width: 100%; }
+.fj-intro .fj-h { text-align: left; }
+@media (max-width: 760px) { section.fj-intro { min-height: clamp(460px, 72vh, 620px); } }
