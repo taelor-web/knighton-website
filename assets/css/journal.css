@@ -110,3 +110,13 @@ section.jp-next { padding-top: 70px; }
 .lb-c { position: absolute; bottom: 16px; left: 50%; transform: translateX(-50%); color: #a3a69e; font-family: var(--f-mono); font-size: 12px; }
 @media (max-width: 600px) { .lb { padding: 50px 10px; } .lb-n { bottom: 10px; top: auto; transform: none; } }
 @media (prefers-reduced-motion: reduce) { .fa-im img, .fr-im img, .vc-im img, .fb-im img, .lc-s img, .jg-i img, .jn img { transition: none; } }
+
+/* Index intro: the forest photo from the original Field Journal page fills the intro under a dark gradient, so the title
+   and line read in white. data-dark on the section turns the header logo white over it. */
+section.fj-intro { position: relative; overflow: hidden; isolation: isolate; padding-bottom: 96px; background: #161716; color: #fbfbf9; }
+.fj-intro .fj-bg { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; object-fit: cover; object-position: 50% 55%; }
+section.fj-intro::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(14,15,14,.58) 0%, rgba(14,15,14,.36) 48%, rgba(14,15,14,.62) 100%); }
+.fj-intro .kicker { color: #c3d3b1; }
+.fj-intro .fj-p { color: rgba(251,251,249,.88); }
+section.fa-feat-s { padding-top: 64px; } /* breathing room below the photo banner */
+@media (max-width: 760px) { section.fj-intro { padding-bottom: 64px; } section.fa-feat-s { padding-top: 40px; } }
