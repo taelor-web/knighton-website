@@ -21,7 +21,7 @@ section.tg-s { padding-bottom: 40px; }
 .tg p:not(.ta-at) { margin: 0; font-size: 15px; line-height: 1.5; opacity: .9; }
 /* arrows on either side of the tool cards */
 /* the row sits between the two arrows, so whole cards fit: 3 across, 2 on tablets, 1 on phones */
-.tg-wrap { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 18px; max-width: 1400px; margin: 0 auto; padding-inline: max(16px, 3vw); }
+.tg-wrap { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 16px; max-width: 1680px; margin: 0 auto; padding-inline: max(8px, 1.2vw); }
 .tg-b.prev { order: -1; }
 .tg-b { display: grid; place-items: center; width: 52px; height: 52px; padding: 0; border-radius: 50%; border: 1px solid rgba(251,251,249,.35); background: rgba(22,23,22,.55); color: #fbfbf9; cursor: pointer; -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); transition: opacity .25s, background-color .2s, border-color .2s, color .2s; }
 .tg-b svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
@@ -40,7 +40,7 @@ section.tg-s { padding-bottom: 40px; }
   .tg-b svg { width: 18px; height: 18px; }
 }
 @media (max-width: 1000px) { .tg { width: calc((100% - 16px) / 2); } }
-@media (max-width: 640px) { .tg { width: 100%; } .tg-wrap { gap: 10px; } }
+@media (max-width: 640px) { .tg { width: 100%; } .tg-wrap { gap: 8px; } }
 
 /* C · woven, with a sticky rail */
 .clay { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 56px; align-items: start; padding-top: 20px; }
