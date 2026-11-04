@@ -12,7 +12,7 @@ section.tg-s { padding-bottom: 40px; }
 .tg-s .intro { margin-bottom: 36px; }
 .tg-row { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; outline: none; }
 .tg-row::-webkit-scrollbar { display: none; }
-.tg { position: relative; flex: none; width: calc((100% - 32px) / 3); aspect-ratio: 3 / 4; overflow: hidden; scroll-snap-align: start; background: #000; color: #fbfbf9; }
+.tg { position: relative; flex: none; width: calc((100% - 32px) / 3); aspect-ratio: 1 / 1; overflow: hidden; scroll-snap-align: start; background: #000; color: #fbfbf9; }
 .tg img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: .85; }
 .tg::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(0,0,0,.85)); }
 .tg-in { position: absolute; z-index: 1; left: 0; right: 0; bottom: 0; padding: 24px; }
@@ -46,7 +46,7 @@ section.tg-s { padding-bottom: 40px; }
   .tg-b svg { width: 22px; height: 22px; }
 }
 @media (max-width: 1000px) { .tg { width: calc((100% - 16px) / 2); } }
-@media (max-width: 640px) { .tg { width: 100%; } .tg-wrap { gap: 6px; } .tg-b { width: 44px; height: 44px; } .tg-b svg { width: 22px; height: 22px; } }
+@media (max-width: 640px) { .tg { width: 100%; } .tg-in { padding: 18px; } .tg h3 { font-size: 28px; } .tg p:not(.ta-at) { font-size: 14px; line-height: 1.45; } .tg-wrap { gap: 6px; } .tg-b { width: 44px; height: 44px; } .tg-b svg { width: 22px; height: 22px; } }
 
 /* C · woven, with a sticky rail */
 .clay { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 56px; align-items: start; padding-top: 20px; }
