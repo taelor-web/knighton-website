@@ -16,7 +16,7 @@
   const tgb = [...document.querySelectorAll(".tg-b")];
   tgb.forEach(b => b.addEventListener("click", () => { const c = row.querySelector(".tg"); row.scrollBy({ left: (+b.dataset.d) * (c.offsetWidth + 16), behavior: "smooth" }); }));
   /* hide an arrow when there is nothing further that way */
-  const ends = () => { const max = row.scrollWidth - row.clientWidth - 2; tgb.forEach(b => { b.disabled = +b.dataset.d < 0 ? row.scrollLeft <= 2 : row.scrollLeft >= max; }); };
+  const ends = () => { const max = row.scrollWidth - row.clientWidth - 2; tgb.forEach(b => { b.disabled = +b.dataset.d < 0 ? row.scrollLeft <= 2 : row.scrollLeft >= max; }); row.classList.toggle("more-l", row.scrollLeft > 2); row.classList.toggle("more-r", row.scrollLeft < max); };
   row.addEventListener("scroll", ends, { passive: true }); addEventListener("resize", ends); ends();
   document.querySelectorAll(".dtag").forEach(t => t.addEventListener("click", e => {
     const card = document.getElementById(t.getAttribute("href").slice(1)); if (!card) return; e.preventDefault();

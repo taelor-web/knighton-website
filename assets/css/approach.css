@@ -27,6 +27,12 @@ section.tg-s { padding-bottom: 40px; }
 .tg-b svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .tg-b:hover { background: var(--green); border-color: var(--green); }
 .tg-b:disabled { opacity: .25; cursor: default; background: none; border-color: rgba(251,251,249,.35); }
+/* soft fade from each arrow in over the images, only on a side with more cards */
+@property --fl { syntax: "<length>"; inherits: false; initial-value: 0px; }
+@property --fr { syntax: "<length>"; inherits: false; initial-value: 0px; }
+.tg-row { --fl: 0px; --fr: 0px; -webkit-mask-image: linear-gradient(90deg, transparent, #000 var(--fl), #000 calc(100% - var(--fr)), transparent); mask-image: linear-gradient(90deg, transparent, #000 var(--fl), #000 calc(100% - var(--fr)), transparent); transition: --fl .35s ease, --fr .35s ease; }
+.tg-row.more-l { --fl: clamp(40px, 7vw, 110px); }
+.tg-row.more-r { --fr: clamp(40px, 7vw, 110px); }
 @media (max-width: 860px) {
   .tri-row, .tri-body { grid-template-columns: 1fr; }
   .tri { aspect-ratio: 16 / 11; }
