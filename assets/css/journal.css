@@ -121,7 +121,7 @@ section.fj-intro::after { content: ""; position: absolute; inset: 0; z-index: -1
 section.fa-feat-s { padding-top: 64px; } /* breathing room below the photo banner */
 @media (max-width: 760px) { section.fj-intro { padding-bottom: 64px; } section.fa-feat-s { padding-top: 40px; } }
 /* Taller banner: the forest fills most of the first screen and the title + description sit in its lower part */
-section.fj-intro { min-height: clamp(440px, 58vh, 620px); display: flex; flex-direction: column; justify-content: flex-end; }
+section.fj-intro { min-height: clamp(440px, min(34vw, 75vh), 900px); display: flex; flex-direction: column; justify-content: flex-end; }
 section.fj-intro > .wrap { width: 100%; }
 .fj-intro .fj-h { text-align: left; }
 @media (max-width: 760px) { section.fj-intro { min-height: clamp(380px, 56vh, 480px); } }
